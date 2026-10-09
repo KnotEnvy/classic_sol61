@@ -82,7 +82,7 @@ Run `npm run check` for JavaScript syntax validation. `tools/verify_assets.py` c
 - `tools/server.mjs` is the dependency-free loopback HTTP server.
 - `sources.json` records asset sources, installed hashes, ROM member CRCs and the small runtime patch.
 - `licenses/` contains EmulatorJS, FinalBurn Neo, MAME 2003 Plus and font license notices.
-- `tools/vendor*.py`, `build_sets.py`, `prepare_samples.py` and `patch_emulator.py` record the acquisition and assembly process. They are maintenance tools, not needed to play. Asset downloads can change upstream; the manifest describes the verified installed version.
+- `tools/build-pages.mjs` creates the deployment artifact; `tools/verify_assets.py` checks its pinned assets. `tools/patch_emulator.py` records the two published runtime repairs. Historical acquisition and machine-specific QA tools remain local; they are not needed to play or deploy.
 
 EmulatorJS has two local compatibility repairs: external-file ArrayBuffers are converted to Uint8Arrays before writing into the virtual filesystem, so audio ZIPs do not become empty. The optional online version lookup reads our pinned local version file, avoiding a network-dependent startup error. `patch_emulator.py` records both changes without altering game code.
 
