@@ -1,0 +1,33 @@
+{
+  "basePath": "/classic_sol61/",
+  "errors": [],
+  "httpFailures": [],
+  "externalRequests": [],
+  "games": [
+    {
+      "id": "pacman",
+      "started": true,
+      "sampleBytes": null,
+      "biosBytes": null
+    },
+    {
+      "id": "galaga",
+      "started": true,
+      "sampleBytes": 230484,
+      "biosBytes": null
+    },
+    {
+      "id": "mslug",
+      "started": true,
+      "sampleBytes": null,
+      "biosBytes": 68232
+    },
+    {
+      "id": "ssprint",
+      "started": true,
+      "sampleBytes": null,
+      "biosBytes": null
+    }
+  ],
+  "passed": true
+}

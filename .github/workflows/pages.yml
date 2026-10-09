@@ -1,0 +1,53 @@
+name: Deploy arcade to GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    outputs:
+      pages_ready: ${{ steps.pages.outputs.ready }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Validate JavaScript
+        run: npm run check
+      - name: Verify original assets
+        run: python3 tools/verify_assets.py
+      - name: Build the51-cabinet site
+        run: npm run build:pages
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Read Pages configuration
+        id: pages
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node tools/pages-status.mjs
+  deploy:
+    needs: build
+    if: needs.build.outputs.pages_ready == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - name: Deploy arcade
+        id: deployment
+        uses: actions/deploy-pages@v4

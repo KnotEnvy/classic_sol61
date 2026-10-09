@@ -1,0 +1,19 @@
+.sites-runtime/
+*.log
+__pycache__/
+playtest/
+tools/asset_deps/
+tools/assets/
+
+# Generated builds, local QA and machine-specific files
+_site/
+node_modules/
+.openai/
+screenshots/
+docs/*-run.log
+.env
+.env.*
+*.pem
+*.key
+# Unused acquisition intermediates
+dist/roms/sfiii3.zip

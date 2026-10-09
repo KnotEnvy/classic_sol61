@@ -1,0 +1,5 @@
+dist/roms/** -text
+dist/emulator/** -text
+dist/samples/** -text
+dist/fonts/** -text
+dist/nvram/** -text

@@ -1,0 +1,161 @@
+# Classic Arcade · classic_sol61
+
+Fifty-one original arcade games in a local browser arcade, using EmulatorJS 4.2.3, FinalBurn Neo and per-title MAME 2003 Plus browser cores. The games run their original arcade software: boot tests, attract screens, sprites, rules, levels, intermissions and game-over sequences are supplied by the original sets.
+
+## Public repository and GitHub Pages
+
+Repository: https://github.com/KnotEnvy/classic_sol61
+
+Site after activation: https://knotenvy.github.io/classic_sol61/
+
+The arcade interface and deployment code are MIT-licensed. Original game assets,
+emulators and fonts retain separate licenses; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+The project owner has confirmed redistribution permission for the hosted games.
+
+To activate the site:
+
+1. Open repository **Settings → Pages**.
+2. Set **Build and deployment → Source** to **GitHub Actions**.
+3. Open **Actions → Deploy arcade to GitHub Pages → Run workflow** on `main`.
+
+The workflow validates the pinned assets, builds `_site/`, and deploys the complete
+51-cabinet arcade. The first push builds successfully and skips deployment while
+Pages is disabled. Later pushes to `main` redeploy once Pages is configured.
+
+Run `npm run build:pages` locally to prepare the same allowlisted site. The build
+includes only the referenced ROM/core/sample/default files, fonts, interface and
+license notices, and checks file/site size limits. Game files load on demand.
+
+## Play
+
+Double-click **Start Arcade.cmd**. It starts a server on **http://127.0.0.1:8610** and opens your browser. Keep its terminal window open while playing. The launcher uses the bundled Codex Node runtime when available, or an installed Node.js runtime.
+
+Alternatively, run `npm start` or `node tools/server.mjs` from this directory and visit the same URL. No npm installation is needed. Serve `dist` over HTTP; opening `index.html` as a file does not support the emulator's downloads.
+
+1. Select a cabinet and choose **Power on cabinet**.
+2. Wait for the original power-on sequence; then click **Insert coin** or press **5**.
+3. Click **1 player start** or press **1**. Use the per-cabinet player slots for cooperative or alternating multiplayer after adding enough credits.
+4. Click the game screen and use the **arrow keys**. **Ctrl** fires, jumps or pumps where the cabinet has an action button.
+
+The in-game toolbar provides pause, sound volume, screenshots, fullscreen and control remapping. Keyboard arrows also work as Centipede's trackball substitute; mouse behavior depends on the core and browser's input settings. Keyboard or browser gamepads are recommended for the expanded cabinets; touch controls vary by game. Sharp pixels uses integer display sizes; optional CRT scanlines can be selected beside the screen.
+
+## Cabinets
+
+| Game | Year | Original arcade set | Native pixel matrix |
+| --- | --- | --- | --- |
+| Pac-Man | 1980 | Midway US · `pacman` | 224 × 288 |
+| Space Invaders | 1978 | Midway · `invaders` | 224 × 256 |
+| Galaga | 1981 | Namco · `galagao` | 224 × 288 |
+| Donkey Kong | 1981 | US set 1 · `dkong` | 224 × 256 |
+| Frogger | 1981 | Sega original · `frogger` | 224 × 256 |
+| Centipede | 1981 | Revision 4 · `centiped` | 240 × 256 |
+| Dig Dug | 1982 | Revision 2 · `digdug` | 224 × 288 |
+| Ms. Pac-Man | 1982 | Original standard speed · `mspacman` | 224 × 288 |
+| 1942 | 1984 | Revision B · `1942` | 224 × 256 |
+| Strider | 1989 | US · set 1 · `strider` | 384 × 224 |
+| OutRun | 1986 | Sitdown/upright · revision B · `outrun` | 320 × 224 |
+| Super Sprint | 1986 | Revision 4 · MAME 2003 Plus · `ssprint` | 512 × 384 |
+| Super Hang-On | 1987 | Sitdown/upright · unprotected · `shangon` | 320 × 224 |
+| Double Dragon | 1987 | World · set 1 · `ddragon` | 256 × 240 |
+| Bubble Bobble | 1986 | Japan · version 0.1 · `bublbobl` | 256 × 224 |
+| Defender | 1981 | Red label · `defender` | 292 × 240 |
+| Robotron: 2084 | 1982 | Blue label · `robotron` | 292 × 240 |
+| Joust | 1982 | Green label · `joust` | 292 × 240 |
+| Q*bert | 1982 | US · set 1 · `qbert` | 240 × 256 |
+| Gauntlet | 1985 | Revision 14 · `gauntlet` | 336 × 240 |
+| Ghosts’n Goblins | 1985 | World · set 2 · `gnga` | 256 × 224 |
+| Final Fight | 1989 | World · set 1 · `ffight` | 384 × 224 |
+
+The unchanged parent ROM members needed by Pac-Man, Galaga and Ms. Pac-Man are packaged inside each game's ZIP. No speed-up hacks, rebuilt sprites, generated backgrounds or console ports are used.
+
+## Fidelity and verification
+
+The original eight cabinets were booted in the browser, credited, started and visually checked in native gameplay. Original attract and game-over states were also observed. The original software supplies later levels and intermissions; every later level and cutscene was not manually played through. Space Invaders, Galaga and Donkey Kong have the external sampled effects their FBNeo drivers need, verified as non-empty mounted archives. Other sounds are generated by the emulated sound hardware.
+
+This is faithful browser emulation, not a claim of exact physical hardware reproduction. Browser frame pacing, audio output latency, display colors and mouse/trackball response can vary. Analog effects use historical recorded samples; Donkey Kong's three running sample names share the historical `effect00` recording. Integer sizing uses the native matrix; the emulator retains its original display aspect within that viewport. CRT geometry and non-square pixels can differ from a physical cabinet. Available cabinet revisions differ slightly.
+
+Run `npm run check` for JavaScript syntax validation. `tools/verify_assets.py` checks installed runtime, ROM, BIOS, sampled effects and cabinet-default SHA-256 checksums, plus ZIP integrity, using Python's standard library. See `VALIDATION.md` for the checks performed.
+
+## Files and provenance
+
+- `dist/` is the complete local arcade, including fonts, emulator, games and sampled effects.
+- `tools/server.mjs` is the dependency-free loopback HTTP server.
+- `sources.json` records asset sources, installed hashes, ROM member CRCs and the small runtime patch.
+- `licenses/` contains EmulatorJS, FinalBurn Neo, MAME 2003 Plus and font license notices.
+- `tools/vendor*.py`, `build_sets.py`, `prepare_samples.py` and `patch_emulator.py` record the acquisition and assembly process. They are maintenance tools, not needed to play. Asset downloads can change upstream; the manifest describes the verified installed version.
+
+EmulatorJS has two local compatibility repairs: external-file ArrayBuffers are converted to Uint8Arrays before writing into the virtual filesystem, so audio ZIPs do not become empty. The optional online version lookup reads our pinned local version file, avoiding a network-dependent startup error. `patch_emulator.py` records both changes without altering game code.
+
+The emulator and font licenses do not grant ownership of the original arcade games. The public release relies on the project owner’s confirmed redistribution licenses. MIT covers our original code only; consult THIRD_PARTY_NOTICES.md and the included third-party licenses before redistributing the complete bundle.
+
+Primary runtime documentation: [EmulatorJS arcade](https://emulatorjs.org/docs/systems/arcade/), [EmulatorJS options](https://emulatorjs.org/docs/options/), [FinalBurn Neo documentation](https://docs.libretro.com/library/fbneo/). All individual acquisition URLs are in `sources.json`.
+
+## Roster and expansion history
+
+The [browser-only expansion plan](docs/EXPANSION_PLAN.md) records 51 titles across three decades after adding 1942, all now installed for player testing. Browse the searchable roster at **http://127.0.0.1:8610/roadmap.html** while the arcade server is running. The roster page links all 51 installed cabinets across the 1980s, 1990s and 2000s, plus Space Invaders from 1978.
+
+`docs/expansion-roster.json` records the curated roster, batch order and controls. `docs/browser-roster-evidence.json` records a pinned official FBNeo metadata snapshot; upstream driver status is not a browser play-test. Run `node tools/build_roadmap.mjs` to regenerate the document and planning data. `tools/research_browser_roster.py` refreshes metadata only and downloads no game assets.
+
+## 1980s player-testing release
+
+The 14 new cabinets complete the selected 1980s room, including 1942. Defender, Joust and Super Sprint use a separate, locally bundled MAME 2003 Plus browser core; the other cabinets retain the pinned FBNeo core. Q*bert includes its original knocker sample. Original game ROM bytes remain unchanged. The source manifest records exact revisions, dependencies, installed hashes and ROM CRCs.
+
+See [PLAYER_TESTING.md](PLAYER_TESTING.md) for every action and local player slot, and [VALIDATION.md](VALIDATION.md) for what was checked and what remains for longer player sessions. The roadmap has 51 titles after adding 1942; the later releases below complete that roster.
+
+## 1990s player-testing release
+
+All 20 approved 1990s arcade releases join the existing 22. They use the pinned FBNeo browser core, with a local original Neo Geo MVS BIOS and self-contained parent dependencies. The original game software and sound are preserved. Fresh Shadow over Mystara profiles use its original four-player operator setting; existing saved operator settings take precedence. Street Fighter III uses the original Japan NO CD arcade revision, whose flash chips load as site assets.
+
+| Game | Year | Original arcade set | Native pixel matrix |
+| --- | --- | --- | --- |
+| Raiden | 1990 | World · set 1 · `raiden` | 224 × 256 |
+| Street Fighter II: The World Warrior | 1991 | World · 910522 · `sf2` | 384 × 224 |
+| Sunset Riders | 1991 | 4 Players · EAC · `ssriders` | 288 × 224 |
+| TMNT: Turtles in Time | 1991 | 4 Players · UAA · `tmnt2` | 288 × 224 |
+| The Simpsons | 1991 | 4 Players · World set 1 · `simpsons` | 288 × 224 |
+| X-Men | 1992 | 4 Players · EBA · `xmen` | 288 × 224 |
+| Mortal Kombat II | 1993 | Revision L3.1 · `mk2` | 400 × 254 |
+| The Punisher | 1993 | World · 930422 · `punisher` | 384 × 224 |
+| NBA Jam Tournament Edition | 1994 | Revision 4.0 · 3/23/94 · `nbajamte` | 400 × 254 |
+| Puzzle Bobble | 1994 | Japan · original B-System · `pbobble` | 320 × 224 |
+| Samurai Shodown II | 1994 | NGM-063 · original MVS · `samsho2` | 320 × 224 |
+| Windjammers | 1994 | Original · MVS · `wjammers` | 304 × 224 |
+| Dungeons & Dragons: Shadow over Mystara | 1996 | Europe · 960619 · `ddsom` | 384 × 224 |
+| Metal Slug | 1996 | NGM-201 · original MVS · `mslug` | 304 × 224 |
+| Neo Drift Out | 1996 | New Technology · MVS · `neodrift` | 304 × 224 |
+| Neo Turf Masters | 1996 | Big Tournament Golf · MVS · `turfmast` | 304 × 224 |
+| Marvel vs. Capcom: Clash of Super Heroes | 1998 | Europe · 980123 · `mvsc` | 384 × 224 |
+| The King of Fighters ’98 | 1998 | NGM-2420 · original MVS · `kof98` | 304 × 224 |
+| Garou: Mark of the Wolves | 1999 | NGM-2530 · original MVS · `garou` | 320 × 224 |
+| Street Fighter III: 3rd Strike | 1999 | Japan · 990608 · original NO CD · `sfiii3n` | 384 × 224 |
+
+Six-button fighters use Ctrl / Z / X for punches and C / V / B for kicks. Each cabinet shows its full action names and player slots. Turtles in Time and Sunset Riders use their original coin-and-attack joining; the cabinet Start buttons and numeric keys perform that action. Neo Geo runs the original English MVS Europe/Asia arcade BIOS, with no AES console mode or UniBIOS enhancements.
+
+Initial gameplay, local loading, original audio and player inputs have browser verification records indexed in [docs/1990s-browser-checks.json](docs/1990s-browser-checks.json). The six-button Capcom fighters have both-player action checks; the original four-player Konami cabinets, NBA Jam TE and Shadow over Mystara have live multiplayer screenshots. Mortal Kombat II, NBA Jam TE and Marvel vs. Capcom need two coins to start with the installed original coinage. The player guide explains Puzzle Bobble’s Japanese versus menu, golf’s challenger entry and NBA Jam’s quarter-boundary joining.
+
+Shadow over Mystara’s 128-byte cabinet-default file was exported from the original operator menu’s **4 PLAYERS 4 CHUTES MULTI** setting. It initializes only an absent EEPROM save; existing NVRAM is preserved. The source manifest records the file’s origin and hash.
+
+Full endings, complete two-player golf rounds and physical controller models remain for player testing; see [PLAYER_TESTING.md](PLAYER_TESTING.md) and [VALIDATION.md](VALIDATION.md). Positive player testing of the 1990s release authorized the final nine additions below.
+
+
+## 2000s player-testing release
+
+The final nine approved arcade releases complete **51 playable cabinets**. Each runs its original arcade software in the locally bundled FBNeo browser core. All nine have genuine two-player gameplay, original menus, action controls, nonzero original sound and local-loading verification records. The completed [release index](docs/2000s-browser-checks.json) includes the final 51-cabinet UI, asset integrity, syntax and existing-game regression checks. The existing 1990s room also passed the user's player testing.
+
+| Game | Year | Original arcade set | Native emulated matrix, display orientation |
+| --- | --- | --- | --- |
+| Metal Slug 3 | 2000 | NGM-2560 · original MVS · `mslug3` | 304 × 224 |
+| Progear | 2001 | USA · 010117 · `progear` | 384 × 224 |
+| Puzz Loop 2 | 2001 | Europe · 010302 · `pzloop2` | 384 × 224 |
+| DoDonPachi III | 2002 | World · 2002.05.15 Master Ver · `ddp3` | 224 × 448 |
+| Demon Front | 2002 | World · V105 · M105XX 08/05/02 · `dmnfrnt` | 448 × 224 |
+| The King of Fighters 2002 | 2002 | NGM-2650 · original MVS · `kof2002` | 304 × 224 |
+| Ketsui: Kizuna Jigoku Tachi | 2003 | 2003/01/01 Master Ver · `ket` | 224 × 448 |
+| Samurai Shodown V Special | 2004 | NGM-2720 · original MVS · `samsh5sp` | 304 × 224 |
+| Deathsmiles | 2007 | 2007/10/09 Master Ver · original CV1000-B · `deathsml` | 320 × 240 |
+
+The Cave portrait games report a 448 × 224 core framebuffer before rotation; the arcade presents their 224 × 448 matrix at the driver's portrait aspect. Puzz Loop 2 uses two independent original rotary inputs: Left/Right turns P1's dial, J/L turns P2's, and Ctrl/A launches. Its original carousel offers Stage, Panic, Power and VS. Progear's original USA pricing needs two coins per player to start. Deathsmiles waits about 42 seconds before CABINET ON so its original startup finishes before coins are accepted.
+
+The three new Neo Geo games use the existing original MVS Europe/Asia BIOS. Demon Front uses a local six-chip original PGM BIOS; DoDonPachi III and Ketsui include their required unchanged board BIOS chips in their own ZIPs. Original protected devices are handled by the normal FBNeo driver; undumped protection is simulated where the driver requires it. No modified no-intro BIOS, console editions or Arrange/Black Label conversions are substituted.
+
+The guides describe original menus, both-player buttons and hardware substitutes: [PLAYER_TESTING.md](PLAYER_TESTING.md). [VALIDATION.md](VALIDATION.md) records measured scope and integration-check status. Source URLs, original chip CRCs and installed hashes are in `sources.json` and `docs/2000s-*-sources.json`; `docs/2000s-cave-blitter-evidence.json` records Deathsmiles' actual default timing options. Original game code, normal CPU speed, native refresh options and driver optimizations remain unchanged. These checks support player testing; exact physical-PCB slowdown, full campaigns, endings and physical controllers still need longer sessions.

@@ -1,0 +1,513 @@
+{
+  "date": "2026-10-02",
+  "target": 51,
+  "policy": "Original arcade games running locally inside the browser. No native emulator, companion application, extension, streaming service, or console-port substitution.",
+  "games": [
+    {
+      "id": "invaders",
+      "name": "Space Invaders",
+      "year": 1978,
+      "genre": "Shooter",
+      "batch": 0,
+      "controls": "Horizontal movement + fire",
+      "installed": true
+    },
+    {
+      "id": "pacman",
+      "name": "Pac-Man",
+      "year": 1980,
+      "genre": "Maze",
+      "batch": 0,
+      "controls": "4-way movement",
+      "installed": true
+    },
+    {
+      "id": "galagao",
+      "name": "Galaga",
+      "year": 1981,
+      "genre": "Shooter",
+      "batch": 0,
+      "controls": "Horizontal movement + fire",
+      "installedId": "galaga",
+      "installed": true
+    },
+    {
+      "id": "dkong",
+      "name": "Donkey Kong",
+      "year": 1981,
+      "genre": "Platformer",
+      "batch": 0,
+      "controls": "Movement + jump",
+      "installed": true
+    },
+    {
+      "id": "frogger",
+      "name": "Frogger",
+      "year": 1981,
+      "genre": "Action",
+      "batch": 0,
+      "controls": "4-way movement",
+      "installed": true
+    },
+    {
+      "id": "centiped",
+      "name": "Centipede",
+      "year": 1981,
+      "genre": "Shooter",
+      "batch": 0,
+      "controls": "Trackball/mouse or keyboard + fire",
+      "installed": true
+    },
+    {
+      "id": "digdug",
+      "name": "Dig Dug",
+      "year": 1982,
+      "genre": "Maze",
+      "batch": 0,
+      "controls": "4-way movement + pump",
+      "installed": true
+    },
+    {
+      "id": "mspacman",
+      "name": "Ms. Pac-Man",
+      "year": 1982,
+      "genre": "Maze",
+      "batch": 0,
+      "controls": "4-way movement",
+      "installed": true
+    },
+    {
+      "id": "1942",
+      "name": "1942",
+      "year": 1984,
+      "genre": "Shooter",
+      "batch": 1,
+      "controls": "Movement + fire + loop",
+      "note": "Added to the 1980s run at the user\u2019s request. Original Revision B.",
+      "installed": true
+    },
+    {
+      "id": "defender",
+      "name": "Defender",
+      "year": 1981,
+      "genre": "Shooter",
+      "batch": 2,
+      "controls": "Vertical movement, thrust, reverse, fire, smart bomb, hyperspace",
+      "note": "Preserve the unusual original multi-button layout; offer a clearly labeled convenient mapping.",
+      "installed": true
+    },
+    {
+      "id": "robotron",
+      "name": "Robotron: 2084",
+      "year": 1982,
+      "genre": "Shooter",
+      "batch": 2,
+      "controls": "Two independent 8-way sticks",
+      "note": "Independent movement and firing on keyboard and dual-stick gamepad.",
+      "installed": true
+    },
+    {
+      "id": "joust",
+      "name": "Joust",
+      "year": 1982,
+      "genre": "Action",
+      "batch": 2,
+      "controls": "Horizontal movement + flap; 2 simultaneous players",
+      "installed": true
+    },
+    {
+      "id": "qbert",
+      "name": "Q*bert",
+      "year": 1982,
+      "genre": "Puzzle / action",
+      "batch": 2,
+      "controls": "Diagonal 4-way movement",
+      "note": "Check diagonal joystick orientation, knocker effect and speech samples.",
+      "installed": true
+    },
+    {
+      "id": "gauntlet",
+      "name": "Gauntlet",
+      "year": 1985,
+      "genre": "Maze / co-op",
+      "batch": 2,
+      "controls": "Movement + fire + magic; 4 players",
+      "note": "Independent coin/start and controls for every player slot.",
+      "installed": true
+    },
+    {
+      "id": "gng",
+      "name": "Ghosts'n Goblins",
+      "year": 1985,
+      "genre": "Platformer",
+      "batch": 2,
+      "controls": "Movement + attack + jump",
+      "installed": true
+    },
+    {
+      "id": "bublbobl",
+      "name": "Bubble Bobble",
+      "year": 1986,
+      "genre": "Platformer",
+      "batch": 1,
+      "controls": "Movement + bubbles + jump; 2 players",
+      "note": "Check cooperative play, stage transitions and the original ending conditions.",
+      "installed": true
+    },
+    {
+      "id": "ssprint",
+      "name": "Super Sprint",
+      "year": 1986,
+      "genre": "Racing",
+      "batch": 1,
+      "controls": "Continuous relative wheel + accelerator; 3 players",
+      "note": "A free-spinning wheel reports movement, not an absolute steering angle. Keyboard steering must handle wraparound correctly.",
+      "installed": true
+    },
+    {
+      "id": "outrun",
+      "name": "OutRun",
+      "year": 1986,
+      "genre": "Racing",
+      "batch": 1,
+      "controls": "Absolute steering + accelerator + brake + low/high gear",
+      "note": "Check music selection, route forks and all five goal sequences. Validate keyboard ramping and gamepad analog steering.",
+      "installed": true
+    },
+    {
+      "id": "ddragon",
+      "name": "Double Dragon",
+      "year": 1987,
+      "genre": "Beat 'em up",
+      "batch": 1,
+      "controls": "Movement + punch + kick + jump; 2 players",
+      "installed": true
+    },
+    {
+      "id": "shangon",
+      "name": "Super Hang-On",
+      "year": 1987,
+      "genre": "Racing",
+      "batch": 1,
+      "controls": "Analog steering + throttle + brake + turbo",
+      "note": "Browser motorcycle priority. Preserve all four courses, music selection and the turbo threshold.",
+      "installed": true
+    },
+    {
+      "id": "strider",
+      "name": "Strider",
+      "year": 1989,
+      "genre": "Platformer",
+      "batch": 1,
+      "controls": "Movement + attack + jump",
+      "note": "First landscape CPS-1 pilot; verify native matrix, display aspect, all five stages and ending.",
+      "installed": true
+    },
+    {
+      "id": "ffight",
+      "name": "Final Fight",
+      "year": 1989,
+      "genre": "Beat 'em up",
+      "batch": 2,
+      "controls": "Movement + attack + jump; 2 players",
+      "installed": true
+    },
+    {
+      "id": "raiden",
+      "name": "Raiden",
+      "year": 1990,
+      "genre": "Shooter",
+      "batch": 3,
+      "controls": "Movement + fire + bomb; 2 players",
+      "installed": true
+    },
+    {
+      "id": "sf2",
+      "name": "Street Fighter II: The World Warrior",
+      "year": 1991,
+      "genre": "Fighting",
+      "batch": 3,
+      "controls": "Movement + 3 punches + 3 kicks; 2 players",
+      "note": "Six-button mapping and character endings. Keep the original World Warrior edition distinct from later revisions.",
+      "installed": true
+    },
+    {
+      "id": "simpsons",
+      "name": "The Simpsons",
+      "year": 1991,
+      "genre": "Beat 'em up",
+      "batch": 3,
+      "controls": "Movement + attack + jump; 4 players",
+      "installed": true
+    },
+    {
+      "id": "tmnt2",
+      "name": "TMNT: Turtles in Time",
+      "year": 1991,
+      "genre": "Beat 'em up",
+      "batch": 3,
+      "controls": "Movement + attack + jump; 4 players",
+      "note": "Use the arcade original, whose stages and mechanics differ from the SNES adaptation.",
+      "installed": true
+    },
+    {
+      "id": "ssriders",
+      "name": "Sunset Riders",
+      "year": 1991,
+      "genre": "Run and gun",
+      "batch": 3,
+      "controls": "Movement + shoot + jump; 4 players",
+      "installed": true
+    },
+    {
+      "id": "xmen",
+      "name": "X-Men",
+      "year": 1992,
+      "genre": "Beat 'em up",
+      "batch": 3,
+      "controls": "Movement + attack + jump + mutant power; 4 players",
+      "note": "Plan the single-screen four-player cabinet; the dual-screen six-player cabinet is a separate variant.",
+      "installed": true
+    },
+    {
+      "id": "mk2",
+      "name": "Mortal Kombat II",
+      "year": 1993,
+      "genre": "Fighting",
+      "batch": 3,
+      "controls": "Movement + high/low punch + high/low kick + block; 2 players",
+      "note": "Check original speech, attract sequence, finishers and character endings.",
+      "installed": true
+    },
+    {
+      "id": "punisher",
+      "name": "The Punisher",
+      "year": 1993,
+      "genre": "Beat 'em up",
+      "batch": 4,
+      "controls": "Movement + attack + jump; 2 players",
+      "installed": true
+    },
+    {
+      "id": "nbajamte",
+      "name": "NBA Jam Tournament Edition",
+      "year": 1994,
+      "genre": "Sports",
+      "batch": 3,
+      "controls": "Movement + pass + shoot + turbo; 4 players",
+      "note": "Keep the Tournament Edition revision explicit; validate independent player slots and speech.",
+      "installed": true
+    },
+    {
+      "id": "pbobble",
+      "name": "Puzzle Bobble",
+      "year": 1994,
+      "genre": "Puzzle",
+      "batch": 3,
+      "controls": "Aim + launch; 2 players",
+      "note": "Original Taito B-System edition is the current candidate; Neo Geo editions are separate sets.",
+      "installed": true
+    },
+    {
+      "id": "samsho2",
+      "name": "Samurai Shodown II",
+      "year": 1994,
+      "genre": "Fighting",
+      "batch": 4,
+      "controls": "Movement + 4 action buttons; 2 players",
+      "installed": true
+    },
+    {
+      "id": "wjammers",
+      "name": "Windjammers",
+      "year": 1994,
+      "genre": "Sports",
+      "batch": 4,
+      "controls": "Movement + throw + lob; 2 players",
+      "installed": true
+    },
+    {
+      "id": "mslug",
+      "name": "Metal Slug",
+      "year": 1996,
+      "genre": "Run and gun",
+      "batch": 3,
+      "controls": "Movement + shoot + jump + grenade; 2 players",
+      "installed": true
+    },
+    {
+      "id": "ddsom",
+      "name": "Dungeons & Dragons: Shadow over Mystara",
+      "year": 1996,
+      "genre": "Beat 'em up",
+      "batch": 4,
+      "controls": "Movement + attack + jump + item select/use; 4 players",
+      "installed": true
+    },
+    {
+      "id": "neodrift",
+      "name": "Neo Drift Out",
+      "year": 1996,
+      "genre": "Racing",
+      "batch": 4,
+      "controls": "Digital steering + accelerator + brake",
+      "note": "Adds a 1990s arcade rally game within the established browser core path.",
+      "installed": true
+    },
+    {
+      "id": "turfmast",
+      "name": "Neo Turf Masters",
+      "year": 1996,
+      "genre": "Sports",
+      "batch": 4,
+      "controls": "Direction + shot controls; 2 players",
+      "installed": true
+    },
+    {
+      "id": "kof98",
+      "name": "The King of Fighters '98",
+      "year": 1998,
+      "genre": "Fighting",
+      "batch": 4,
+      "controls": "Movement + 4 action buttons; 2 players",
+      "installed": true
+    },
+    {
+      "id": "mvsc",
+      "name": "Marvel vs. Capcom: Clash of Super Heroes",
+      "year": 1998,
+      "genre": "Fighting",
+      "batch": 4,
+      "controls": "Movement + 6 action buttons; 2 players",
+      "installed": true
+    },
+    {
+      "id": "sfiii3",
+      "name": "Street Fighter III: 3rd Strike",
+      "year": 1999,
+      "genre": "Fighting",
+      "batch": 4,
+      "controls": "Movement + 6 action buttons; 2 players",
+      "note": "CPS-3 performance pilot. Measure sustained gameplay before admitting it to the playable library.",
+      "installed": true
+    },
+    {
+      "id": "garou",
+      "name": "Garou: Mark of the Wolves",
+      "year": 1999,
+      "genre": "Fighting",
+      "batch": 4,
+      "controls": "Movement + 4 action buttons; 2 players",
+      "installed": true
+    },
+    {
+      "id": "mslug3",
+      "name": "Metal Slug 3",
+      "year": 2000,
+      "genre": "Run and gun",
+      "batch": 5,
+      "controls": "Movement + shoot + jump + grenade; 2 players",
+      "installed": true
+    },
+    {
+      "id": "progear",
+      "name": "Progear",
+      "year": 2001,
+      "genre": "Shooter",
+      "batch": 5,
+      "controls": "Movement + fire + bomb; 2 players",
+      "installed": true
+    },
+    {
+      "id": "pzloop2",
+      "name": "Puzz Loop 2",
+      "year": 2001,
+      "genre": "Puzzle",
+      "batch": 5,
+      "controls": "Dial/relative aiming + launch; 2 players",
+      "note": "Verify the original dial behavior and a keyboard/gamepad substitute without altering game logic.",
+      "installed": true
+    },
+    {
+      "id": "kof2002",
+      "name": "The King of Fighters 2002",
+      "year": 2002,
+      "genre": "Fighting",
+      "batch": 5,
+      "controls": "Movement + 4 action buttons; 2 players",
+      "installed": true
+    },
+    {
+      "id": "ddp3",
+      "name": "DoDonPachi Dai-Ou-Jou / III",
+      "year": 2002,
+      "genre": "Shooter",
+      "batch": 5,
+      "controls": "Movement + shot/laser + bomb; 2 players",
+      "note": "Current metadata candidate is the World DoDonPachi III master revision. Pin the exact regional edition before implementation; do not confuse White Label and Black Label.",
+      "installed": true
+    },
+    {
+      "id": "dmnfrnt",
+      "name": "Demon Front",
+      "year": 2002,
+      "genre": "Run and gun",
+      "batch": 5,
+      "controls": "Movement + shoot + jump; 2 players",
+      "installed": true
+    },
+    {
+      "id": "ket",
+      "name": "Ketsui: Kizuna Jigoku Tachi",
+      "year": 2003,
+      "genre": "Shooter",
+      "batch": 5,
+      "controls": "Movement + shot/lock shot + bomb; 2 players",
+      "note": "Cave dates the arcade release to January 2003; emulator metadata uses 2002. Preserve the ordinary master revision, not an arrange hack.",
+      "installed": true
+    },
+    {
+      "id": "samsh5sp",
+      "name": "Samurai Shodown V Special",
+      "year": 2004,
+      "genre": "Fighting",
+      "batch": 5,
+      "controls": "Movement + 4 action buttons; 2 players",
+      "installed": true
+    },
+    {
+      "id": "deathsml",
+      "name": "Deathsmiles",
+      "year": 2007,
+      "genre": "Shooter",
+      "batch": 5,
+      "benchmark": true,
+      "controls": "Movement + left/right fire + bomb; 2 players",
+      "note": "Higher-demand CV1000 browser benchmark for late-2000s coverage. Check loading memory, sustained sound and original slowdown. If it cannot meet fidelity and speed requirements, launch with 49 or choose another proven browser game.",
+      "installed": true
+    }
+  ],
+  "browserReserves": [
+    "R-Type",
+    "Gradius",
+    "Arkanoid",
+    "Golden Axe",
+    "Teenage Mutant Ninja Turtles (1989)",
+    "Street Fighter Alpha 2",
+    "DonPachi",
+    "Espgaluda"
+  ],
+  "researchOnly": [
+    "Daytona USA",
+    "Sega Rally Championship",
+    "Manx TT Super Bike",
+    "Crazy Taxi",
+    "Ikaruga",
+    "Initial D Arcade Stage Ver.3",
+    "OutRun 2",
+    "The House of the Dead",
+    "Tekken 3",
+    "Tekken 5.1",
+    "Dance Dance Revolution Extreme"
+  ]
+}

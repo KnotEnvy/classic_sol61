@@ -1,0 +1,1198 @@
+{
+  "retrieved_utc": "2026-10-02T04:00:22.912951+00:00",
+  "commit": "a4012b161e48b33b94940f07987323574c237448",
+  "source": "https://raw.githubusercontent.com/libretro/FBNeo/a4012b161e48b33b94940f07987323574c237448/dats/FinalBurn%20Neo%20(ClrMame%20Pro%20XML,%20Arcade%20only).dat",
+  "source_sha256": "edf0af34b73b4e64bc2b2db501f72a6f28a128c63ede212d78331af6809707f8",
+  "scope": "Upstream driver/set metadata only; not proof of browser play or compatibility with the installed June 2025 core.",
+  "sets": {
+    "pacman": {
+      "found": true,
+      "description": "Pac-Man (Midway)",
+      "year": "1980",
+      "manufacturer": "Namco (Midway license)",
+      "attributes": {
+        "name": "pacman",
+        "cloneof": "puckman",
+        "romof": "puckman",
+        "sourcefile": "pre90s/d_pacman.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "vertical",
+        "width": "224",
+        "height": "288",
+        "aspectx": "3",
+        "aspecty": "4"
+      },
+      "rom_bytes": 25376,
+      "declared_biosset_tags": []
+    },
+    "invaders": {
+      "found": true,
+      "description": "Space Invaders / Space Invaders M",
+      "year": "1978",
+      "manufacturer": "Taito / Midway",
+      "attributes": {
+        "name": "invaders",
+        "sourcefile": "pre90s/d_invaders.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "vertical",
+        "width": "224",
+        "height": "260",
+        "aspectx": "3",
+        "aspecty": "4"
+      },
+      "rom_bytes": 8192,
+      "declared_biosset_tags": []
+    },
+    "galagao": {
+      "found": true,
+      "description": "Galaga (Namco)",
+      "year": "1981",
+      "manufacturer": "Namco",
+      "attributes": {
+        "name": "galagao",
+        "cloneof": "galaga",
+        "romof": "galaga",
+        "sampleof": "galaga",
+        "sourcefile": "pre90s/d_galaga.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "vertical",
+        "width": "224",
+        "height": "288",
+        "aspectx": "3",
+        "aspecty": "4"
+      },
+      "rom_bytes": 37920,
+      "declared_biosset_tags": []
+    },
+    "dkong": {
+      "found": true,
+      "description": "Donkey Kong (US set 1)",
+      "year": "1981",
+      "manufacturer": "Nintendo of America",
+      "attributes": {
+        "name": "dkong",
+        "sourcefile": "pre90s/d_dkong.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "vertical",
+        "width": "224",
+        "height": "256",
+        "aspectx": "3",
+        "aspecty": "4"
+      },
+      "rom_bytes": 33536,
+      "declared_biosset_tags": []
+    },
+    "frogger": {
+      "found": true,
+      "description": "Frogger",
+      "year": "1981",
+      "manufacturer": "Konami",
+      "attributes": {
+        "name": "frogger",
+        "sourcefile": "galaxian/d_galaxian.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "vertical",
+        "width": "224",
+        "height": "256",
+        "aspectx": "3",
+        "aspecty": "4"
+      },
+      "rom_bytes": 22560,
+      "declared_biosset_tags": []
+    },
+    "centiped": {
+      "found": true,
+      "description": "Centipede (revision 4)",
+      "year": "1980",
+      "manufacturer": "Atari",
+      "attributes": {
+        "name": "centiped",
+        "sourcefile": "pre90s/d_millipede.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "vertical",
+        "width": "240",
+        "height": "256",
+        "aspectx": "3",
+        "aspecty": "4"
+      },
+      "rom_bytes": 12544,
+      "declared_biosset_tags": []
+    },
+    "digdug": {
+      "found": true,
+      "description": "Dig Dug (rev 2)",
+      "year": "1982",
+      "manufacturer": "Namco",
+      "attributes": {
+        "name": "digdug",
+        "sourcefile": "pre90s/d_galaga.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "vertical",
+        "width": "224",
+        "height": "288",
+        "aspectx": "3",
+        "aspecty": "4"
+      },
+      "rom_bytes": 56352,
+      "declared_biosset_tags": []
+    },
+    "mspacman": {
+      "found": true,
+      "description": "Ms. Pac-Man",
+      "year": "1981",
+      "manufacturer": "Midway / General Computer Corporation",
+      "attributes": {
+        "name": "mspacman",
+        "sourcefile": "pre90s/d_pacman.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "vertical",
+        "width": "224",
+        "height": "288",
+        "aspectx": "3",
+        "aspecty": "4"
+      },
+      "rom_bytes": 35616,
+      "declared_biosset_tags": []
+    },
+    "defender": {
+      "found": true,
+      "description": "Defender (Red label)",
+      "year": "1980",
+      "manufacturer": "Williams",
+      "attributes": {
+        "name": "defender",
+        "sourcefile": "pre90s/d_williams.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "292",
+        "height": "240",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 29696,
+      "declared_biosset_tags": []
+    },
+    "robotron": {
+      "found": true,
+      "description": "Robotron: 2084 (Release 5, solid blue label)",
+      "year": "1982",
+      "manufacturer": "Williams / Vid Kidz",
+      "attributes": {
+        "name": "robotron",
+        "sourcefile": "pre90s/d_williams.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "292",
+        "height": "240",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 54272,
+      "declared_biosset_tags": []
+    },
+    "joust": {
+      "found": true,
+      "description": "Joust (Green label)",
+      "year": "1982",
+      "manufacturer": "Williams",
+      "attributes": {
+        "name": "joust",
+        "sourcefile": "pre90s/d_williams.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "292",
+        "height": "240",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 54272,
+      "declared_biosset_tags": []
+    },
+    "qbert": {
+      "found": true,
+      "description": "Q*bert (US set 1)",
+      "year": "1982",
+      "manufacturer": "Gottlieb",
+      "attributes": {
+        "name": "qbert",
+        "sourcefile": "pre90s/d_qbert.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "vertical",
+        "width": "240",
+        "height": "256",
+        "aspectx": "3",
+        "aspecty": "4"
+      },
+      "rom_bytes": 69632,
+      "declared_biosset_tags": []
+    },
+    "gauntlet": {
+      "found": true,
+      "description": "Gauntlet (rev 14)",
+      "year": "1985",
+      "manufacturer": "Atari Games",
+      "attributes": {
+        "name": "gauntlet",
+        "sourcefile": "atari/d_gauntlet.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "336",
+        "height": "240",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 492800,
+      "declared_biosset_tags": []
+    },
+    "gng": {
+      "found": true,
+      "description": "Ghosts'n Goblins (World? set 1)",
+      "year": "1985",
+      "manufacturer": "Capcom",
+      "attributes": {
+        "name": "gng",
+        "sourcefile": "pre90s/d_gng.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "256",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 328236,
+      "declared_biosset_tags": []
+    },
+    "bublbobl": {
+      "found": true,
+      "description": "Bubble Bobble (Japan, Ver 0.1)",
+      "year": "1986",
+      "manufacturer": "Taito Corporation",
+      "attributes": {
+        "name": "bublbobl",
+        "sourcefile": "taito/d_bublbobl.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "256",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 561411,
+      "declared_biosset_tags": []
+    },
+    "ssprint": {
+      "found": true,
+      "description": "Super Sprint (rev 4)",
+      "year": "1986",
+      "manufacturer": "Atari Games",
+      "attributes": {
+        "name": "ssprint",
+        "sourcefile": "atari/d_atarisy2.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "512",
+        "height": "384",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 934400,
+      "declared_biosset_tags": []
+    },
+    "outrun": {
+      "found": true,
+      "description": "Out Run (sitdown/upright, Rev B)",
+      "year": "1986",
+      "manufacturer": "Sega",
+      "attributes": {
+        "name": "outrun",
+        "sourcefile": "sega/d_outrun.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "320",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 2064384,
+      "declared_biosset_tags": []
+    },
+    "ddragon": {
+      "found": true,
+      "description": "Double Dragon (World set 1)",
+      "year": "1987",
+      "manufacturer": "Technos Japan (Taito license)",
+      "attributes": {
+        "name": "ddragon",
+        "sourcefile": "pre90s/d_ddragon.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "256",
+        "height": "240",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 1131264,
+      "declared_biosset_tags": []
+    },
+    "shangon": {
+      "found": true,
+      "description": "Super Hang-On (sitdown/upright) (unprotected)",
+      "year": "1987",
+      "manufacturer": "Sega",
+      "attributes": {
+        "name": "shangon",
+        "sourcefile": "sega/d_outrun.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "320",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 1867776,
+      "declared_biosset_tags": []
+    },
+    "strider": {
+      "found": true,
+      "description": "Strider (USA, B-Board 89624B-2)",
+      "year": "1989",
+      "manufacturer": "Capcom",
+      "attributes": {
+        "name": "strider",
+        "sourcefile": "capcom/d_cps1.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "384",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 5572513,
+      "declared_biosset_tags": []
+    },
+    "ffight": {
+      "found": true,
+      "description": "Final Fight (World, set 1)",
+      "year": "1989",
+      "manufacturer": "Capcom",
+      "attributes": {
+        "name": "ffight",
+        "sourcefile": "capcom/d_cps1.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "384",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 3475361,
+      "declared_biosset_tags": []
+    },
+    "sf2": {
+      "found": true,
+      "description": "Street Fighter II: The World Warrior (World 910522)",
+      "year": "1991",
+      "manufacturer": "Capcom",
+      "attributes": {
+        "name": "sf2",
+        "sourcefile": "capcom/d_cps1.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "384",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 7669944,
+      "declared_biosset_tags": []
+    },
+    "mk2": {
+      "found": true,
+      "description": "Mortal Kombat II (rev L3.1)",
+      "year": "1993",
+      "manufacturer": "Midway",
+      "attributes": {
+        "name": "mk2",
+        "sourcefile": "midway/d_tunit.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "400",
+        "height": "254",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 16777216,
+      "declared_biosset_tags": []
+    },
+    "nbajamte": {
+      "found": true,
+      "description": "NBA Jam Tournament Edition (rev 4.0 3/23/94)",
+      "year": "1994",
+      "manufacturer": "Midway",
+      "attributes": {
+        "name": "nbajamte",
+        "sourcefile": "midway/d_tunit.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "400",
+        "height": "254",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 10616832,
+      "declared_biosset_tags": []
+    },
+    "simpsons": {
+      "found": true,
+      "description": "The Simpsons (4 Players World, set 1)",
+      "year": "1991",
+      "manufacturer": "Konami",
+      "attributes": {
+        "name": "simpsons",
+        "sourcefile": "konami/d_simpsons.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "288",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 7209088,
+      "declared_biosset_tags": []
+    },
+    "tmnt2": {
+      "found": true,
+      "description": "Teenage Mutant Ninja Turtles - Turtles in Time (4 Players ver UAA)",
+      "year": "1991",
+      "manufacturer": "Konami",
+      "attributes": {
+        "name": "tmnt2",
+        "sourcefile": "konami/d_tmnt.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "288",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 6881408,
+      "declared_biosset_tags": []
+    },
+    "xmen": {
+      "found": true,
+      "description": "X-Men (4 Players ver EBA)",
+      "year": "1992",
+      "manufacturer": "Konami",
+      "attributes": {
+        "name": "xmen",
+        "sourcefile": "konami/d_xmen.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "288",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 9306240,
+      "declared_biosset_tags": []
+    },
+    "ssriders": {
+      "found": true,
+      "description": "Sunset Riders (4 Players ver EAC)",
+      "year": "1991",
+      "manufacturer": "Konami",
+      "attributes": {
+        "name": "ssriders",
+        "sourcefile": "konami/d_tmnt.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "288",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 5046400,
+      "declared_biosset_tags": []
+    },
+    "mslug": {
+      "found": true,
+      "description": "Metal Slug - Super Vehicle-001",
+      "year": "1996",
+      "manufacturer": "Nazca",
+      "attributes": {
+        "name": "mslug",
+        "romof": "neogeo",
+        "sourcefile": "neogeo/d_neogeo.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "304",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 33292288,
+      "declared_biosset_tags": []
+    },
+    "kof98": {
+      "found": true,
+      "description": "The King of Fighters '98 - The Slugfest / King of Fighters '98 - Dream Match Never Ends (NGM-2420)",
+      "year": "1998",
+      "manufacturer": "SNK",
+      "attributes": {
+        "name": "kof98",
+        "romof": "neogeo",
+        "sourcefile": "neogeo/d_neogeo.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "304",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 96337920,
+      "declared_biosset_tags": []
+    },
+    "mvsc": {
+      "found": true,
+      "description": "Marvel Vs. Capcom: Clash of Super Heroes (Europe 980123)",
+      "year": "1998",
+      "manufacturer": "Capcom",
+      "attributes": {
+        "name": "mvsc",
+        "sourcefile": "capcom/d_cps2.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "384",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 46399508,
+      "declared_biosset_tags": []
+    },
+    "sfiii3": {
+      "found": true,
+      "description": "Street Fighter III 3rd Strike: Fight for the Future (Europe 990608)",
+      "year": "1999",
+      "manufacturer": "Capcom",
+      "attributes": {
+        "name": "sfiii3",
+        "sourcefile": "cps3/d_cps3.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "384",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 84410368,
+      "declared_biosset_tags": []
+    },
+    "pbobble": {
+      "found": true,
+      "description": "Puzzle Bobble (Japan, B-System)",
+      "year": "1994",
+      "manufacturer": "Taito Corporation",
+      "attributes": {
+        "name": "pbobble",
+        "sourcefile": "taito/d_taitob.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "320",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 2752512,
+      "declared_biosset_tags": []
+    },
+    "raiden": {
+      "found": true,
+      "description": "Raiden (World set 1)",
+      "year": "1990",
+      "manufacturer": "Seibu Kaihatsu",
+      "attributes": {
+        "name": "raiden",
+        "sourcefile": "pst90s/d_raiden.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "vertical",
+        "width": "224",
+        "height": "256",
+        "aspectx": "3",
+        "aspecty": "4"
+      },
+      "rom_bytes": 2429704,
+      "declared_biosset_tags": []
+    },
+    "samsho2": {
+      "found": true,
+      "description": "Samurai Shodown II / Shin Samurai Spirits - Haohmaru Jigokuhen (NGM-063 ~ NGH-063)",
+      "year": "1994",
+      "manufacturer": "SNK",
+      "attributes": {
+        "name": "samsho2",
+        "romof": "neogeo",
+        "sourcefile": "neogeo/d_neogeo.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "320",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 32243712,
+      "declared_biosset_tags": []
+    },
+    "wjammers": {
+      "found": true,
+      "description": "Windjammers / Flying Power Disc",
+      "year": "1994",
+      "manufacturer": "Data East Corporation",
+      "attributes": {
+        "name": "wjammers",
+        "romof": "neogeo",
+        "sourcefile": "neogeo/d_neogeo.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "304",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 15466496,
+      "declared_biosset_tags": []
+    },
+    "punisher": {
+      "found": true,
+      "description": "The Punisher (World 930422)",
+      "year": "1993",
+      "manufacturer": "Capcom",
+      "attributes": {
+        "name": "punisher",
+        "sourcefile": "capcom/d_cps1.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "384",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 7998721,
+      "declared_biosset_tags": []
+    },
+    "ddsom": {
+      "found": true,
+      "description": "Dungeons & Dragons: Shadow over Mystara (Europe 960619)",
+      "year": "1996",
+      "manufacturer": "Capcom",
+      "attributes": {
+        "name": "ddsom",
+        "sourcefile": "capcom/d_cps2.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "384",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 33816596,
+      "declared_biosset_tags": []
+    },
+    "garou": {
+      "found": true,
+      "description": "Garou - Mark of the Wolves (NGM-2530)",
+      "year": "1999",
+      "manufacturer": "SNK",
+      "attributes": {
+        "name": "garou",
+        "romof": "neogeo",
+        "sourcefile": "neogeo/d_neogeo.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "320",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 98566144,
+      "declared_biosset_tags": []
+    },
+    "neodrift": {
+      "found": true,
+      "description": "Neo Drift Out - New Technology",
+      "year": "1996",
+      "manufacturer": "Visco",
+      "attributes": {
+        "name": "neodrift",
+        "romof": "neogeo",
+        "sourcefile": "neogeo/d_neogeo.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "304",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 20709376,
+      "declared_biosset_tags": []
+    },
+    "turfmast": {
+      "found": true,
+      "description": "Neo Turf Masters / Big Tournament Golf",
+      "year": "1996",
+      "manufacturer": "Nazca",
+      "attributes": {
+        "name": "turfmast",
+        "romof": "neogeo",
+        "sourcefile": "neogeo/d_neogeo.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "304",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 24903680,
+      "declared_biosset_tags": []
+    },
+    "mslug3": {
+      "found": true,
+      "description": "Metal Slug 3 (NGM-2560)",
+      "year": "2000",
+      "manufacturer": "SNK",
+      "attributes": {
+        "name": "mslug3",
+        "romof": "neogeo",
+        "sourcefile": "neogeo/d_neogeo.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "304",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 98828288,
+      "declared_biosset_tags": []
+    },
+    "progear": {
+      "found": true,
+      "description": "Progear (Europe 010117)",
+      "year": "2001",
+      "manufacturer": "Cave (Capcom license)",
+      "attributes": {
+        "name": "progear",
+        "sourcefile": "capcom/d_cps2.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "384",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 26345492,
+      "declared_biosset_tags": []
+    },
+    "kof2002": {
+      "found": true,
+      "description": "The King of Fighters 2002 (NGM-2650 ~ NGH-2650)",
+      "year": "2002",
+      "manufacturer": "Eolith / Playmore",
+      "attributes": {
+        "name": "kof2002",
+        "romof": "neogeo",
+        "sourcefile": "neogeo/d_neogeo.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "304",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 95027200,
+      "declared_biosset_tags": []
+    },
+    "ddp3": {
+      "found": true,
+      "description": "DoDonPachi III (World, 2002.05.15 Master Ver)",
+      "year": "2002",
+      "manufacturer": "Cave (AMI license)",
+      "attributes": {
+        "name": "ddp3",
+        "sourcefile": "pgm/d_pgm.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "vertical",
+        "width": "224",
+        "height": "448",
+        "aspectx": "3",
+        "aspecty": "4"
+      },
+      "rom_bytes": 44711936,
+      "declared_biosset_tags": []
+    },
+    "ket": {
+      "found": true,
+      "description": "Ketsui: Kizuna Jigoku Tachi (2003/01/01. Master Ver.)",
+      "year": "2002",
+      "manufacturer": "Cave (AMI license)",
+      "attributes": {
+        "name": "ket",
+        "sourcefile": "pgm/d_pgm.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "vertical",
+        "width": "224",
+        "height": "448",
+        "aspectx": "3",
+        "aspecty": "4"
+      },
+      "rom_bytes": 42090496,
+      "declared_biosset_tags": []
+    },
+    "deathsml": {
+      "found": true,
+      "description": "Deathsmiles (2007/10/09 MASTER VER)",
+      "year": "2007",
+      "manufacturer": "Cave (AMI license)",
+      "attributes": {
+        "name": "deathsml",
+        "sourcefile": "cave/d_cv1k.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "320",
+        "height": "240",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 148897792,
+      "declared_biosset_tags": []
+    },
+    "pzloop2": {
+      "found": true,
+      "description": "Puzz Loop 2 (Europe 010302)",
+      "year": "2001",
+      "manufacturer": "Mitchell (Capcom license)",
+      "attributes": {
+        "name": "pzloop2",
+        "sourcefile": "capcom/d_cps2.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "384",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 23199764,
+      "declared_biosset_tags": []
+    },
+    "samsh5sp": {
+      "found": true,
+      "description": "Samurai Shodown V Special / Samurai Spirits Zero Special (NGM-2720)",
+      "year": "2004",
+      "manufacturer": "Yuki Enterprise / SNK Playmore",
+      "attributes": {
+        "name": "samsh5sp",
+        "romof": "neogeo",
+        "sourcefile": "neogeo/d_neogeo.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "304",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 98566144,
+      "declared_biosset_tags": []
+    },
+    "dmnfrnt": {
+      "found": true,
+      "description": "Demon Front / Moyu Zhanxian (68k label V105, ROM M105XX 08/05/02) (ARM label V105, ROM 08/05/02 S105XX)",
+      "year": "2002",
+      "manufacturer": "IGS",
+      "attributes": {
+        "name": "dmnfrnt",
+        "romof": "pgm",
+        "sourcefile": "pgm/d_pgm.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "448",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 63848448,
+      "declared_biosset_tags": []
+    },
+    "1942": {
+      "found": true,
+      "description": "1942 (Revision B)",
+      "year": "1984",
+      "manufacturer": "Capcom",
+      "attributes": {
+        "name": "1942",
+        "sourcefile": "pre90s/d_1942.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "vertical",
+        "width": "224",
+        "height": "256",
+        "aspectx": "3",
+        "aspecty": "4"
+      },
+      "rom_bytes": 215552,
+      "declared_biosset_tags": []
+    }
+  }
+}

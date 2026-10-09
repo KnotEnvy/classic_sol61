@@ -1,0 +1,6348 @@
+{
+  "runtime": [
+    {
+      "url": "https://cdn.emulatorjs.org/stable/data/loader.js",
+      "file": "emulator/loader.js",
+      "sha256": "69e0903bf1e2f62ced78895e7e511fa26e11316f7eb734925c35e919ba1287b2",
+      "bytes": 7594
+    },
+    {
+      "url": "https://cdn.emulatorjs.org/stable/data/emulator.min.js",
+      "file": "emulator/emulator.min.js",
+      "sha256": "6aec3fd7bb2721255801b0a6af02e47e78b05e28a1822b1f213aacbd348abaee",
+      "bytes": 426343
+    },
+    {
+      "url": "https://cdn.emulatorjs.org/stable/data/emulator.min.css",
+      "file": "emulator/emulator.min.css",
+      "sha256": "16406c60b2dc3b04ae9b115e308613e6f567a0cc7068e21d9d0c1e5030fb395e",
+      "bytes": 25630
+    },
+    {
+      "url": "https://cdn.emulatorjs.org/stable/data/version.json",
+      "file": "emulator/version.json",
+      "sha256": "d8991427000a96fb97daefdb62178071e9bbff911760706148e584ae8d69f9e7",
+      "bytes": 126
+    },
+    {
+      "url": "https://cdn.emulatorjs.org/stable/data/cores/fbneo-wasm.data",
+      "file": "emulator/cores/fbneo-wasm.data",
+      "sha256": "315a25e0bcd61d58ee0d9e8b1dbf3740b9e0ca4b7d0726f848ce1068de73437c",
+      "bytes": 8273551
+    },
+    {
+      "url": "https://cdn.emulatorjs.org/stable/data/cores/reports/fbneo.json",
+      "file": "emulator/cores/reports/fbneo.json",
+      "sha256": "d2c5e07c2afc2b53937f14b721d7d025ad599d111e9627fc77e9b3fd17450e70",
+      "bytes": 119
+    },
+    {
+      "url": "https://cdn.emulatorjs.org/stable/data/compression/extract7z.js",
+      "file": "emulator/compression/extract7z.js",
+      "sha256": "4ac9933b995a516cb6b3ca4027db860278372a20c21c405d93ceb1998498853a",
+      "bytes": 280155
+    },
+    {
+      "url": "https://cdn.emulatorjs.org/stable/data/compression/extractzip.js",
+      "file": "emulator/compression/extractzip.js",
+      "sha256": "3cc825428724213acd43d30552a78008e0869b2326de17dee240dbff9ee2f629",
+      "bytes": 196199
+    },
+    {
+      "url": "https://cdn.emulatorjs.org/stable/data/cores/mame2003_plus-wasm.data",
+      "file": "emulator/cores/mame2003_plus-wasm.data",
+      "sha256": "cb6d9c80a88b65d1579d16d02128a678f8d1cd3f51de1479e647cea27b13247b",
+      "bytes": 5391355
+    },
+    {
+      "url": "https://cdn.emulatorjs.org/stable/data/cores/reports/mame2003_plus.json",
+      "file": "emulator/cores/reports/mame2003_plus.json",
+      "sha256": "bda548626942b8878beb6de3487043eea80e633bd53dd69e7bae7457373a48a1",
+      "bytes": 127
+    },
+    {
+      "url": "https://cdn.emulatorjs.org/stable/data/cores/fbneo-legacy-wasm.data",
+      "file": "emulator/cores/fbneo-legacy-wasm.data",
+      "sha256": "9dbb6242c028f4179549f324688b654353881beb552292f939bc6171a0828b5f",
+      "bytes": 8272960
+    },
+    {
+      "url": "https://cdn.emulatorjs.org/stable/data/cores/mame2003_plus-legacy-wasm.data",
+      "file": "emulator/cores/mame2003_plus-legacy-wasm.data",
+      "sha256": "a01286082b7b2b83cc10e702afaf730f5effedb49e583a6ca73f59bc28b0c12a",
+      "bytes": 5388568
+    }
+  ],
+  "games": [
+    {
+      "id": "pacman",
+      "config_source": "https://www.retrogames.cc/embed/9406-pac-man-midway-1.html",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/pacman.zip",
+        "file": "roms/pacman.zip",
+        "sha256": "e7eea30acadb72c9bb9b33ef80f6bd516eb7689994ac695648fcaec1438e78ec",
+        "bytes": 14145
+      },
+      "parent": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/puckman.zip",
+        "file": "roms/puckman.zip",
+        "sha256": "394c7a0073f6b342f49b108de93597d368966003c119c609080125ab49bdc1d7",
+        "bytes": 14949
+      },
+      "installed_members": [
+        {
+          "name": "82s123.7f",
+          "crc32": "2fc650bd",
+          "bytes": 32
+        },
+        {
+          "name": "82s126.1m",
+          "crc32": "a9cc86bf",
+          "bytes": 256
+        },
+        {
+          "name": "82s126.3m",
+          "crc32": "77245b66",
+          "bytes": 256
+        },
+        {
+          "name": "82s126.4a",
+          "crc32": "3eb3a8e4",
+          "bytes": 256
+        },
+        {
+          "name": "pacman.5e",
+          "crc32": "0c944964",
+          "bytes": 4096
+        },
+        {
+          "name": "pacman.5f",
+          "crc32": "958fedf9",
+          "bytes": 4096
+        },
+        {
+          "name": "pacman.6e",
+          "crc32": "c1e6ab10",
+          "bytes": 4096
+        },
+        {
+          "name": "pacman.6f",
+          "crc32": "1a6fb2d4",
+          "bytes": 4096
+        },
+        {
+          "name": "pacman.6h",
+          "crc32": "bcdd1beb",
+          "bytes": 4096
+        },
+        {
+          "name": "pacman.6j",
+          "crc32": "817d94e3",
+          "bytes": 4096
+        },
+        {
+          "name": "pm1-1.7f",
+          "crc32": "2fc650bd",
+          "bytes": 32
+        },
+        {
+          "name": "pm1-2.3m",
+          "crc32": "77245b66",
+          "bytes": 256
+        },
+        {
+          "name": "pm1-3.1m",
+          "crc32": "a9cc86bf",
+          "bytes": 256
+        },
+        {
+          "name": "pm1-4.4a",
+          "crc32": "3eb3a8e4",
+          "bytes": 256
+        },
+        {
+          "name": "pm1_chg1.5e",
+          "crc32": "2066a0b7",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_chg2.5h",
+          "crc32": "3591b89d",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_chg3.5f",
+          "crc32": "9e39323a",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_chg4.5j",
+          "crc32": "1b1d9096",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_prg1.6e",
+          "crc32": "f36e88ab",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_prg2.6k",
+          "crc32": "618bd9b3",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_prg3.6f",
+          "crc32": "7d177853",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_prg4.6m",
+          "crc32": "d3e8914c",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_prg5.6h",
+          "crc32": "6bf4f625",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_prg6.6n",
+          "crc32": "a948ce83",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_prg7.6j",
+          "crc32": "b6289b26",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_prg8.6p",
+          "crc32": "17a88c13",
+          "bytes": 2048
+        }
+      ],
+      "installed_sha256": "dffad8b6ae9bd9235084eac64185ae94904e19ca3237cba0c0993da35555fc18"
+    },
+    {
+      "id": "invaders",
+      "config_source": "https://www.retrogames.cc/embed/34372-space-invaders-space-invaders-m.html",
+      "game": {
+        "url": "https://files6.retrogames.cc/MndKa1p4bHI2SkZwRkpGcENaVnE2aFhaWktwQ2NXcXNOSzh2N1FFNy9vWVdGdG45YWtXRFV5ZmFWUU50RUgwb1hHZW1PalMyNDNFRQ%3D%3D/invaders.zip",
+        "file": "roms/invaders.zip",
+        "sha256": "a0a87e61e594a3095479a76b7f179d37e34df76965a675ac8e838e6b238d2ca6",
+        "bytes": 5388
+      },
+      "installed_members": [
+        {
+          "name": "invaders.e",
+          "crc32": "14e538b0",
+          "bytes": 2048
+        },
+        {
+          "name": "invaders.f",
+          "crc32": "0ccead96",
+          "bytes": 2048
+        },
+        {
+          "name": "invaders.g",
+          "crc32": "6bfaca4a",
+          "bytes": 2048
+        },
+        {
+          "name": "invaders.h",
+          "crc32": "734f5ad8",
+          "bytes": 2048
+        }
+      ],
+      "installed_sha256": "a0a87e61e594a3095479a76b7f179d37e34df76965a675ac8e838e6b238d2ca6"
+    },
+    {
+      "id": "galaga",
+      "config_source": "https://www.retrogames.cc/embed/8573-galaga-namco.html",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/galagao.zip",
+        "file": "roms/galagao.zip",
+        "sha256": "faa5151c4b89f3db5c01f24ab29e6583ce2ae46f758f5a3fb19a25df1d651443",
+        "bytes": 22317
+      },
+      "parent": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/galaga.zip",
+        "file": "roms/galaga.zip",
+        "sha256": "b00382f5e4cc20635da48c267c41f1f21cc4e5807b60dfb1e814d14a6bfb818c",
+        "bytes": 23176
+      },
+      "installed_members": [
+        {
+          "name": "gg1-1.3p",
+          "crc32": "a3a0f743",
+          "bytes": 4096
+        },
+        {
+          "name": "gg1-10.4f",
+          "crc32": "dd6f1afc",
+          "bytes": 4096
+        },
+        {
+          "name": "gg1-11.4d",
+          "crc32": "ad447c80",
+          "bytes": 4096
+        },
+        {
+          "name": "gg1-2.3m",
+          "crc32": "43bb0d5c",
+          "bytes": 4096
+        },
+        {
+          "name": "gg1-3.2m",
+          "crc32": "753ce503",
+          "bytes": 4096
+        },
+        {
+          "name": "gg1-4.2l",
+          "crc32": "83874442",
+          "bytes": 4096
+        },
+        {
+          "name": "gg1-5.3f",
+          "crc32": "3102fccd",
+          "bytes": 4096
+        },
+        {
+          "name": "gg1-7.2c",
+          "crc32": "8995088d",
+          "bytes": 4096
+        },
+        {
+          "name": "gg1-9.4l",
+          "crc32": "58b2f47c",
+          "bytes": 4096
+        },
+        {
+          "name": "gg1_10.4f",
+          "crc32": "dd6f1afc",
+          "bytes": 4096
+        },
+        {
+          "name": "gg1_11.4d",
+          "crc32": "ad447c80",
+          "bytes": 4096
+        },
+        {
+          "name": "gg1_1b.3p",
+          "crc32": "ab036c9f",
+          "bytes": 4096
+        },
+        {
+          "name": "gg1_2b.3m",
+          "crc32": "d9232240",
+          "bytes": 4096
+        },
+        {
+          "name": "gg1_3.2m",
+          "crc32": "753ce503",
+          "bytes": 4096
+        },
+        {
+          "name": "gg1_4b.2l",
+          "crc32": "499fcc76",
+          "bytes": 4096
+        },
+        {
+          "name": "gg1_5b.3f",
+          "crc32": "bb5caae3",
+          "bytes": 4096
+        },
+        {
+          "name": "gg1_7b.2c",
+          "crc32": "d016686b",
+          "bytes": 4096
+        },
+        {
+          "name": "gg1_9.4l",
+          "crc32": "58b2f47c",
+          "bytes": 4096
+        },
+        {
+          "name": "prom-1.1d",
+          "crc32": "7a2815b4",
+          "bytes": 256
+        },
+        {
+          "name": "prom-2.5c",
+          "crc32": "77245b66",
+          "bytes": 256
+        },
+        {
+          "name": "prom-3.1c",
+          "crc32": "4a04bb6b",
+          "bytes": 256
+        },
+        {
+          "name": "prom-4.2n",
+          "crc32": "59b6edab",
+          "bytes": 256
+        },
+        {
+          "name": "prom-5.5n",
+          "crc32": "54603c6b",
+          "bytes": 32
+        }
+      ],
+      "installed_sha256": "3109d989419be48455ad3f93b1e81b224850230ac8fd5037f0aec003c26b58bf"
+    },
+    {
+      "id": "dkong",
+      "config_source": "https://www.retrogames.cc/embed/8301-donkey-kong-us-set-1.html",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/dkong.zip",
+        "file": "roms/dkong.zip",
+        "sha256": "bcfdad4052be66b40923afb97ff996c7cc0157358fcebe3374c93d270b22c8d5",
+        "bytes": 22302
+      },
+      "installed_members": [
+        {
+          "name": "c-2j.bpr",
+          "crc32": "d6412358",
+          "bytes": 256
+        },
+        {
+          "name": "c-2k.bpr",
+          "crc32": "e273ede5",
+          "bytes": 256
+        },
+        {
+          "name": "c_5at_g.bin",
+          "crc32": "b9005ac0",
+          "bytes": 4096
+        },
+        {
+          "name": "c_5bt_g.bin",
+          "crc32": "1c97d324",
+          "bytes": 4096
+        },
+        {
+          "name": "c_5ct_g.bin",
+          "crc32": "5ec461ec",
+          "bytes": 4096
+        },
+        {
+          "name": "c_5et_g.bin",
+          "crc32": "ba70b88b",
+          "bytes": 4096
+        },
+        {
+          "name": "l_4m_b.bin",
+          "crc32": "59f8054d",
+          "bytes": 2048
+        },
+        {
+          "name": "l_4n_b.bin",
+          "crc32": "672e4714",
+          "bytes": 2048
+        },
+        {
+          "name": "l_4r_b.bin",
+          "crc32": "feaa59ee",
+          "bytes": 2048
+        },
+        {
+          "name": "l_4s_b.bin",
+          "crc32": "20f2ef7e",
+          "bytes": 2048
+        },
+        {
+          "name": "s_3i_b.bin",
+          "crc32": "45a4ed06",
+          "bytes": 2048
+        },
+        {
+          "name": "s_3j_b.bin",
+          "crc32": "4743fe92",
+          "bytes": 2048
+        },
+        {
+          "name": "v-5e.bpr",
+          "crc32": "b869b8f5",
+          "bytes": 256
+        },
+        {
+          "name": "v_3pt.bin",
+          "crc32": "15e9c5e9",
+          "bytes": 2048
+        },
+        {
+          "name": "v_5h_b.bin",
+          "crc32": "12c8c95d",
+          "bytes": 2048
+        }
+      ],
+      "installed_sha256": "bcfdad4052be66b40923afb97ff996c7cc0157358fcebe3374c93d270b22c8d5"
+    },
+    {
+      "id": "frogger",
+      "config_source": "https://www.retrogames.cc/embed/8553-frogger.html",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/frogger.zip",
+        "file": "roms/frogger.zip",
+        "sha256": "b975a63ea4c3fd87781d3233660928e3b822334ad415ac495599cf85230ad01f",
+        "bytes": 16011
+      },
+      "installed_members": [
+        {
+          "name": "frogger.26",
+          "crc32": "597696d6",
+          "bytes": 4096
+        },
+        {
+          "name": "frogger.27",
+          "crc32": "b6e6fcc3",
+          "bytes": 4096
+        },
+        {
+          "name": "frogger.606",
+          "crc32": "f524ee30",
+          "bytes": 2048
+        },
+        {
+          "name": "frogger.607",
+          "crc32": "05f7d883",
+          "bytes": 2048
+        },
+        {
+          "name": "frogger.608",
+          "crc32": "e8ab0256",
+          "bytes": 2048
+        },
+        {
+          "name": "frogger.609",
+          "crc32": "7380a48f",
+          "bytes": 2048
+        },
+        {
+          "name": "frogger.610",
+          "crc32": "31d7eb27",
+          "bytes": 2048
+        },
+        {
+          "name": "frsm3.7",
+          "crc32": "aca22ae0",
+          "bytes": 4096
+        },
+        {
+          "name": "pr-91.6l",
+          "crc32": "413703bf",
+          "bytes": 32
+        }
+      ],
+      "installed_sha256": "b975a63ea4c3fd87781d3233660928e3b822334ad415ac495599cf85230ad01f"
+    },
+    {
+      "id": "centiped",
+      "config_source": "https://www.retrogames.cc/embed/33263-centipede-revision-4.html",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/MndKa1p4bHI2SkZwRkpGcENSVmxheHZkWkdJL0s2cllsakU4a3NKbi9tendzQ01rV1ViaXJUK1lMaXZ2azBRQUxxaGxOelM1aFhFOQ%3D%3D/centiped.zip",
+        "file": "roms/centiped.zip",
+        "sha256": "5c7f98d0b47a867093795f94768d1e9eea03659629fb926fa036e10fa00fe0fe",
+        "bytes": 8739
+      },
+      "installed_members": [
+        {
+          "name": "136001-211.f7",
+          "crc32": "880acfb9",
+          "bytes": 2048
+        },
+        {
+          "name": "136001-212.hj7",
+          "crc32": "b1397029",
+          "bytes": 2048
+        },
+        {
+          "name": "136001-213.p4",
+          "crc32": "6fa3093a",
+          "bytes": 256
+        },
+        {
+          "name": "136001-407.d1",
+          "crc32": "c4d995eb",
+          "bytes": 2048
+        },
+        {
+          "name": "136001-408.e1",
+          "crc32": "bcdebe1b",
+          "bytes": 2048
+        },
+        {
+          "name": "136001-409.fh1",
+          "crc32": "66d7b04a",
+          "bytes": 2048
+        },
+        {
+          "name": "136001-410.j1",
+          "crc32": "33ce4640",
+          "bytes": 2048
+        }
+      ],
+      "installed_sha256": "5c7f98d0b47a867093795f94768d1e9eea03659629fb926fa036e10fa00fe0fe"
+    },
+    {
+      "id": "digdug",
+      "config_source": "https://www.retrogames.cc/embed/33379-dig-dug-rev-2.html",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/MndKa1p4bHI2SkZwRkpGcENaWG5aQlpoMzJlb0xKR1ZpckYwajZ3ODIrR3JtS0pBYW1ZdFZBR3MxVVFwbUNlb2oyaW5LVHBqeVdkd2JnPT0%3D/digdug.zip",
+        "file": "roms/digdug.zip",
+        "sha256": "c9a12fa0a8b19b33a3c826ef368f2a9f808fa6fea2cfda7880025ffb242b6dbc",
+        "bytes": 28481
+      },
+      "installed_members": [
+        {
+          "name": "136007.109",
+          "crc32": "77245b66",
+          "bytes": 256
+        },
+        {
+          "name": "136007.110",
+          "crc32": "7a2815b4",
+          "bytes": 256
+        },
+        {
+          "name": "136007.111",
+          "crc32": "00c7c419",
+          "bytes": 256
+        },
+        {
+          "name": "136007.112",
+          "crc32": "e9b3e08e",
+          "bytes": 256
+        },
+        {
+          "name": "136007.113",
+          "crc32": "4cb9da99",
+          "bytes": 32
+        },
+        {
+          "name": "dd1.10b",
+          "crc32": "2cf399c2",
+          "bytes": 4096
+        },
+        {
+          "name": "dd1.11",
+          "crc32": "7b383983",
+          "bytes": 4096
+        },
+        {
+          "name": "dd1.12",
+          "crc32": "c58252a0",
+          "bytes": 4096
+        },
+        {
+          "name": "dd1.13",
+          "crc32": "458499e9",
+          "bytes": 4096
+        },
+        {
+          "name": "dd1.14",
+          "crc32": "2829ec99",
+          "bytes": 4096
+        },
+        {
+          "name": "dd1.15",
+          "crc32": "e22957c8",
+          "bytes": 4096
+        },
+        {
+          "name": "dd1.7",
+          "crc32": "a41bce72",
+          "bytes": 4096
+        },
+        {
+          "name": "dd1.9",
+          "crc32": "f14a6fe1",
+          "bytes": 2048
+        },
+        {
+          "name": "dd1a.1",
+          "crc32": "a80ec984",
+          "bytes": 4096
+        },
+        {
+          "name": "dd1a.2",
+          "crc32": "559f00bd",
+          "bytes": 4096
+        },
+        {
+          "name": "dd1a.3",
+          "crc32": "8cbc6fe1",
+          "bytes": 4096
+        },
+        {
+          "name": "dd1a.4",
+          "crc32": "d066f830",
+          "bytes": 4096
+        },
+        {
+          "name": "dd1a.5",
+          "crc32": "6687933b",
+          "bytes": 4096
+        },
+        {
+          "name": "dd1a.6",
+          "crc32": "843d857f",
+          "bytes": 4096
+        }
+      ],
+      "installed_sha256": "c9a12fa0a8b19b33a3c826ef368f2a9f808fa6fea2cfda7880025ffb242b6dbc"
+    },
+    {
+      "id": "mspacman",
+      "config_source": "https://www.retrogames.cc/embed/9251-ms-pac-man-with-speedup-hack.html",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/mspacman.zip",
+        "file": "roms/mspacman.zip",
+        "sha256": "8374fafe9f0053a2e0f6de0b3b62088a0a48cb2115219b9507ddd63145acc131",
+        "bytes": 21791
+      },
+      "installed_members": [
+        {
+          "name": "5e",
+          "crc32": "5c281d01",
+          "bytes": 4096
+        },
+        {
+          "name": "5f",
+          "crc32": "615af909",
+          "bytes": 4096
+        },
+        {
+          "name": "82s123.7f",
+          "crc32": "2fc650bd",
+          "bytes": 32
+        },
+        {
+          "name": "82s126.1m",
+          "crc32": "a9cc86bf",
+          "bytes": 256
+        },
+        {
+          "name": "82s126.3m",
+          "crc32": "77245b66",
+          "bytes": 256
+        },
+        {
+          "name": "82s126.4a",
+          "crc32": "3eb3a8e4",
+          "bytes": 256
+        },
+        {
+          "name": "pacman.6e",
+          "crc32": "c1e6ab10",
+          "bytes": 4096
+        },
+        {
+          "name": "pacman.6f",
+          "crc32": "1a6fb2d4",
+          "bytes": 4096
+        },
+        {
+          "name": "pacman.6h",
+          "crc32": "bcdd1beb",
+          "bytes": 4096
+        },
+        {
+          "name": "pacman.6j",
+          "crc32": "817d94e3",
+          "bytes": 4096
+        },
+        {
+          "name": "u5",
+          "crc32": "f45fbbcd",
+          "bytes": 2048
+        },
+        {
+          "name": "u6",
+          "crc32": "a90e7000",
+          "bytes": 4096
+        },
+        {
+          "name": "u7",
+          "crc32": "c82cd714",
+          "bytes": 4096
+        },
+        {
+          "name": "pm1-1.7f",
+          "crc32": "2fc650bd",
+          "bytes": 32
+        },
+        {
+          "name": "pm1-2.3m",
+          "crc32": "77245b66",
+          "bytes": 256
+        },
+        {
+          "name": "pm1-3.1m",
+          "crc32": "a9cc86bf",
+          "bytes": 256
+        },
+        {
+          "name": "pm1-4.4a",
+          "crc32": "3eb3a8e4",
+          "bytes": 256
+        },
+        {
+          "name": "pm1_chg1.5e",
+          "crc32": "2066a0b7",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_chg2.5h",
+          "crc32": "3591b89d",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_chg3.5f",
+          "crc32": "9e39323a",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_chg4.5j",
+          "crc32": "1b1d9096",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_prg1.6e",
+          "crc32": "f36e88ab",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_prg2.6k",
+          "crc32": "618bd9b3",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_prg3.6f",
+          "crc32": "7d177853",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_prg4.6m",
+          "crc32": "d3e8914c",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_prg5.6h",
+          "crc32": "6bf4f625",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_prg6.6n",
+          "crc32": "a948ce83",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_prg7.6j",
+          "crc32": "b6289b26",
+          "bytes": 2048
+        },
+        {
+          "name": "pm1_prg8.6p",
+          "crc32": "17a88c13",
+          "bytes": 2048
+        }
+      ],
+      "installed_sha256": "04403bcb752071dda396001eeb5ebd0e5f113e07b175f93bf42cc655ced6fdd4"
+    },
+    {
+      "id": "1942",
+      "config_source": "https://www.retrogames.cc/embed/7655-1942-revision-b.html",
+      "page_source": "https://www.retrogames.cc/arcade-games/1942-revision-b.html",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/1942.zip",
+        "file": "roms/1942.zip",
+        "sha256": "469a257bfde1982c7f0f53560a8e6c3723597c48dfa2285583960c33b4e01e9f",
+        "bytes": 106788
+      },
+      "installed_sha256": "469a257bfde1982c7f0f53560a8e6c3723597c48dfa2285583960c33b4e01e9f",
+      "installed_members": [
+        {
+          "name": "sb-0.f1",
+          "crc32": "6047d91b",
+          "bytes": 256
+        },
+        {
+          "name": "sb-1.k6",
+          "crc32": "712ac508",
+          "bytes": 256
+        },
+        {
+          "name": "sb-2.d1",
+          "crc32": "8bb8b3df",
+          "bytes": 256
+        },
+        {
+          "name": "sb-3.d2",
+          "crc32": "3b0c99af",
+          "bytes": 256
+        },
+        {
+          "name": "sb-4.d6",
+          "crc32": "4858968d",
+          "bytes": 256
+        },
+        {
+          "name": "sb-5.e8",
+          "crc32": "93ab8153",
+          "bytes": 256
+        },
+        {
+          "name": "sb-6.e9",
+          "crc32": "8ab44f7d",
+          "bytes": 256
+        },
+        {
+          "name": "sb-7.e10",
+          "crc32": "f4ade9a4",
+          "bytes": 256
+        },
+        {
+          "name": "sb-8.k3",
+          "crc32": "f6fad943",
+          "bytes": 256
+        },
+        {
+          "name": "sb-9.m11",
+          "crc32": "4921635c",
+          "bytes": 256
+        },
+        {
+          "name": "sr-01.c11",
+          "crc32": "bd87f06b",
+          "bytes": 16384
+        },
+        {
+          "name": "sr-02.f2",
+          "crc32": "6ebca191",
+          "bytes": 8192
+        },
+        {
+          "name": "sr-08.a1",
+          "crc32": "3884d9eb",
+          "bytes": 8192
+        },
+        {
+          "name": "sr-09.a2",
+          "crc32": "999cf6e0",
+          "bytes": 8192
+        },
+        {
+          "name": "sr-10.a3",
+          "crc32": "8edb273a",
+          "bytes": 8192
+        },
+        {
+          "name": "sr-11.a4",
+          "crc32": "3a2726c3",
+          "bytes": 8192
+        },
+        {
+          "name": "sr-12.a5",
+          "crc32": "1bd3d8bb",
+          "bytes": 8192
+        },
+        {
+          "name": "sr-13.a6",
+          "crc32": "658f02c4",
+          "bytes": 8192
+        },
+        {
+          "name": "sr-14.l1",
+          "crc32": "2528bec6",
+          "bytes": 16384
+        },
+        {
+          "name": "sr-15.l2",
+          "crc32": "f89287aa",
+          "bytes": 16384
+        },
+        {
+          "name": "sr-16.n1",
+          "crc32": "024418f8",
+          "bytes": 16384
+        },
+        {
+          "name": "sr-17.n2",
+          "crc32": "e2c7e489",
+          "bytes": 16384
+        },
+        {
+          "name": "srb-03.m3",
+          "crc32": "d9dafcc3",
+          "bytes": 16384
+        },
+        {
+          "name": "srb-04.m4",
+          "crc32": "da0cf924",
+          "bytes": 16384
+        },
+        {
+          "name": "srb-05.m5",
+          "crc32": "d102911c",
+          "bytes": 16384
+        },
+        {
+          "name": "srb-06.m6",
+          "crc32": "466f8248",
+          "bytes": 8192
+        },
+        {
+          "name": "srb-07.m7",
+          "crc32": "0d31038c",
+          "bytes": 16384
+        }
+      ]
+    },
+    {
+      "id": "strider",
+      "config_source": "https://www.retrogames.cc/embed/10102-strider-us-set-1.html",
+      "page_source": "https://www.retrogames.cc/arcade-games/strider-us-set-1.html",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/strider.zip",
+        "file": "roms/strider.zip",
+        "sha256": "3488754982623789fc649b2d09218e3a72fbd41e83e0901b33eba36fc8e1a351",
+        "bytes": 2101117
+      },
+      "installed_sha256": "3488754982623789fc649b2d09218e3a72fbd41e83e0901b33eba36fc8e1a351",
+      "installed_members": [
+        {
+          "name": "09.12b",
+          "crc32": "2ed403bc",
+          "bytes": 65536
+        },
+        {
+          "name": "18.11c",
+          "crc32": "4386bc80",
+          "bytes": 131072
+        },
+        {
+          "name": "19.12c",
+          "crc32": "444536d7",
+          "bytes": 131072
+        },
+        {
+          "name": "30.11f",
+          "crc32": "da997474",
+          "bytes": 131072
+        },
+        {
+          "name": "31.12f",
+          "crc32": "d20786db",
+          "bytes": 131072
+        },
+        {
+          "name": "35.11h",
+          "crc32": "5463aaa3",
+          "bytes": 131072
+        },
+        {
+          "name": "36.12h",
+          "crc32": "21aa2863",
+          "bytes": 131072
+        },
+        {
+          "name": "buf1",
+          "crc32": "eb122de7",
+          "bytes": 279
+        },
+        {
+          "name": "ioa1",
+          "crc32": "59c7ee3b",
+          "bytes": 279
+        },
+        {
+          "name": "lwio.11e",
+          "crc32": "ad52b90c",
+          "bytes": 279
+        },
+        {
+          "name": "prg1",
+          "crc32": "f1129744",
+          "bytes": 279
+        },
+        {
+          "name": "rom1",
+          "crc32": "41dc73b9",
+          "bytes": 279
+        },
+        {
+          "name": "sou1",
+          "crc32": "84f4b2fe",
+          "bytes": 279
+        },
+        {
+          "name": "st-1.7a",
+          "crc32": "005f000b",
+          "bytes": 524288
+        },
+        {
+          "name": "st-10.9a",
+          "crc32": "b9441519",
+          "bytes": 524288
+        },
+        {
+          "name": "st-11.10a",
+          "crc32": "2d7f21e4",
+          "bytes": 524288
+        },
+        {
+          "name": "st-14.8h",
+          "crc32": "9b3cfc08",
+          "bytes": 524288
+        },
+        {
+          "name": "st-2.8a",
+          "crc32": "4eee9aea",
+          "bytes": 524288
+        },
+        {
+          "name": "st-4.3a",
+          "crc32": "b7d04e8b",
+          "bytes": 524288
+        },
+        {
+          "name": "st-5.4a",
+          "crc32": "7705aa46",
+          "bytes": 524288
+        },
+        {
+          "name": "st-8.5a",
+          "crc32": "6b4713b4",
+          "bytes": 524288
+        },
+        {
+          "name": "st-9.6a",
+          "crc32": "5b18b722",
+          "bytes": 524288
+        },
+        {
+          "name": "st24m1.1a",
+          "crc32": "a80d357e",
+          "bytes": 279
+        }
+      ]
+    },
+    {
+      "id": "outrun",
+      "config_source": "https://www.retrogames.cc/embed/9387-out-run-sitdownupright-rev-b.html",
+      "page_source": "https://www.retrogames.cc/arcade-games/out-run-sitdownupright-rev-b.html",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/outrun.zip",
+        "file": "roms/outrun.zip",
+        "sha256": "a6ca0fe457238103b05bbdf0a244439c23d7381a3a96d1eacc4f36ab8df70228",
+        "bytes": 877001
+      },
+      "installed_sha256": "a6ca0fe457238103b05bbdf0a244439c23d7381a3a96d1eacc4f36ab8df70228",
+      "installed_members": [
+        {
+          "name": "epr-10187.88",
+          "crc32": "a10abaa9",
+          "bytes": 32768
+        },
+        {
+          "name": "epr-10327a.76",
+          "crc32": "e28a5baf",
+          "bytes": 65536
+        },
+        {
+          "name": "epr-10328a.75",
+          "crc32": "d5ec5e5d",
+          "bytes": 65536
+        },
+        {
+          "name": "epr-10329a.58",
+          "crc32": "da131c81",
+          "bytes": 65536
+        },
+        {
+          "name": "epr-10330a.57",
+          "crc32": "ba9ec82a",
+          "bytes": 65536
+        },
+        {
+          "name": "epr-10380b.133",
+          "crc32": "1f6cadad",
+          "bytes": 65536
+        },
+        {
+          "name": "epr-10381b.132",
+          "crc32": "be8c412b",
+          "bytes": 65536
+        },
+        {
+          "name": "epr-10382b.118",
+          "crc32": "c4c3fa1a",
+          "bytes": 65536
+        },
+        {
+          "name": "epr-10383b.117",
+          "crc32": "10a2014a",
+          "bytes": 65536
+        },
+        {
+          "name": "mpr-10371.9",
+          "crc32": "7cc86208",
+          "bytes": 131072
+        },
+        {
+          "name": "mpr-10372.13",
+          "crc32": "b557078c",
+          "bytes": 131072
+        },
+        {
+          "name": "mpr-10373.10",
+          "crc32": "b0d26ac9",
+          "bytes": 131072
+        },
+        {
+          "name": "mpr-10374.14",
+          "crc32": "8051e517",
+          "bytes": 131072
+        },
+        {
+          "name": "mpr-10375.11",
+          "crc32": "59b60bd7",
+          "bytes": 131072
+        },
+        {
+          "name": "mpr-10376.15",
+          "crc32": "f3b8f318",
+          "bytes": 131072
+        },
+        {
+          "name": "mpr-10377.12",
+          "crc32": "17a1b04a",
+          "bytes": 131072
+        },
+        {
+          "name": "mpr-10378.16",
+          "crc32": "a1062984",
+          "bytes": 131072
+        },
+        {
+          "name": "opr-10185.11",
+          "crc32": "22794426",
+          "bytes": 32768
+        },
+        {
+          "name": "opr-10186.47",
+          "crc32": "22794426",
+          "bytes": 32768
+        },
+        {
+          "name": "opr-10188.71",
+          "crc32": "bad30ad9",
+          "bytes": 32768
+        },
+        {
+          "name": "opr-10189.70",
+          "crc32": "01366b54",
+          "bytes": 32768
+        },
+        {
+          "name": "opr-10190.69",
+          "crc32": "7cab70e2",
+          "bytes": 32768
+        },
+        {
+          "name": "opr-10191.68",
+          "crc32": "20a284ab",
+          "bytes": 32768
+        },
+        {
+          "name": "opr-10192.67",
+          "crc32": "770f1270",
+          "bytes": 32768
+        },
+        {
+          "name": "opr-10193.66",
+          "crc32": "bcd10dde",
+          "bytes": 32768
+        },
+        {
+          "name": "opr-10230.104",
+          "crc32": "686f5e50",
+          "bytes": 32768
+        },
+        {
+          "name": "opr-10231.103",
+          "crc32": "8908bcbf",
+          "bytes": 32768
+        },
+        {
+          "name": "opr-10232.102",
+          "crc32": "776ba1eb",
+          "bytes": 32768
+        },
+        {
+          "name": "opr-10266.101",
+          "crc32": "9f6f1a74",
+          "bytes": 32768
+        },
+        {
+          "name": "opr-10267.100",
+          "crc32": "a85bb823",
+          "bytes": 32768
+        },
+        {
+          "name": "opr-10268.99",
+          "crc32": "95344b04",
+          "bytes": 32768
+        }
+      ]
+    },
+    {
+      "id": "shangon",
+      "config_source": "https://www.retrogames.cc/embed/10161-super-hang-on-sitdownupright-unprotected.html",
+      "page_source": "https://www.retrogames.cc/arcade-games/super-hang-on-sitdownupright-unprotected.html",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/shangon.zip",
+        "file": "roms/shangon.zip",
+        "sha256": "5e2f962b563ddabf5021d238bdfabf64f4b108c661991dfbff0461ae2b32b376",
+        "bytes": 691577
+      },
+      "installed_sha256": "5e2f962b563ddabf5021d238bdfabf64f4b108c661991dfbff0461ae2b32b376",
+      "installed_members": [
+        {
+          "name": "epr-10642.47",
+          "crc32": "7836bcc3",
+          "bytes": 32768
+        },
+        {
+          "name": "epr-10643.66",
+          "crc32": "06f55364",
+          "bytes": 32768
+        },
+        {
+          "name": "epr-10644.67",
+          "crc32": "b41d541d",
+          "bytes": 32768
+        },
+        {
+          "name": "epr-10645.68",
+          "crc32": "a60dabff",
+          "bytes": 32768
+        },
+        {
+          "name": "epr-10646.69",
+          "crc32": "473cc411",
+          "bytes": 32768
+        },
+        {
+          "name": "epr-10649c.88",
+          "crc32": "f6c1ce71",
+          "bytes": 32768
+        },
+        {
+          "name": "epr-10650.56",
+          "crc32": "b236a403",
+          "bytes": 32768
+        },
+        {
+          "name": "epr-10651.55",
+          "crc32": "c609ee7b",
+          "bytes": 32768
+        },
+        {
+          "name": "epr-10652.54",
+          "crc32": "260286f9",
+          "bytes": 32768
+        },
+        {
+          "name": "epr-10790.58",
+          "crc32": "2246cbc1",
+          "bytes": 65536
+        },
+        {
+          "name": "epr-10791.57",
+          "crc32": "5faf4cbe",
+          "bytes": 65536
+        },
+        {
+          "name": "epr-10792.76",
+          "crc32": "16299d25",
+          "bytes": 65536
+        },
+        {
+          "name": "epr-10793.75",
+          "crc32": "d9525427",
+          "bytes": 65536
+        },
+        {
+          "name": "epr-10884.118",
+          "crc32": "cb06150d",
+          "bytes": 65536
+        },
+        {
+          "name": "epr-10885.117",
+          "crc32": "70795f26",
+          "bytes": 65536
+        },
+        {
+          "name": "epr-10886.133",
+          "crc32": "8be3cd36",
+          "bytes": 65536
+        },
+        {
+          "name": "epr-10887.132",
+          "crc32": "8d248bb0",
+          "bytes": 65536
+        },
+        {
+          "name": "mpr-10794.8",
+          "crc32": "7c958e63",
+          "bytes": 131072
+        },
+        {
+          "name": "mpr-10795.6",
+          "crc32": "d9d31f8c",
+          "bytes": 131072
+        },
+        {
+          "name": "mpr-10796.4",
+          "crc32": "fb48957c",
+          "bytes": 131072
+        },
+        {
+          "name": "mpr-10797.2",
+          "crc32": "27f2870d",
+          "bytes": 131072
+        },
+        {
+          "name": "mpr-10798.16",
+          "crc32": "7d58f807",
+          "bytes": 131072
+        },
+        {
+          "name": "mpr-10799.14",
+          "crc32": "96d90d3d",
+          "bytes": 131072
+        },
+        {
+          "name": "mpr-10800.12",
+          "crc32": "feaff98e",
+          "bytes": 131072
+        },
+        {
+          "name": "mpr-10801.10",
+          "crc32": "12781795",
+          "bytes": 131072
+        }
+      ]
+    },
+    {
+      "id": "ddragon",
+      "config_source": "https://archive.org/download/fbneo_20260918/ddragon.zip",
+      "page_source": "https://www.retrogames.cc/arcade-games/double-dragon-world-set-1.html",
+      "game": {
+        "url": "https://archive.org/download/fbneo_20260918/ddragon.zip",
+        "file": "roms/ddragon.zip",
+        "sha256": "3f889265fc07769dca17a44d5a336e53e2d8884d4b8e05c9fc63dab24b0bfd3e",
+        "bytes": 535115
+      },
+      "installed_sha256": "3f889265fc07769dca17a44d5a336e53e2d8884d4b8e05c9fc63dab24b0bfd3e",
+      "installed_members": [
+        {
+          "name": "21j-k-0.101",
+          "crc32": "fdb130a9",
+          "bytes": 256
+        },
+        {
+          "name": "21j-l-0.16",
+          "crc32": "46339529",
+          "bytes": 512
+        },
+        {
+          "name": "21j-0-1",
+          "crc32": "9efa95bb",
+          "bytes": 32768
+        },
+        {
+          "name": "21j-2-3.25",
+          "crc32": "5779705e",
+          "bytes": 32768
+        },
+        {
+          "name": "21j-6",
+          "crc32": "34755de3",
+          "bytes": 65536
+        },
+        {
+          "name": "21j-7",
+          "crc32": "904de6f8",
+          "bytes": 65536
+        },
+        {
+          "name": "21j-9",
+          "crc32": "c6640aed",
+          "bytes": 65536
+        },
+        {
+          "name": "21j-d",
+          "crc32": "cb4f231b",
+          "bytes": 65536
+        },
+        {
+          "name": "21j-h",
+          "crc32": "65c7517d",
+          "bytes": 65536
+        },
+        {
+          "name": "21j-j",
+          "crc32": "5fb42e7c",
+          "bytes": 65536
+        },
+        {
+          "name": "21jm-0.ic55",
+          "crc32": "f5232d03",
+          "bytes": 16384
+        },
+        {
+          "name": "21a-3.24",
+          "crc32": "dbf24897",
+          "bytes": 32768
+        },
+        {
+          "name": "21j-1.26",
+          "crc32": "ae714964",
+          "bytes": 32768
+        },
+        {
+          "name": "21j-4.23",
+          "crc32": "6c9f46fa",
+          "bytes": 32768
+        },
+        {
+          "name": "21j-5",
+          "crc32": "7a8b8db4",
+          "bytes": 32768
+        },
+        {
+          "name": "21j-8",
+          "crc32": "7c435887",
+          "bytes": 65536
+        },
+        {
+          "name": "21j-a",
+          "crc32": "574face3",
+          "bytes": 65536
+        },
+        {
+          "name": "21j-b",
+          "crc32": "40507a76",
+          "bytes": 65536
+        },
+        {
+          "name": "21j-c",
+          "crc32": "bb0bc76f",
+          "bytes": 65536
+        },
+        {
+          "name": "21j-e",
+          "crc32": "a0a0c261",
+          "bytes": 65536
+        },
+        {
+          "name": "21j-f",
+          "crc32": "6ba152f6",
+          "bytes": 65536
+        },
+        {
+          "name": "21j-g",
+          "crc32": "3220a0b6",
+          "bytes": 65536
+        },
+        {
+          "name": "21j-i",
+          "crc32": "5effb0a0",
+          "bytes": 65536
+        }
+      ],
+      "superseded_source": "https://www.retrogames.cc/embed/8332-double-dragon-world-set-1.html"
+    },
+    {
+      "id": "bublbobl",
+      "config_source": "https://www.retrogames.cc/embed/8011-bubble-bobble.html",
+      "page_source": "https://www.retrogames.cc/arcade-games/bubble-bobble.html",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/bublbobl.zip",
+        "file": "roms/bublbobl.zip",
+        "sha256": "6bede173f748927cebfb93b82de48169d20fe6940dc56c444a7d4cd9811c9da0",
+        "bytes": 183843
+      },
+      "installed_sha256": "6bede173f748927cebfb93b82de48169d20fe6940dc56c444a7d4cd9811c9da0",
+      "installed_members": [
+        {
+          "name": "a71-25.41",
+          "crc32": "2d0f8545",
+          "bytes": 256
+        },
+        {
+          "name": "a78-01.17",
+          "crc32": "b1bfb53d",
+          "bytes": 4096
+        },
+        {
+          "name": "a78-05-1.52",
+          "crc32": "9f8ee242",
+          "bytes": 65536
+        },
+        {
+          "name": "a78-06-1.51",
+          "crc32": "567934b6",
+          "bytes": 32768
+        },
+        {
+          "name": "a78-07.46",
+          "crc32": "4f9a26e8",
+          "bytes": 32768
+        },
+        {
+          "name": "a78-08.37",
+          "crc32": "ae11a07b",
+          "bytes": 32768
+        },
+        {
+          "name": "a78-09.12",
+          "crc32": "20358c22",
+          "bytes": 32768
+        },
+        {
+          "name": "a78-10.13",
+          "crc32": "930168a9",
+          "bytes": 32768
+        },
+        {
+          "name": "a78-11.14",
+          "crc32": "9773e512",
+          "bytes": 32768
+        },
+        {
+          "name": "a78-12.15",
+          "crc32": "d045549b",
+          "bytes": 32768
+        },
+        {
+          "name": "a78-13.16",
+          "crc32": "d0af35c5",
+          "bytes": 32768
+        },
+        {
+          "name": "a78-14.17",
+          "crc32": "7b5369a8",
+          "bytes": 32768
+        },
+        {
+          "name": "a78-15.30",
+          "crc32": "6b61a413",
+          "bytes": 32768
+        },
+        {
+          "name": "a78-16.31",
+          "crc32": "b5492d97",
+          "bytes": 32768
+        },
+        {
+          "name": "a78-17.32",
+          "crc32": "d69762d5",
+          "bytes": 32768
+        },
+        {
+          "name": "a78-18.33",
+          "crc32": "9f243b68",
+          "bytes": 32768
+        },
+        {
+          "name": "a78-19.34",
+          "crc32": "66e9438c",
+          "bytes": 32768
+        },
+        {
+          "name": "a78-20.35",
+          "crc32": "9ef863ad",
+          "bytes": 32768
+        }
+      ]
+    },
+    {
+      "id": "defender",
+      "config_source": "https://www.retrogames.cc/embed/44959-defender-red-label.html",
+      "page_source": "https://www.retrogames.cc/arcade-games/defender-red-label.html",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/mame0243/defender.zip",
+        "file": "roms/defender.zip",
+        "sha256": "06420ae9d65ce5be6b83e88ec5bd174001e29d2b246a69ae7ad7b0c7f4b730a5",
+        "bytes": 23414
+      },
+      "installed_sha256": "06420ae9d65ce5be6b83e88ec5bd174001e29d2b246a69ae7ad7b0c7f4b730a5",
+      "installed_members": [
+        {
+          "name": "decoder.2",
+          "crc32": "8dd98da5",
+          "bytes": 512
+        },
+        {
+          "name": "decoder.3",
+          "crc32": "c3f45f70",
+          "bytes": 512
+        },
+        {
+          "name": "defend.1",
+          "crc32": "c3e52d7e",
+          "bytes": 2048
+        },
+        {
+          "name": "defend.10",
+          "crc32": "a543b167",
+          "bytes": 2048
+        },
+        {
+          "name": "defend.11",
+          "crc32": "9deaf6d9",
+          "bytes": 2048
+        },
+        {
+          "name": "defend.12",
+          "crc32": "f1f88938",
+          "bytes": 2048
+        },
+        {
+          "name": "defend.2",
+          "crc32": "89b75984",
+          "bytes": 4096
+        },
+        {
+          "name": "defend.3",
+          "crc32": "94f51e9b",
+          "bytes": 4096
+        },
+        {
+          "name": "defend.4",
+          "crc32": "9a72348b",
+          "bytes": 2048
+        },
+        {
+          "name": "defend.6",
+          "crc32": "65f4efd1",
+          "bytes": 2048
+        },
+        {
+          "name": "defend.7",
+          "crc32": "339e092e",
+          "bytes": 2048
+        },
+        {
+          "name": "defend.8",
+          "crc32": "b649e306",
+          "bytes": 2048
+        },
+        {
+          "name": "defend.9",
+          "crc32": "6870e8a5",
+          "bytes": 2048
+        },
+        {
+          "name": "video_sound_rom_1.ic12",
+          "crc32": "fefd5b48",
+          "bytes": 2048
+        }
+      ],
+      "core": "mame2003_plus"
+    },
+    {
+      "id": "joust",
+      "config_source": "https://www.retrogames.cc/embed/46569-joust-green-label.html",
+      "page_source": "https://www.retrogames.cc/arcade-games/joust-green-label.html",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/mame0243/joust.zip",
+        "file": "roms/joust.zip",
+        "sha256": "f6902ea13032da4e32b743e8668c29a082e200f4ffd39618db148210804f5fbb",
+        "bytes": 37543
+      },
+      "installed_sha256": "f6902ea13032da4e32b743e8668c29a082e200f4ffd39618db148210804f5fbb",
+      "installed_members": [
+        {
+          "name": "decoder_rom_4.3g",
+          "crc32": "e6631c23",
+          "bytes": 512
+        },
+        {
+          "name": "decoder_rom_6.3c",
+          "crc32": "83faf25e",
+          "bytes": 512
+        },
+        {
+          "name": "joust_rom_10b_3006-22.a7",
+          "crc32": "3f1c4f89",
+          "bytes": 4096
+        },
+        {
+          "name": "joust_rom_11b_3006-23.c7",
+          "crc32": "ea48b359",
+          "bytes": 4096
+        },
+        {
+          "name": "joust_rom_12b_3006-24.e7",
+          "crc32": "c710717b",
+          "bytes": 4096
+        },
+        {
+          "name": "joust_rom_1b_3006-13.e4",
+          "crc32": "fe41b2af",
+          "bytes": 4096
+        },
+        {
+          "name": "joust_rom_2b_3006-14.c4",
+          "crc32": "501c143c",
+          "bytes": 4096
+        },
+        {
+          "name": "joust_rom_3b_3006-15.a4",
+          "crc32": "43f7161d",
+          "bytes": 4096
+        },
+        {
+          "name": "joust_rom_4b_3006-16.e5",
+          "crc32": "db5571b6",
+          "bytes": 4096
+        },
+        {
+          "name": "joust_rom_5b_3006-17.c5",
+          "crc32": "c686bb6b",
+          "bytes": 4096
+        },
+        {
+          "name": "joust_rom_6b_3006-18.a5",
+          "crc32": "fac5f2cf",
+          "bytes": 4096
+        },
+        {
+          "name": "joust_rom_7b_3006-19.e6",
+          "crc32": "81418240",
+          "bytes": 4096
+        },
+        {
+          "name": "joust_rom_8b_3006-20.c6",
+          "crc32": "ba5359ba",
+          "bytes": 4096
+        },
+        {
+          "name": "joust_rom_9b_3006-21.a6",
+          "crc32": "39643147",
+          "bytes": 4096
+        },
+        {
+          "name": "video_sound_rom_4_std_780.ic12",
+          "crc32": "f1835bdd",
+          "bytes": 4096
+        }
+      ],
+      "core": "mame2003_plus"
+    },
+    {
+      "id": "qbert",
+      "config_source": "https://www.retrogames.cc/embed/34147-q-bert-us-set-1.html",
+      "page_source": "https://www.retrogames.cc/arcade-games/q-bert-us-set-1.html",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/MndKa1p4bHI2SkZxbEpKcENaVm42WmxpM1dmb0srenZFMnJhbklIQy80R3dOWHJuYWtIbkxXTXhjTVlMN2o5cTE3NWRLVGRqd0cxd2h3PT0%3D/qbert.zip",
+        "file": "roms/qbert.zip",
+        "sha256": "b2671a6a18ae26b634f0e810e3d00f44bf4de8f9671bd8bc43046e4f3f0bc327",
+        "bytes": 25942
+      },
+      "installed_sha256": "b2671a6a18ae26b634f0e810e3d00f44bf4de8f9671bd8bc43046e4f3f0bc327",
+      "installed_members": [
+        {
+          "name": "qb-bg0.bin",
+          "crc32": "7a9ba824",
+          "bytes": 4096
+        },
+        {
+          "name": "qb-bg1.bin",
+          "crc32": "22e5b891",
+          "bytes": 4096
+        },
+        {
+          "name": "qb-fg0.bin",
+          "crc32": "2f695b85",
+          "bytes": 8192
+        },
+        {
+          "name": "qb-fg1.bin",
+          "crc32": "224e8356",
+          "bytes": 8192
+        },
+        {
+          "name": "qb-fg2.bin",
+          "crc32": "f69b9483",
+          "bytes": 8192
+        },
+        {
+          "name": "qb-fg3.bin",
+          "crc32": "dd436d3a",
+          "bytes": 8192
+        },
+        {
+          "name": "qb-rom0.bin",
+          "crc32": "8e318641",
+          "bytes": 8192
+        },
+        {
+          "name": "qb-rom1.bin",
+          "crc32": "55635447",
+          "bytes": 8192
+        },
+        {
+          "name": "qb-rom2.bin",
+          "crc32": "fe434526",
+          "bytes": 8192
+        },
+        {
+          "name": "qb-snd1.bin",
+          "crc32": "15787c07",
+          "bytes": 2048
+        },
+        {
+          "name": "qb-snd2.bin",
+          "crc32": "58437508",
+          "bytes": 2048
+        }
+      ]
+    },
+    {
+      "id": "gauntlet",
+      "config_source": "https://archive.org/download/fbneo_20260918/gauntlet.zip",
+      "page_source": "https://www.retrogames.cc/arcade-games/gauntlet-rev-14.html",
+      "game": {
+        "url": "https://archive.org/download/fbneo_20260918/gauntlet.zip",
+        "file": "roms/gauntlet.zip",
+        "sha256": "8b2fb06b607b56e8e17b3a64162e369045ca19b50bc418d22ad62f02e411a12a",
+        "bytes": 251486
+      },
+      "installed_sha256": "8b2fb06b607b56e8e17b3a64162e369045ca19b50bc418d22ad62f02e411a12a",
+      "installed_members": [
+        {
+          "name": "136037-112.1b",
+          "crc32": "869330be",
+          "bytes": 32768
+        },
+        {
+          "name": "136037-114.1mn",
+          "crc32": "29ef9882",
+          "bytes": 32768
+        },
+        {
+          "name": "136037-116.2b",
+          "crc32": "11e0ac5b",
+          "bytes": 32768
+        },
+        {
+          "name": "136037-118.2mn",
+          "crc32": "8bf3b263",
+          "bytes": 32768
+        },
+        {
+          "name": "136037-1307.9a",
+          "crc32": "46fe8743",
+          "bytes": 32768
+        },
+        {
+          "name": "136037-1308.9b",
+          "crc32": "276e15c4",
+          "bytes": 32768
+        },
+        {
+          "name": "74s472-136037-101.7u",
+          "crc32": "2964f76f",
+          "bytes": 512
+        },
+        {
+          "name": "74s472-136037-102.5l",
+          "crc32": "4d4fec6c",
+          "bytes": 512
+        },
+        {
+          "name": "136037-104.6p",
+          "crc32": "6c276a1d",
+          "bytes": 16384
+        },
+        {
+          "name": "136037-111.1a",
+          "crc32": "91700f33",
+          "bytes": 32768
+        },
+        {
+          "name": "136037-113.1l",
+          "crc32": "d497d0a8",
+          "bytes": 32768
+        },
+        {
+          "name": "136037-115.2a",
+          "crc32": "9510b898",
+          "bytes": 32768
+        },
+        {
+          "name": "136037-117.2l",
+          "crc32": "29a5db41",
+          "bytes": 32768
+        },
+        {
+          "name": "136037-119.16s",
+          "crc32": "fa19861f",
+          "bytes": 32768
+        },
+        {
+          "name": "136037-120.16r",
+          "crc32": "6ee7f3cc",
+          "bytes": 16384
+        },
+        {
+          "name": "136037-1409.7a",
+          "crc32": "6fb8419c",
+          "bytes": 32768
+        },
+        {
+          "name": "136037-1410.7b",
+          "crc32": "931bd2a0",
+          "bytes": 32768
+        },
+        {
+          "name": "136037-205.10a",
+          "crc32": "6d99ed51",
+          "bytes": 16384
+        },
+        {
+          "name": "136037-206.10b",
+          "crc32": "545ead91",
+          "bytes": 16384
+        },
+        {
+          "name": "74s287-136037-103.4r",
+          "crc32": "6c5ccf08",
+          "bytes": 256
+        }
+      ],
+      "superseded_source": "https://www.retrogames.cc/embed/8628-gauntlet-rev-14.html"
+    },
+    {
+      "id": "gng",
+      "config_source": "https://www.retrogames.cc/embed/8659-ghostsn-goblins-world-set-1.html",
+      "page_source": "https://www.retrogames.cc/arcade-games/ghostsn-goblins-world-set-1.html",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/gnga.zip",
+        "file": "roms/gnga.zip",
+        "sha256": "c5030bb9b295514183eee89f9c6ac74bb6a69591c83481c6a2e317912a6f9715",
+        "bytes": 48344
+      },
+      "installed_sha256": "4e99a2d47366169de1bb9623e336c96815396070af2da5908644ac7ac6f50dfb",
+      "installed_members": [
+        {
+          "name": "63s141.2e",
+          "crc32": "4a1285a4",
+          "bytes": 256
+        },
+        {
+          "name": "gg-pal10l8.bin",
+          "crc32": "87f1b7e0",
+          "bytes": 44
+        },
+        {
+          "name": "gg1.bin",
+          "crc32": "ecfccf07",
+          "bytes": 16384
+        },
+        {
+          "name": "gg10.bin",
+          "crc32": "7302529d",
+          "bytes": 16384
+        },
+        {
+          "name": "gg11.bin",
+          "crc32": "ddd56fa9",
+          "bytes": 16384
+        },
+        {
+          "name": "gg12.bin",
+          "crc32": "7780a925",
+          "bytes": 16384
+        },
+        {
+          "name": "gg13.bin",
+          "crc32": "e80c3fca",
+          "bytes": 16384
+        },
+        {
+          "name": "gg14.bin",
+          "crc32": "6aaf12f9",
+          "bytes": 16384
+        },
+        {
+          "name": "gg15.bin",
+          "crc32": "bc1fe02d",
+          "bytes": 16384
+        },
+        {
+          "name": "gg16.bin",
+          "crc32": "06d7e5ca",
+          "bytes": 16384
+        },
+        {
+          "name": "gg17.bin",
+          "crc32": "93e50a8f",
+          "bytes": 16384
+        },
+        {
+          "name": "gg2.bin",
+          "crc32": "615f5b6f",
+          "bytes": 32768
+        },
+        {
+          "name": "gg3.bin",
+          "crc32": "9e01c65e",
+          "bytes": 32768
+        },
+        {
+          "name": "gg4.bin",
+          "crc32": "66606beb",
+          "bytes": 16384
+        },
+        {
+          "name": "gg5.bin",
+          "crc32": "d6397b2b",
+          "bytes": 32768
+        },
+        {
+          "name": "gg6.bin",
+          "crc32": "2d77e9b2",
+          "bytes": 16384
+        },
+        {
+          "name": "gg7.bin",
+          "crc32": "e525207d",
+          "bytes": 16384
+        },
+        {
+          "name": "gg8.bin",
+          "crc32": "f12ba271",
+          "bytes": 16384
+        },
+        {
+          "name": "gg9.bin",
+          "crc32": "20035bda",
+          "bytes": 16384
+        },
+        {
+          "name": "tbp24s10.14k",
+          "crc32": "0eaf5158",
+          "bytes": 256
+        },
+        {
+          "name": "gng.n10",
+          "crc32": "60343188",
+          "bytes": 16384
+        },
+        {
+          "name": "gng.n12",
+          "crc32": "13cf6238",
+          "bytes": 16384
+        },
+        {
+          "name": "gng.n13",
+          "crc32": "fd9a8dda",
+          "bytes": 16384
+        },
+        {
+          "name": "gng.n8",
+          "crc32": "a5cfa928",
+          "bytes": 16384
+        },
+        {
+          "name": "gng.n9",
+          "crc32": "b6b91cfb",
+          "bytes": 16384
+        }
+      ],
+      "parent_source": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/gng.zip",
+        "file": "roms/gng.zip",
+        "sha256": "6bf0e1260923286c3c1283243a523c72c3c436eb7ab6ab8af1108f2257893ddb",
+        "bytes": 158211
+      },
+      "packaging": "Original World set 2 clone chips combined with unchanged parent chips in one self-contained ZIP; no ROM contents modified."
+    },
+    {
+      "id": "ffight",
+      "config_source": "https://www.retrogames.cc/embed/8504-final-fight-world-set-1.html",
+      "page_source": "https://www.retrogames.cc/arcade-games/final-fight-world-set-1.html",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/ffight.zip",
+        "file": "roms/ffight.zip",
+        "sha256": "a7cc8894488ee126851ee1f45eccb99e6da96f63b5bbd31689adaf08f7a37eab",
+        "bytes": 1429616
+      },
+      "installed_sha256": "a7cc8894488ee126851ee1f45eccb99e6da96f63b5bbd31689adaf08f7a37eab",
+      "installed_members": [
+        {
+          "name": "buf1",
+          "crc32": "eb122de7",
+          "bytes": 279
+        },
+        {
+          "name": "ff-1m.3a",
+          "crc32": "0b605e44",
+          "bytes": 524288
+        },
+        {
+          "name": "ff-32m.8h",
+          "crc32": "c747696e",
+          "bytes": 524288
+        },
+        {
+          "name": "ff-3m.5a",
+          "crc32": "52291cd2",
+          "bytes": 524288
+        },
+        {
+          "name": "ff-5m.7a",
+          "crc32": "9c284108",
+          "bytes": 524288
+        },
+        {
+          "name": "ff-7m.9a",
+          "crc32": "a7584dfb",
+          "bytes": 524288
+        },
+        {
+          "name": "ff_09.12b",
+          "crc32": "b8367eb5",
+          "bytes": 65536
+        },
+        {
+          "name": "ff_18.11c",
+          "crc32": "375c66e7",
+          "bytes": 131072
+        },
+        {
+          "name": "ff_19.12c",
+          "crc32": "1ef137f9",
+          "bytes": 131072
+        },
+        {
+          "name": "ff_36.11f",
+          "crc32": "f9a5ce83",
+          "bytes": 131072
+        },
+        {
+          "name": "ff_37.12f",
+          "crc32": "e1033784",
+          "bytes": 131072
+        },
+        {
+          "name": "ff_42.11h",
+          "crc32": "65f11215",
+          "bytes": 131072
+        },
+        {
+          "name": "ffe_43.12h",
+          "crc32": "995e968a",
+          "bytes": 131072
+        },
+        {
+          "name": "ioa1",
+          "crc32": "59c7ee3b",
+          "bytes": 279
+        },
+        {
+          "name": "iob1.11e",
+          "crc32": "3abc0700",
+          "bytes": 279
+        },
+        {
+          "name": "prg1",
+          "crc32": "f1129744",
+          "bytes": 279
+        },
+        {
+          "name": "rom1",
+          "crc32": "41dc73b9",
+          "bytes": 279
+        },
+        {
+          "name": "s224b.1a",
+          "crc32": "cdc4413e",
+          "bytes": 279
+        },
+        {
+          "name": "sou1",
+          "crc32": "84f4b2fe",
+          "bytes": 279
+        }
+      ]
+    },
+    {
+      "id": "robotron",
+      "config_source": "https://archive.org/download/fbneo_20260918/robotron.zip",
+      "game": {
+        "url": "https://archive.org/download/fbneo_20260918/robotron.zip",
+        "file": "roms/robotron.zip",
+        "sha256": "8e5378a08e2608dbc9b758384a9a3d6c8f7c41422d6d649d479c12aa5a9ff3f1",
+        "bytes": 37097
+      },
+      "core": "fbneo",
+      "installed_sha256": "8e5378a08e2608dbc9b758384a9a3d6c8f7c41422d6d649d479c12aa5a9ff3f1",
+      "installed_members": [
+        {
+          "name": "decoder_rom_4.3g",
+          "crc32": "e6631c23",
+          "bytes": 512
+        },
+        {
+          "name": "decoder_rom_6.3c",
+          "crc32": "83faf25e",
+          "bytes": 512
+        },
+        {
+          "name": "2084_rom_10b_3005-22.a7",
+          "crc32": "13797024",
+          "bytes": 4096
+        },
+        {
+          "name": "2084_rom_11b_3005-23.c7",
+          "crc32": "7e3c1b87",
+          "bytes": 4096
+        },
+        {
+          "name": "2084_rom_12b_3005-24.e7",
+          "crc32": "645d543e",
+          "bytes": 4096
+        },
+        {
+          "name": "2084_rom_1b_3005-13.e4",
+          "crc32": "66c7d3ef",
+          "bytes": 4096
+        },
+        {
+          "name": "2084_rom_2b_3005-14.c4",
+          "crc32": "5bc6c614",
+          "bytes": 4096
+        },
+        {
+          "name": "2084_rom_3b_3005-15.a4",
+          "crc32": "e99a82be",
+          "bytes": 4096
+        },
+        {
+          "name": "2084_rom_4b_3005-16.e5",
+          "crc32": "afb1c561",
+          "bytes": 4096
+        },
+        {
+          "name": "2084_rom_5b_3005-17.c5",
+          "crc32": "62691e77",
+          "bytes": 4096
+        },
+        {
+          "name": "2084_rom_6b_3005-18.a5",
+          "crc32": "bd2c853d",
+          "bytes": 4096
+        },
+        {
+          "name": "2084_rom_7b_3005-19.e6",
+          "crc32": "49ac400c",
+          "bytes": 4096
+        },
+        {
+          "name": "2084_rom_8b_3005-20.c6",
+          "crc32": "3a96e88c",
+          "bytes": 4096
+        },
+        {
+          "name": "2084_rom_9b_3005-21.a6",
+          "crc32": "b124367b",
+          "bytes": 4096
+        },
+        {
+          "name": "video_sound_rom_3_std_767.ic12",
+          "crc32": "c56c1d28",
+          "bytes": 4096
+        }
+      ]
+    },
+    {
+      "id": "ssprint",
+      "config_source": "https://archive.org/download/mame-2003-plus-reference-set/roms/ssprint.zip",
+      "game": {
+        "url": "https://archive.org/download/mame-2003-plus-reference-set/roms/ssprint.zip",
+        "file": "roms/ssprint.zip",
+        "sha256": "eeb9ec7e1238f4de951f959529b064f34f09a4719338f3fa6cdc7ad4aa80012f",
+        "bytes": 330104
+      },
+      "core": "mame2003_plus",
+      "installed_sha256": "eeb9ec7e1238f4de951f959529b064f34f09a4719338f3fa6cdc7ad4aa80012f",
+      "installed_members": [
+        {
+          "name": "101-7a.042",
+          "crc32": "6d015c72",
+          "bytes": 65536
+        },
+        {
+          "name": "102-7b.042",
+          "crc32": "54e21f0a",
+          "bytes": 32768
+        },
+        {
+          "name": "103-7c.042",
+          "crc32": "64d473a8",
+          "bytes": 32768
+        },
+        {
+          "name": "104-7de.042",
+          "crc32": "339644ed",
+          "bytes": 65536
+        },
+        {
+          "name": "105-6a.042",
+          "crc32": "911499fe",
+          "bytes": 65536
+        },
+        {
+          "name": "106-6b.042",
+          "crc32": "a39b25ed",
+          "bytes": 32768
+        },
+        {
+          "name": "107-6c.042",
+          "crc32": "b7ded658",
+          "bytes": 65536
+        },
+        {
+          "name": "108-6de.042",
+          "crc32": "4a804a4c",
+          "bytes": 32768
+        },
+        {
+          "name": "109-6fh.042",
+          "crc32": "3a051f36",
+          "bytes": 32768
+        },
+        {
+          "name": "110-6jh.042",
+          "crc32": "9e91e734",
+          "bytes": 32768
+        },
+        {
+          "name": "112-6k.042",
+          "crc32": "abcbc114",
+          "bytes": 32768
+        },
+        {
+          "name": "113-6l.042",
+          "crc32": "f869b0fc",
+          "bytes": 32768
+        },
+        {
+          "name": "114-6m.042",
+          "crc32": "35e70a8d",
+          "bytes": 32768
+        },
+        {
+          "name": "115-6n.042",
+          "crc32": "fb5677d9",
+          "bytes": 32768
+        },
+        {
+          "name": "116-6pr.042",
+          "crc32": "1dcdd5aa",
+          "bytes": 32768
+        },
+        {
+          "name": "117-6rs.042",
+          "crc32": "b15c1b90",
+          "bytes": 32768
+        },
+        {
+          "name": "118-6t.042",
+          "crc32": "8489d113",
+          "bytes": 16384
+        },
+        {
+          "name": "122-6s.042",
+          "crc32": "0381f362",
+          "bytes": 32768
+        },
+        {
+          "name": "123-6r.042",
+          "crc32": "aff23b5a",
+          "bytes": 32768
+        },
+        {
+          "name": "126-6l.042",
+          "crc32": "92f5392c",
+          "bytes": 32768
+        },
+        {
+          "name": "127-6k.042",
+          "crc32": "de6c4db9",
+          "bytes": 32768
+        },
+        {
+          "name": "325-6n.042",
+          "crc32": "aecaa2bf",
+          "bytes": 32768
+        },
+        {
+          "name": "329-6f.042",
+          "crc32": "ed1d6205",
+          "bytes": 32768
+        },
+        {
+          "name": "330-7l.042",
+          "crc32": "ee312027",
+          "bytes": 16384
+        },
+        {
+          "name": "331-7n.042",
+          "crc32": "2ef15354",
+          "bytes": 16384
+        },
+        {
+          "name": "419-2bc.042",
+          "crc32": "b277915a",
+          "bytes": 16384
+        },
+        {
+          "name": "420-2d.042",
+          "crc32": "170b2c53",
+          "bytes": 16384
+        }
+      ]
+    },
+    {
+      "id": "simpsons",
+      "game": {
+        "url": "https://archive.org/download/fbneo_20260918/simpsons.zip",
+        "file": "roms/simpsons.zip",
+        "sha256": "7a4d928acdce6b2f269cd5c913ab341dc2b7a861eb2fc26c41903cb1e7c1b1ef",
+        "bytes": 2484170
+      },
+      "installed_sha256": "7a4d928acdce6b2f269cd5c913ab341dc2b7a861eb2fc26c41903cb1e7c1b1ef",
+      "installed_members": [
+        {
+          "name": "072-b06.16h",
+          "crc32": "cf2bbcab",
+          "bytes": 524288
+        },
+        {
+          "name": "072-b07.18h",
+          "crc32": "ba1ec910",
+          "bytes": 524288
+        },
+        {
+          "name": "072-b08.3n",
+          "crc32": "7de500ad",
+          "bytes": 1048576
+        },
+        {
+          "name": "072-b09.8n",
+          "crc32": "aa085093",
+          "bytes": 1048576
+        },
+        {
+          "name": "072-b10.12n",
+          "crc32": "577dbd53",
+          "bytes": 1048576
+        },
+        {
+          "name": "072-b11.16l",
+          "crc32": "55fab05d",
+          "bytes": 1048576
+        },
+        {
+          "name": "072-d04.1d",
+          "crc32": "78778013",
+          "bytes": 262144
+        },
+        {
+          "name": "072-d05.1f",
+          "crc32": "1397a73b",
+          "bytes": 1048576
+        },
+        {
+          "name": "072-e03.6g",
+          "crc32": "866b7a35",
+          "bytes": 131072
+        },
+        {
+          "name": "072-g01.17c",
+          "crc32": "9f843def",
+          "bytes": 131072
+        },
+        {
+          "name": "072-g02.16c",
+          "crc32": "580ce1d6",
+          "bytes": 131072
+        },
+        {
+          "name": "072-j12.15c",
+          "crc32": "479e12f2",
+          "bytes": 131072
+        },
+        {
+          "name": "072-j13.13c",
+          "crc32": "aade2abd",
+          "bytes": 131072
+        },
+        {
+          "name": "simpsons.12c.nv",
+          "crc32": "ec3f0449",
+          "bytes": 128
+        }
+      ],
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/konami/d_simpsons.cpp",
+      "required_roms": [
+        {
+          "name": "072-g02.16c",
+          "bytes": 131072,
+          "crc32": "580ce1d6"
+        },
+        {
+          "name": "072-g01.17c",
+          "bytes": 131072,
+          "crc32": "9f843def"
+        },
+        {
+          "name": "072-j13.13c",
+          "bytes": 131072,
+          "crc32": "aade2abd"
+        },
+        {
+          "name": "072-j12.15c",
+          "bytes": 131072,
+          "crc32": "479e12f2"
+        },
+        {
+          "name": "072-e03.6g",
+          "bytes": 131072,
+          "crc32": "866b7a35"
+        },
+        {
+          "name": "072-b07.18h",
+          "bytes": 524288,
+          "crc32": "ba1ec910"
+        },
+        {
+          "name": "072-b06.16h",
+          "bytes": 524288,
+          "crc32": "cf2bbcab"
+        },
+        {
+          "name": "072-b08.3n",
+          "bytes": 1048576,
+          "crc32": "7de500ad"
+        },
+        {
+          "name": "072-b09.8n",
+          "bytes": 1048576,
+          "crc32": "aa085093"
+        },
+        {
+          "name": "072-b10.12n",
+          "bytes": 1048576,
+          "crc32": "577dbd53"
+        },
+        {
+          "name": "072-b11.16l",
+          "bytes": 1048576,
+          "crc32": "55fab05d"
+        },
+        {
+          "name": "072-d05.1f",
+          "bytes": 1048576,
+          "crc32": "1397a73b"
+        },
+        {
+          "name": "072-d04.1d",
+          "bytes": 262144,
+          "crc32": "78778013"
+        },
+        {
+          "name": "simpsons.12c.nv",
+          "bytes": 128,
+          "crc32": "ec3f0449"
+        }
+      ],
+      "missing_required_roms": []
+    },
+    {
+      "id": "tmnt2",
+      "game": {
+        "url": "https://archive.org/download/fbneo_20260918/tmnt2.zip",
+        "file": "roms/tmnt2.zip",
+        "sha256": "38c83bfb4d1e1be6ba8bd13697706a02b878ecf83b4b60e4d133456cd68cbeaf",
+        "bytes": 3308408
+      },
+      "installed_sha256": "38c83bfb4d1e1be6ba8bd13697706a02b878ecf83b4b60e4d133456cd68cbeaf",
+      "installed_members": [
+        {
+          "name": "063b01.2f",
+          "crc32": "364f548a",
+          "bytes": 65536
+        },
+        {
+          "name": "063b06.1d",
+          "crc32": "1e510aa5",
+          "bytes": 2097152
+        },
+        {
+          "name": "063b07.3l",
+          "crc32": "d9bee7bf",
+          "bytes": 1048576
+        },
+        {
+          "name": "063b08.3k",
+          "crc32": "3b1ae36f",
+          "bytes": 524288
+        },
+        {
+          "name": "063b09.7l",
+          "crc32": "2d7a9d2a",
+          "bytes": 1048576
+        },
+        {
+          "name": "063b10.7k",
+          "crc32": "f2dd296e",
+          "bytes": 524288
+        },
+        {
+          "name": "063b11.12k",
+          "crc32": "6ebc0c15",
+          "bytes": 524288
+        },
+        {
+          "name": "063b12.16k",
+          "crc32": "d3283d19",
+          "bytes": 524288
+        },
+        {
+          "name": "063uaa02.8e",
+          "crc32": "58d5c93d",
+          "bytes": 131072
+        },
+        {
+          "name": "063uaa03.8g",
+          "crc32": "0541fec9",
+          "bytes": 131072
+        },
+        {
+          "name": "063uaa04.10e",
+          "crc32": "1d441a7d",
+          "bytes": 131072
+        },
+        {
+          "name": "063uaa05.10g",
+          "crc32": "9c428273",
+          "bytes": 131072
+        },
+        {
+          "name": "tmnt2_uaa.nv",
+          "crc32": "284357bd",
+          "bytes": 128
+        }
+      ],
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/konami/d_tmnt.cpp",
+      "required_roms": [
+        {
+          "name": "063uaa02.8e",
+          "bytes": 131072,
+          "crc32": "58d5c93d"
+        },
+        {
+          "name": "063uaa03.8g",
+          "bytes": 131072,
+          "crc32": "0541fec9"
+        },
+        {
+          "name": "063uaa04.10e",
+          "bytes": 131072,
+          "crc32": "1d441a7d"
+        },
+        {
+          "name": "063uaa05.10g",
+          "bytes": 131072,
+          "crc32": "9c428273"
+        },
+        {
+          "name": "063b01.2f",
+          "bytes": 65536,
+          "crc32": "364f548a"
+        },
+        {
+          "name": "063b12.16k",
+          "bytes": 524288,
+          "crc32": "d3283d19"
+        },
+        {
+          "name": "063b11.12k",
+          "bytes": 524288,
+          "crc32": "6ebc0c15"
+        },
+        {
+          "name": "063b09.7l",
+          "bytes": 1048576,
+          "crc32": "2d7a9d2a"
+        },
+        {
+          "name": "063b10.7k",
+          "bytes": 524288,
+          "crc32": "f2dd296e"
+        },
+        {
+          "name": "063b07.3l",
+          "bytes": 1048576,
+          "crc32": "d9bee7bf"
+        },
+        {
+          "name": "063b08.3k",
+          "bytes": 524288,
+          "crc32": "3b1ae36f"
+        },
+        {
+          "name": "063b06.1d",
+          "bytes": 2097152,
+          "crc32": "1e510aa5"
+        }
+      ],
+      "missing_required_roms": []
+    },
+    {
+      "id": "ssriders",
+      "game": {
+        "url": "https://archive.org/download/fbneo_20260918/ssriders.zip",
+        "file": "roms/ssriders.zip",
+        "sha256": "5d365441d97d14fb778ac1137f19dba9a6e35f312094fb061e03c667b2f9e19b",
+        "bytes": 2274576
+      },
+      "installed_sha256": "5d365441d97d14fb778ac1137f19dba9a6e35f312094fb061e03c667b2f9e19b",
+      "installed_members": [
+        {
+          "name": "064e01.2f",
+          "crc32": "44b9bc52",
+          "bytes": 65536
+        },
+        {
+          "name": "064e06.1d",
+          "crc32": "59810df9",
+          "bytes": 1048576
+        },
+        {
+          "name": "064e07.3l",
+          "crc32": "64dd673c",
+          "bytes": 1048576
+        },
+        {
+          "name": "064e09.7l",
+          "crc32": "4160c372",
+          "bytes": 1048576
+        },
+        {
+          "name": "064e11.12k",
+          "crc32": "2d8ca8b0",
+          "bytes": 524288
+        },
+        {
+          "name": "064e12.16k",
+          "crc32": "e2bdc619",
+          "bytes": 524288
+        },
+        {
+          "name": "064eab04.10e",
+          "crc32": "ef2315bd",
+          "bytes": 131072
+        },
+        {
+          "name": "064eab05.10g",
+          "crc32": "51d6fbc4",
+          "bytes": 131072
+        },
+        {
+          "name": "064eac02.8e",
+          "crc32": "5a5425f4",
+          "bytes": 262144
+        },
+        {
+          "name": "064eac03.8g",
+          "crc32": "093c00fb",
+          "bytes": 262144
+        },
+        {
+          "name": "ssriders_eac.nv",
+          "crc32": "f6d641a7",
+          "bytes": 128
+        }
+      ],
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/konami/d_tmnt.cpp",
+      "required_roms": [
+        {
+          "name": "064eac02.8e",
+          "bytes": 262144,
+          "crc32": "5a5425f4"
+        },
+        {
+          "name": "064eac03.8g",
+          "bytes": 262144,
+          "crc32": "093c00fb"
+        },
+        {
+          "name": "064eab04.10e",
+          "bytes": 131072,
+          "crc32": "ef2315bd"
+        },
+        {
+          "name": "064eab05.10g",
+          "bytes": 131072,
+          "crc32": "51d6fbc4"
+        },
+        {
+          "name": "064e01.2f",
+          "bytes": 65536,
+          "crc32": "44b9bc52"
+        },
+        {
+          "name": "064e12.16k",
+          "bytes": 524288,
+          "crc32": "e2bdc619"
+        },
+        {
+          "name": "064e11.12k",
+          "bytes": 524288,
+          "crc32": "2d8ca8b0"
+        },
+        {
+          "name": "064e09.7l",
+          "bytes": 1048576,
+          "crc32": "4160c372"
+        },
+        {
+          "name": "064e07.3l",
+          "bytes": 1048576,
+          "crc32": "64dd673c"
+        },
+        {
+          "name": "064e06.1d",
+          "bytes": 1048576,
+          "crc32": "59810df9"
+        }
+      ],
+      "missing_required_roms": []
+    },
+    {
+      "id": "xmen",
+      "game": {
+        "url": "https://archive.org/download/fbneo_20260918/xmen.zip",
+        "file": "roms/xmen.zip",
+        "sha256": "90794d3ebeed3750e5056763838968c78d121bbcecc2b220c2f11154e553d9ae",
+        "bytes": 4251058
+      },
+      "installed_sha256": "90794d3ebeed3750e5056763838968c78d121bbcecc2b220c2f11154e553d9ae",
+      "installed_members": [
+        {
+          "name": "065-a01.6f",
+          "crc32": "147d3a4d",
+          "bytes": 131072
+        },
+        {
+          "name": "065-a02.9d",
+          "crc32": "b31dc44c",
+          "bytes": 262144
+        },
+        {
+          "name": "065-a03.9f",
+          "crc32": "13842fe6",
+          "bytes": 262144
+        },
+        {
+          "name": "065-a06.1f",
+          "crc32": "5adbcee0",
+          "bytes": 2097152
+        },
+        {
+          "name": "065-a07.16l",
+          "crc32": "c5dc8fc4",
+          "bytes": 1048576
+        },
+        {
+          "name": "065-a08.15l",
+          "crc32": "6b649aca",
+          "bytes": 1048576
+        },
+        {
+          "name": "065-a09.2h",
+          "crc32": "ea05d52f",
+          "bytes": 1048576
+        },
+        {
+          "name": "065-a10.2l",
+          "crc32": "96b91802",
+          "bytes": 1048576
+        },
+        {
+          "name": "065-a11.1l",
+          "crc32": "46da948e",
+          "bytes": 1048576
+        },
+        {
+          "name": "065-a12.1h",
+          "crc32": "321ed07a",
+          "bytes": 1048576
+        },
+        {
+          "name": "065-eba04.10d",
+          "crc32": "3588c5ec",
+          "bytes": 131072
+        },
+        {
+          "name": "065-eba05.10f",
+          "crc32": "79ce32f8",
+          "bytes": 131072
+        },
+        {
+          "name": "xmen_eba.nv",
+          "crc32": "37f8e77a",
+          "bytes": 128
+        }
+      ],
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/konami/d_xmen.cpp",
+      "required_roms": [
+        {
+          "name": "065-eba04.10d",
+          "bytes": 131072,
+          "crc32": "3588c5ec"
+        },
+        {
+          "name": "065-eba05.10f",
+          "bytes": 131072,
+          "crc32": "79ce32f8"
+        },
+        {
+          "name": "065-a02.9d",
+          "bytes": 262144,
+          "crc32": "b31dc44c"
+        },
+        {
+          "name": "065-a03.9f",
+          "bytes": 262144,
+          "crc32": "13842fe6"
+        },
+        {
+          "name": "065-a01.6f",
+          "bytes": 131072,
+          "crc32": "147d3a4d"
+        },
+        {
+          "name": "065-a08.15l",
+          "bytes": 1048576,
+          "crc32": "6b649aca"
+        },
+        {
+          "name": "065-a07.16l",
+          "bytes": 1048576,
+          "crc32": "c5dc8fc4"
+        },
+        {
+          "name": "065-a09.2h",
+          "bytes": 1048576,
+          "crc32": "ea05d52f"
+        },
+        {
+          "name": "065-a10.2l",
+          "bytes": 1048576,
+          "crc32": "96b91802"
+        },
+        {
+          "name": "065-a12.1h",
+          "bytes": 1048576,
+          "crc32": "321ed07a"
+        },
+        {
+          "name": "065-a11.1l",
+          "bytes": 1048576,
+          "crc32": "46da948e"
+        },
+        {
+          "name": "065-a06.1f",
+          "bytes": 2097152,
+          "crc32": "5adbcee0"
+        },
+        {
+          "name": "xmen_eba.nv",
+          "bytes": 128,
+          "crc32": "37f8e77a"
+        }
+      ],
+      "missing_required_roms": []
+    },
+    {
+      "id": "mk2",
+      "game": {
+        "url": "https://archive.org/download/fbneo_20260918/mk2.zip",
+        "file": "roms/mk2.zip",
+        "sha256": "d31406940b5e12c8e1b562d97cb33d4750ba4b6864e4f60054313cb04f0a6375",
+        "bytes": 13634882
+      },
+      "installed_sha256": "d31406940b5e12c8e1b562d97cb33d4750ba4b6864e4f60054313cb04f0a6375",
+      "installed_members": [
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_ug14.ug14",
+          "crc32": "01e73af6",
+          "bytes": 1048576
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_ug16.ug16",
+          "crc32": "8ba6ae18",
+          "bytes": 1048576
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_ug17.ug17",
+          "crc32": "937d8620",
+          "bytes": 1048576
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_ug19.ug19",
+          "crc32": "fec137be",
+          "bytes": 1048576
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_ug20.ug20",
+          "crc32": "809118c1",
+          "bytes": 1048576
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_ug22.ug22",
+          "crc32": "154d53b1",
+          "bytes": 1048576
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_uj14.uj14",
+          "crc32": "d4985cbb",
+          "bytes": 1048576
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_uj16.uj16",
+          "crc32": "39d885b4",
+          "bytes": 1048576
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_uj17.uj17",
+          "crc32": "218de160",
+          "bytes": 1048576
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_uj19.uj19",
+          "crc32": "2d763156",
+          "bytes": 1048576
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_uj20.uj20",
+          "crc32": "b96824f0",
+          "bytes": 1048576
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_uj22.uj22",
+          "crc32": "8891d785",
+          "bytes": 1048576
+        },
+        {
+          "name": "l1_mortal_kombat_ii_sound_rom_u2.u2",
+          "crc32": "5f23d71d",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_mortal_kombat_ii_sound_rom_u3.u3",
+          "crc32": "d6d92bf9",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_mortal_kombat_ii_sound_rom_u4.u4",
+          "crc32": "eebc8e0f",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_mortal_kombat_ii_sound_rom_u5.u5",
+          "crc32": "2b0b7961",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_mortal_kombat_ii_sound_rom_u6.u6",
+          "crc32": "f694b27f",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_mortal_kombat_ii_sound_rom_u7.u7",
+          "crc32": "20387e0a",
+          "bytes": 524288
+        },
+        {
+          "name": "l3.1_mortal_kombat_ii_game_rom_ug12.ug12",
+          "crc32": "582c7dfd",
+          "bytes": 524288
+        },
+        {
+          "name": "l3.1_mortal_kombat_ii_game_rom_uj12.uj12",
+          "crc32": "cf100a75",
+          "bytes": 524288
+        }
+      ],
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/midway/d_tunit.cpp",
+      "required_roms": [
+        {
+          "name": "l3.1_mortal_kombat_ii_game_rom_uj12.uj12",
+          "bytes": 524288,
+          "crc32": "cf100a75"
+        },
+        {
+          "name": "l3.1_mortal_kombat_ii_game_rom_ug12.ug12",
+          "bytes": 524288,
+          "crc32": "582c7dfd"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_sound_rom_u2.u2",
+          "bytes": 524288,
+          "crc32": "5f23d71d"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_sound_rom_u3.u3",
+          "bytes": 524288,
+          "crc32": "d6d92bf9"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_sound_rom_u4.u4",
+          "bytes": 524288,
+          "crc32": "eebc8e0f"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_sound_rom_u5.u5",
+          "bytes": 524288,
+          "crc32": "2b0b7961"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_sound_rom_u6.u6",
+          "bytes": 524288,
+          "crc32": "f694b27f"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_sound_rom_u7.u7",
+          "bytes": 524288,
+          "crc32": "20387e0a"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_ug14.ug14",
+          "bytes": 1048576,
+          "crc32": "01e73af6"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_uj14.uj14",
+          "bytes": 1048576,
+          "crc32": "d4985cbb"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_ug19.ug19",
+          "bytes": 1048576,
+          "crc32": "fec137be"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_uj19.uj19",
+          "bytes": 1048576,
+          "crc32": "2d763156"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_ug16.ug16",
+          "bytes": 1048576,
+          "crc32": "8ba6ae18"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_uj16.uj16",
+          "bytes": 1048576,
+          "crc32": "39d885b4"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_ug20.ug20",
+          "bytes": 1048576,
+          "crc32": "809118c1"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_uj20.uj20",
+          "bytes": 1048576,
+          "crc32": "b96824f0"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_ug17.ug17",
+          "bytes": 1048576,
+          "crc32": "937d8620"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_uj17.uj17",
+          "bytes": 1048576,
+          "crc32": "218de160"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_ug22.ug22",
+          "bytes": 1048576,
+          "crc32": "154d53b1"
+        },
+        {
+          "name": "l1_mortal_kombat_ii_game_rom_uj22.uj22",
+          "bytes": 1048576,
+          "crc32": "8891d785"
+        }
+      ],
+      "missing_required_roms": [],
+      "controls_source": "https://github.com/libretro/FBNeo/blob/master/src/burner/libretro/retro_input.cpp"
+    },
+    {
+      "id": "nbajamte",
+      "game": {
+        "url": "https://archive.org/download/fbneo_20260918/nbajamte.zip",
+        "file": "roms/nbajamte.zip",
+        "sha256": "99f08f39e7ed4c870313258be000b4f15a60f78b95ad30074f7854371cb6526e",
+        "bytes": 5499943
+      },
+      "installed_sha256": "99f08f39e7ed4c870313258be000b4f15a60f78b95ad30074f7854371cb6526e",
+      "installed_members": [
+        {
+          "name": "l1_nba_jam_tournament_game_rom_ug14.ug14",
+          "crc32": "04bb9f64",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_ug19.ug19",
+          "crc32": "a8f22fbb",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_uj14.uj14",
+          "crc32": "b34b7af3",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_uj19.uj19",
+          "crc32": "8130a8a2",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_nba_jam_tournament_u3_sound_rom.u3",
+          "crc32": "d4551195",
+          "bytes": 131072
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_ug16.ug16",
+          "crc32": "c7ce74d0",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_ug17.ug17",
+          "crc32": "9401be62",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_ug18.ug18",
+          "crc32": "6fd08f57",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_ug20.ug20",
+          "crc32": "8a48728c",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_ug22.ug22",
+          "crc32": "3b05133b",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_ug23.ug23",
+          "crc32": "854f73bc",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_uj16.uj16",
+          "crc32": "905ad88b",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_uj17.uj17",
+          "crc32": "8a852b9e",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_uj18.uj18",
+          "crc32": "4eb73c26",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_uj20.uj20",
+          "crc32": "bf263d61",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_uj22.uj22",
+          "crc32": "39791051",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_uj23.uj23",
+          "crc32": "f8c30998",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_nba_jam_tournament_u12_sound_rom.u12",
+          "crc32": "4fac97bc",
+          "bytes": 524288
+        },
+        {
+          "name": "l1_nba_jam_tournament_u13_sound_rom.u13",
+          "crc32": "6f27b202",
+          "bytes": 524288
+        },
+        {
+          "name": "l4_nba_jam_tournament_game_rom_ug12.ug12",
+          "crc32": "7ad49229",
+          "bytes": 524288
+        },
+        {
+          "name": "l4_nba_jam_tournament_game_rom_uj12.uj12",
+          "crc32": "d7c21bc4",
+          "bytes": 524288
+        }
+      ],
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/midway/d_tunit.cpp",
+      "required_roms": [
+        {
+          "name": "l4_nba_jam_tournament_game_rom_uj12.uj12",
+          "bytes": 524288,
+          "crc32": "d7c21bc4"
+        },
+        {
+          "name": "l4_nba_jam_tournament_game_rom_ug12.ug12",
+          "bytes": 524288,
+          "crc32": "7ad49229"
+        },
+        {
+          "name": "l1_nba_jam_tournament_u3_sound_rom.u3",
+          "bytes": 131072,
+          "crc32": "d4551195"
+        },
+        {
+          "name": "l1_nba_jam_tournament_u12_sound_rom.u12",
+          "bytes": 524288,
+          "crc32": "4fac97bc"
+        },
+        {
+          "name": "l1_nba_jam_tournament_u13_sound_rom.u13",
+          "bytes": 524288,
+          "crc32": "6f27b202"
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_ug14.ug14",
+          "bytes": 524288,
+          "crc32": "04bb9f64"
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_uj14.uj14",
+          "bytes": 524288,
+          "crc32": "b34b7af3"
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_ug19.ug19",
+          "bytes": 524288,
+          "crc32": "a8f22fbb"
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_uj19.uj19",
+          "bytes": 524288,
+          "crc32": "8130a8a2"
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_ug16.ug16",
+          "bytes": 524288,
+          "crc32": "c7ce74d0"
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_uj16.uj16",
+          "bytes": 524288,
+          "crc32": "905ad88b"
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_ug20.ug20",
+          "bytes": 524288,
+          "crc32": "8a48728c"
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_uj20.uj20",
+          "bytes": 524288,
+          "crc32": "bf263d61"
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_ug17.ug17",
+          "bytes": 524288,
+          "crc32": "9401be62"
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_uj17.uj17",
+          "bytes": 524288,
+          "crc32": "8a852b9e"
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_ug22.ug22",
+          "bytes": 524288,
+          "crc32": "3b05133b"
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_uj22.uj22",
+          "bytes": 524288,
+          "crc32": "39791051"
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_ug18.ug18",
+          "bytes": 524288,
+          "crc32": "6fd08f57"
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_uj18.uj18",
+          "bytes": 524288,
+          "crc32": "4eb73c26"
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_ug23.ug23",
+          "bytes": 524288,
+          "crc32": "854f73bc"
+        },
+        {
+          "name": "l1_nba_jam_tournament_game_rom_uj23.uj23",
+          "bytes": 524288,
+          "crc32": "f8c30998"
+        }
+      ],
+      "missing_required_roms": [],
+      "controls_source": "https://github.com/mamedev/mame/blob/master/src/mame/williams/midtunit.cpp",
+      "cabinet_manual": "https://files.stardustarcade.com/PDF_Arcade_Manuals_and_Schematics/NBA_Jam_Kit_Operations_Manual_%2816-43123-101%29_April_1993.pdf"
+    },
+    {
+      "id": "raiden",
+      "page_source": "https://archive.org/details/fbneo_20260918",
+      "config_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/pst90s/d_raiden.cpp",
+      "game": {
+        "url": "https://archive.org/download/fbneo_20260918/raiden.zip",
+        "file": "roms/raiden.zip",
+        "sha256": "7a783bec2f47ca90ada3b697550cbc4a6c0c256e294315971fc8ba47bcfc2195",
+        "bytes": 995775
+      },
+      "installed_sha256": "7a783bec2f47ca90ada3b697550cbc4a6c0c256e294315971fc8ba47bcfc2195",
+      "installed_members": [
+        {
+          "name": "1.u0253",
+          "crc32": "a4b12785",
+          "bytes": 65536
+        },
+        {
+          "name": "10",
+          "crc32": "5f90786a",
+          "bytes": 32768
+        },
+        {
+          "name": "2.u0252",
+          "crc32": "17640bd5",
+          "bytes": 65536
+        },
+        {
+          "name": "3.u022",
+          "crc32": "f6af09d0",
+          "bytes": 131072
+        },
+        {
+          "name": "4.u023",
+          "crc32": "6bdfd416",
+          "bytes": 131072
+        },
+        {
+          "name": "5.u042",
+          "crc32": "ed03562e",
+          "bytes": 131072
+        },
+        {
+          "name": "6.u043",
+          "crc32": "a19d5b5d",
+          "bytes": 131072
+        },
+        {
+          "name": "7.u203",
+          "crc32": "8f927822",
+          "bytes": 65536
+        },
+        {
+          "name": "8.u212",
+          "crc32": "cbe055c7",
+          "bytes": 65536
+        },
+        {
+          "name": "9",
+          "crc32": "1922b25e",
+          "bytes": 32768
+        },
+        {
+          "name": "sei420",
+          "crc32": "da151f0b",
+          "bytes": 524288
+        },
+        {
+          "name": "sei430",
+          "crc32": "ac1f57ac",
+          "bytes": 524288
+        },
+        {
+          "name": "sei440",
+          "crc32": "946d7bde",
+          "bytes": 524288
+        }
+      ],
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/pst90s/d_raiden.cpp",
+      "required_rom_checksums_verified": true,
+      "original_arcade_hardware": "Seibu Raiden board",
+      "rom_modifications": "None. Original dumped chip bytes preserved; parent chip files are only combined into a self-contained ZIP where required."
+    },
+    {
+      "id": "sf2",
+      "page_source": "https://www.retrogames.cc/arcade-games/",
+      "config_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/capcom/d_cps1.cpp",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/sf2.zip",
+        "file": "roms/sf2.zip",
+        "sha256": "4abbfccd30caf163f18064bf8c27b2780f370d67d34ee802999dcbb7e6436a30",
+        "bytes": 3551819
+      },
+      "installed_sha256": "4abbfccd30caf163f18064bf8c27b2780f370d67d34ee802999dcbb7e6436a30",
+      "installed_members": [
+        {
+          "name": "buf1",
+          "crc32": "eb122de7",
+          "bytes": 279
+        },
+        {
+          "name": "c632.ic1",
+          "crc32": "0fbd9270",
+          "bytes": 279
+        },
+        {
+          "name": "ioa1",
+          "crc32": "59c7ee3b",
+          "bytes": 279
+        },
+        {
+          "name": "iob1.11d",
+          "crc32": "3abc0700",
+          "bytes": 279
+        },
+        {
+          "name": "prg1",
+          "crc32": "f1129744",
+          "bytes": 279
+        },
+        {
+          "name": "rom1",
+          "crc32": "41dc73b9",
+          "bytes": 279
+        },
+        {
+          "name": "sf2-11m.5d",
+          "crc32": "0627c831",
+          "bytes": 524288
+        },
+        {
+          "name": "sf2-13m.4d",
+          "crc32": "994bfa58",
+          "bytes": 524288
+        },
+        {
+          "name": "sf2-15m.6d",
+          "crc32": "3e66ad9d",
+          "bytes": 524288
+        },
+        {
+          "name": "sf2-1m.3a",
+          "crc32": "ba529b4f",
+          "bytes": 524288
+        },
+        {
+          "name": "sf2-2m.3c",
+          "crc32": "14b84312",
+          "bytes": 524288
+        },
+        {
+          "name": "sf2-3m.5a",
+          "crc32": "4b1b33a8",
+          "bytes": 524288
+        },
+        {
+          "name": "sf2-4m.5c",
+          "crc32": "5e9cd89a",
+          "bytes": 524288
+        },
+        {
+          "name": "sf2-5m.4a",
+          "crc32": "22c9cc8e",
+          "bytes": 524288
+        },
+        {
+          "name": "sf2-6m.4c",
+          "crc32": "2c7e2229",
+          "bytes": 524288
+        },
+        {
+          "name": "sf2-7m.6a",
+          "crc32": "57213be8",
+          "bytes": 524288
+        },
+        {
+          "name": "sf2-8m.6c",
+          "crc32": "b5548f17",
+          "bytes": 524288
+        },
+        {
+          "name": "sf2-9m.3d",
+          "crc32": "c1befaa8",
+          "bytes": 524288
+        },
+        {
+          "name": "sf2_18.11c",
+          "crc32": "7f162009",
+          "bytes": 131072
+        },
+        {
+          "name": "sf2_19.12c",
+          "crc32": "beade53f",
+          "bytes": 131072
+        },
+        {
+          "name": "sf2_29b.10e",
+          "crc32": "bb4af315",
+          "bytes": 131072
+        },
+        {
+          "name": "sf2_36b.10f",
+          "crc32": "c02a13eb",
+          "bytes": 131072
+        },
+        {
+          "name": "sf2_9.12a",
+          "crc32": "a4823a1b",
+          "bytes": 65536
+        },
+        {
+          "name": "sf2e_28g.9e",
+          "crc32": "8bf9f1e5",
+          "bytes": 131072
+        },
+        {
+          "name": "sf2e_30g.11e",
+          "crc32": "fe39ee33",
+          "bytes": 131072
+        },
+        {
+          "name": "sf2e_31g.12e",
+          "crc32": "69a0a301",
+          "bytes": 131072
+        },
+        {
+          "name": "sf2e_35g.9f",
+          "crc32": "626ef934",
+          "bytes": 131072
+        },
+        {
+          "name": "sf2e_37g.11f",
+          "crc32": "fb92cd74",
+          "bytes": 131072
+        },
+        {
+          "name": "sf2e_38g.12f",
+          "crc32": "5e22db70",
+          "bytes": 131072
+        },
+        {
+          "name": "sou1",
+          "crc32": "84f4b2fe",
+          "bytes": 279
+        },
+        {
+          "name": "stf29.1a",
+          "crc32": "043309c5",
+          "bytes": 279
+        }
+      ],
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/capcom/d_cps1.cpp",
+      "required_rom_checksums_verified": true,
+      "original_arcade_hardware": "Capcom CPS-1",
+      "rom_modifications": "None. Original dumped chip bytes preserved; parent chip files are only combined into a self-contained ZIP where required."
+    },
+    {
+      "id": "punisher",
+      "page_source": "https://www.retrogames.cc/arcade-games/",
+      "config_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/capcom/d_cps1.cpp",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/punisher.zip",
+        "file": "roms/punisher.zip",
+        "sha256": "cb5e530fdc1d42a6154fa4dab5dfa1e999a40a149b4967266bb4b3053789e2b8",
+        "bytes": 4042630
+      },
+      "installed_sha256": "cb5e530fdc1d42a6154fa4dab5dfa1e999a40a149b4967266bb4b3053789e2b8",
+      "installed_members": [
+        {
+          "name": "bprg1.11d",
+          "crc32": "31793da7",
+          "bytes": 279
+        },
+        {
+          "name": "buf1",
+          "crc32": "eb122de7",
+          "bytes": 279
+        },
+        {
+          "name": "d10f1.10f",
+          "crc32": "6619c494",
+          "bytes": 279
+        },
+        {
+          "name": "d7l1.7l",
+          "crc32": "27b7410d",
+          "bytes": 279
+        },
+        {
+          "name": "d8l1.8l",
+          "crc32": "539fc7da",
+          "bytes": 279
+        },
+        {
+          "name": "d9k2.9k",
+          "crc32": "cd85a156",
+          "bytes": 279
+        },
+        {
+          "name": "ioa1",
+          "crc32": "59c7ee3b",
+          "bytes": 279
+        },
+        {
+          "name": "iob1.12d",
+          "crc32": "3abc0700",
+          "bytes": 279
+        },
+        {
+          "name": "ioc1.ic1",
+          "crc32": "0d182081",
+          "bytes": 279
+        },
+        {
+          "name": "prg2",
+          "crc32": "4386879a",
+          "bytes": 279
+        },
+        {
+          "name": "ps-1m.3a",
+          "crc32": "77b7ccab",
+          "bytes": 524288
+        },
+        {
+          "name": "ps-2m.4a",
+          "crc32": "64fa58d4",
+          "bytes": 524288
+        },
+        {
+          "name": "ps-3m.5a",
+          "crc32": "0122720b",
+          "bytes": 524288
+        },
+        {
+          "name": "ps-4m.6a",
+          "crc32": "60da42c8",
+          "bytes": 524288
+        },
+        {
+          "name": "ps-5m.7a",
+          "crc32": "c54ea839",
+          "bytes": 524288
+        },
+        {
+          "name": "ps-6m.8a",
+          "crc32": "a544f4cc",
+          "bytes": 524288
+        },
+        {
+          "name": "ps-7m.9a",
+          "crc32": "04c5acbd",
+          "bytes": 524288
+        },
+        {
+          "name": "ps-8m.10a",
+          "crc32": "8f02f436",
+          "bytes": 524288
+        },
+        {
+          "name": "ps-q1.1k",
+          "crc32": "31fd8726",
+          "bytes": 524288
+        },
+        {
+          "name": "ps-q2.2k",
+          "crc32": "980a9eef",
+          "bytes": 524288
+        },
+        {
+          "name": "ps-q3.3k",
+          "crc32": "0dd44491",
+          "bytes": 524288
+        },
+        {
+          "name": "ps-q4.4k",
+          "crc32": "bed42f03",
+          "bytes": 524288
+        },
+        {
+          "name": "ps63b.1a",
+          "crc32": "03a758b0",
+          "bytes": 279
+        },
+        {
+          "name": "ps_21.6f",
+          "crc32": "8affa5a9",
+          "bytes": 524288
+        },
+        {
+          "name": "ps_q.5k",
+          "crc32": "49ff4446",
+          "bytes": 131072
+        },
+        {
+          "name": "pse_24.9e",
+          "crc32": "0f434414",
+          "bytes": 131072
+        },
+        {
+          "name": "pse_25.10e",
+          "crc32": "b77102e2",
+          "bytes": 131072
+        },
+        {
+          "name": "pse_26.11e",
+          "crc32": "389a99d2",
+          "bytes": 131072
+        },
+        {
+          "name": "pse_27.12e",
+          "crc32": "3eb181c3",
+          "bytes": 131072
+        },
+        {
+          "name": "pse_28.9f",
+          "crc32": "b732345d",
+          "bytes": 131072
+        },
+        {
+          "name": "pse_29.10f",
+          "crc32": "ec037bce",
+          "bytes": 131072
+        },
+        {
+          "name": "pse_30.11f",
+          "crc32": "68fb06ac",
+          "bytes": 131072
+        },
+        {
+          "name": "pse_31.12f",
+          "crc32": "37108e7b",
+          "bytes": 131072
+        },
+        {
+          "name": "rom1",
+          "crc32": "41dc73b9",
+          "bytes": 279
+        }
+      ],
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/capcom/d_cps1.cpp",
+      "required_rom_checksums_verified": true,
+      "original_arcade_hardware": "Capcom CPS-1 QSound",
+      "rom_modifications": "None. Original dumped chip bytes preserved; parent chip files are only combined into a self-contained ZIP where required."
+    },
+    {
+      "id": "pbobble",
+      "page_source": "https://www.retrogames.cc/arcade-games/",
+      "config_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/taito/d_taitob.cpp",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/pbobble.zip",
+        "file": "roms/pbobble.zip",
+        "sha256": "9dab4741c65283a19b9214399292337b31a7e8044738c452ca61b4f72f58d9e4",
+        "bytes": 1030061
+      },
+      "installed_sha256": "9dab4741c65283a19b9214399292337b31a7e8044738c452ca61b4f72f58d9e4",
+      "installed_members": [
+        {
+          "name": "pb-1c18.bin",
+          "crc32": "5de14f49",
+          "bytes": 262144
+        },
+        {
+          "name": "pb-ic14.bin",
+          "crc32": "55f90ea4",
+          "bytes": 524288
+        },
+        {
+          "name": "pb-ic15.bin",
+          "crc32": "0840cbc4",
+          "bytes": 1048576
+        },
+        {
+          "name": "pb-ic2.bin",
+          "crc32": "2abe07d1",
+          "bytes": 262144
+        },
+        {
+          "name": "pb-ic27.bin",
+          "crc32": "26efa4c4",
+          "bytes": 131072
+        },
+        {
+          "name": "pb-ic9.bin",
+          "crc32": "3253aac9",
+          "bytes": 524288
+        }
+      ],
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/taito/d_taitob.cpp",
+      "required_rom_checksums_verified": true,
+      "original_arcade_hardware": "Taito B-System",
+      "rom_modifications": "None. Original dumped chip bytes preserved; parent chip files are only combined into a self-contained ZIP where required."
+    },
+    {
+      "id": "ddsom",
+      "page_source": "https://www.retrogames.cc/arcade-games/",
+      "config_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/capcom/d_cps2.cpp",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/ddsom.zip",
+        "file": "roms/ddsom.zip",
+        "sha256": "3a6ee47309fa049ea2f99bee7b90c223043acd081ea296e215a42b800882b385",
+        "bytes": 16975285
+      },
+      "installed_sha256": "3a6ee47309fa049ea2f99bee7b90c223043acd081ea296e215a42b800882b385",
+      "installed_members": [
+        {
+          "name": "dd2.01",
+          "crc32": "99d657e5",
+          "bytes": 131072
+        },
+        {
+          "name": "dd2.02",
+          "crc32": "117a3824",
+          "bytes": 131072
+        },
+        {
+          "name": "dd2.11m",
+          "crc32": "98d0c325",
+          "bytes": 2097152
+        },
+        {
+          "name": "dd2.12m",
+          "crc32": "5ea2e7fa",
+          "bytes": 2097152
+        },
+        {
+          "name": "dd2.13m",
+          "crc32": "a46b4e6e",
+          "bytes": 4194304
+        },
+        {
+          "name": "dd2.14m",
+          "crc32": "6d824ce2",
+          "bytes": 2097152
+        },
+        {
+          "name": "dd2.15m",
+          "crc32": "d5fc50fc",
+          "bytes": 4194304
+        },
+        {
+          "name": "dd2.16m",
+          "crc32": "79682ae5",
+          "bytes": 2097152
+        },
+        {
+          "name": "dd2.17m",
+          "crc32": "837c0867",
+          "bytes": 4194304
+        },
+        {
+          "name": "dd2.18m",
+          "crc32": "acddd149",
+          "bytes": 2097152
+        },
+        {
+          "name": "dd2.19m",
+          "crc32": "bb0ec21c",
+          "bytes": 4194304
+        },
+        {
+          "name": "dd2.20m",
+          "crc32": "117fb0c0",
+          "bytes": 2097152
+        },
+        {
+          "name": "dd2e.03e",
+          "crc32": "449361af",
+          "bytes": 524288
+        },
+        {
+          "name": "dd2e.04e",
+          "crc32": "5b7052b6",
+          "bytes": 524288
+        },
+        {
+          "name": "dd2e.05e",
+          "crc32": "788d5f60",
+          "bytes": 524288
+        },
+        {
+          "name": "dd2e.06e",
+          "crc32": "e0807e1e",
+          "bytes": 524288
+        },
+        {
+          "name": "dd2e.07",
+          "crc32": "bb777a02",
+          "bytes": 524288
+        },
+        {
+          "name": "dd2e.08",
+          "crc32": "30970890",
+          "bytes": 524288
+        },
+        {
+          "name": "dd2e.09",
+          "crc32": "99e2194d",
+          "bytes": 524288
+        },
+        {
+          "name": "dd2e.10",
+          "crc32": "e198805e",
+          "bytes": 524288
+        },
+        {
+          "name": "ddsom.key",
+          "crc32": "541e425d",
+          "bytes": 20
+        }
+      ],
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/capcom/d_cps2.cpp",
+      "required_rom_checksums_verified": true,
+      "original_arcade_hardware": "Capcom CPS-2",
+      "rom_modifications": "None. Original dumped chip bytes preserved; parent chip files are only combined into a self-contained ZIP where required."
+    },
+    {
+      "id": "mvsc",
+      "page_source": "https://www.retrogames.cc/arcade-games/",
+      "config_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/capcom/d_cps2.cpp",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/mvsc.zip",
+        "file": "roms/mvsc.zip",
+        "sha256": "6f63627cc37c554f74e8bf07b21730fa7f85511c7d5d07449850be98dde91da8",
+        "bytes": 22699761
+      },
+      "installed_sha256": "6f63627cc37c554f74e8bf07b21730fa7f85511c7d5d07449850be98dde91da8",
+      "installed_members": [
+        {
+          "name": "mvc.01",
+          "crc32": "41629e95",
+          "bytes": 131072
+        },
+        {
+          "name": "mvc.02",
+          "crc32": "963abf6b",
+          "bytes": 131072
+        },
+        {
+          "name": "mvc.05a",
+          "crc32": "2d8c8e86",
+          "bytes": 524288
+        },
+        {
+          "name": "mvc.06a",
+          "crc32": "8528e1f5",
+          "bytes": 524288
+        },
+        {
+          "name": "mvc.07",
+          "crc32": "c3baa32b",
+          "bytes": 524288
+        },
+        {
+          "name": "mvc.08",
+          "crc32": "bc002fcd",
+          "bytes": 524288
+        },
+        {
+          "name": "mvc.09",
+          "crc32": "c67b26df",
+          "bytes": 524288
+        },
+        {
+          "name": "mvc.10",
+          "crc32": "0fdd1e26",
+          "bytes": 524288
+        },
+        {
+          "name": "mvc.11m",
+          "crc32": "850fe663",
+          "bytes": 4194304
+        },
+        {
+          "name": "mvc.12m",
+          "crc32": "7ccb1896",
+          "bytes": 4194304
+        },
+        {
+          "name": "mvc.13m",
+          "crc32": "fa5f74bc",
+          "bytes": 4194304
+        },
+        {
+          "name": "mvc.14m",
+          "crc32": "7f1df4e4",
+          "bytes": 4194304
+        },
+        {
+          "name": "mvc.15m",
+          "crc32": "71938a8f",
+          "bytes": 4194304
+        },
+        {
+          "name": "mvc.16m",
+          "crc32": "90bd3203",
+          "bytes": 4194304
+        },
+        {
+          "name": "mvc.17m",
+          "crc32": "92741d07",
+          "bytes": 4194304
+        },
+        {
+          "name": "mvc.18m",
+          "crc32": "67aaf727",
+          "bytes": 4194304
+        },
+        {
+          "name": "mvc.19m",
+          "crc32": "bcb72fc6",
+          "bytes": 4194304
+        },
+        {
+          "name": "mvc.20m",
+          "crc32": "8b0bade8",
+          "bytes": 4194304
+        },
+        {
+          "name": "mvce.03a",
+          "crc32": "824e4a90",
+          "bytes": 524288
+        },
+        {
+          "name": "mvce.04a",
+          "crc32": "436c5a4e",
+          "bytes": 524288
+        },
+        {
+          "name": "mvsc.key",
+          "crc32": "7e101e09",
+          "bytes": 20
+        }
+      ],
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/capcom/d_cps2.cpp",
+      "required_rom_checksums_verified": true,
+      "original_arcade_hardware": "Capcom CPS-2",
+      "rom_modifications": "None. Original dumped chip bytes preserved; parent chip files are only combined into a self-contained ZIP where required."
+    },
+    {
+      "id": "sfiii3",
+      "page_source": "https://www.retrogames.cc/arcade-games/",
+      "config_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/cps3/d_cps3.cpp",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/sfiii3n.zip",
+        "file": "roms/sfiii3n.zip",
+        "sha256": "65775b992ce51e08ca3d28b0bc691e0fd86262fa6a2f71e9c18aba77159fd8bd",
+        "bytes": 132348
+      },
+      "installed_sha256": "67d6d3cba508570cf827a9792bd788b043f8a12bdd80c86954d580a4f70f0407",
+      "installed_members": [
+        {
+          "name": "sfiii3-simm1.0",
+          "crc32": "11dfd3cd",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm1.1",
+          "crc32": "c50585e6",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm1.2",
+          "crc32": "8e011d9b",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm1.3",
+          "crc32": "dca8d92f",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm2.0",
+          "crc32": "06eb969e",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm2.1",
+          "crc32": "e7039f82",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm2.2",
+          "crc32": "645c96f7",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm2.3",
+          "crc32": "610efab1",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm3.0",
+          "crc32": "7baa1f79",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm3.1",
+          "crc32": "234bf8fe",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm3.2",
+          "crc32": "d9ebc308",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm3.3",
+          "crc32": "293cba77",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm3.4",
+          "crc32": "6055e747",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm3.5",
+          "crc32": "499aa6fc",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm3.6",
+          "crc32": "6c13879e",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm3.7",
+          "crc32": "cf4f8ede",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm4.0",
+          "crc32": "091fd5ba",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm4.1",
+          "crc32": "0bca8917",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm4.2",
+          "crc32": "a0fd578b",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm4.3",
+          "crc32": "4bf8c699",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm4.4",
+          "crc32": "137b8785",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm4.5",
+          "crc32": "4fb70671",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm4.6",
+          "crc32": "832374a4",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm4.7",
+          "crc32": "1c88576d",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm5.0",
+          "crc32": "c67d9190",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm5.1",
+          "crc32": "6cb79868",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm5.2",
+          "crc32": "df69930e",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm5.3",
+          "crc32": "333754e0",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm5.4",
+          "crc32": "78f6d417",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm5.5",
+          "crc32": "8ccad9b1",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm5.6",
+          "crc32": "85de59e5",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm5.7",
+          "crc32": "ee7e29b3",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm6.0",
+          "crc32": "8da69042",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm6.1",
+          "crc32": "1c8c7ac4",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm6.2",
+          "crc32": "a671341d",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm6.3",
+          "crc32": "1a990249",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm6.4",
+          "crc32": "20cb39ac",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm6.5",
+          "crc32": "5f844b2f",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm6.6",
+          "crc32": "450e8d28",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3-simm6.7",
+          "crc32": "cc5f4187",
+          "bytes": 2097152
+        },
+        {
+          "name": "sfiii3_euro.29f400.u2",
+          "crc32": "30bbf293",
+          "bytes": 524288
+        },
+        {
+          "name": "sfiii3_japan_nocd.29f400.u2",
+          "crc32": "1edc6366",
+          "bytes": 524288
+        }
+      ],
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/cps3/d_cps3.cpp",
+      "required_rom_checksums_verified": true,
+      "parent": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/sfiii3.zip",
+        "file": "roms/sfiii3.zip",
+        "sha256": "8b9a0002654f289e37f58c3e26bb4111fde105e75a0834c80fa2e660f4b116d8",
+        "bytes": 70592155
+      },
+      "original_arcade_hardware": "Capcom CPS-3 original Japan NO CD cartridge",
+      "rom_modifications": "None. Original dumped chip bytes preserved; parent chip files are only combined into a self-contained ZIP where required."
+    },
+    {
+      "id": "samsho2",
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/neogeo/d_neogeo.cpp",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/samsho2.zip",
+        "file": "roms/samsho2.zip",
+        "sha256": "92f4e294e78cfaaabd25bfa5be6e131995f7298b1bc2ad70a6e495de39695ec8",
+        "bytes": 14482574
+      },
+      "installed_sha256": "92f4e294e78cfaaabd25bfa5be6e131995f7298b1bc2ad70a6e495de39695ec8",
+      "installed_members": [
+        {
+          "name": "063-c1.c1",
+          "crc32": "86cd307c",
+          "bytes": 2097152
+        },
+        {
+          "name": "063-c2.c2",
+          "crc32": "cdfcc4ca",
+          "bytes": 2097152
+        },
+        {
+          "name": "063-c3.c3",
+          "crc32": "7a63ccc7",
+          "bytes": 2097152
+        },
+        {
+          "name": "063-c4.c4",
+          "crc32": "751025ce",
+          "bytes": 2097152
+        },
+        {
+          "name": "063-c5.c5",
+          "crc32": "20d3a475",
+          "bytes": 2097152
+        },
+        {
+          "name": "063-c6.c6",
+          "crc32": "ae4c0a88",
+          "bytes": 2097152
+        },
+        {
+          "name": "063-c7.c7",
+          "crc32": "2df3cbcf",
+          "bytes": 2097152
+        },
+        {
+          "name": "063-c8.c8",
+          "crc32": "1ffc6dfa",
+          "bytes": 2097152
+        },
+        {
+          "name": "063-m1.m1",
+          "crc32": "56675098",
+          "bytes": 131072
+        },
+        {
+          "name": "063-p1.p1",
+          "crc32": "22368892",
+          "bytes": 2097152
+        },
+        {
+          "name": "063-s1.s1",
+          "crc32": "64a5cd66",
+          "bytes": 131072
+        },
+        {
+          "name": "063-v1.v1",
+          "crc32": "37703f91",
+          "bytes": 2097152
+        },
+        {
+          "name": "063-v2.v2",
+          "crc32": "0142bde8",
+          "bytes": 2097152
+        },
+        {
+          "name": "063-v3.v3",
+          "crc32": "d07fa5ca",
+          "bytes": 2097152
+        },
+        {
+          "name": "063-v4.v4",
+          "crc32": "24aab4bb",
+          "bytes": 1048576
+        }
+      ],
+      "pinned_driver_crc_verified": true,
+      "driver_source_sha256": "053f499c89de0b738303b270f16178d6df06727a129b8859a13cdb4e8e246702"
+    },
+    {
+      "id": "wjammers",
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/neogeo/d_neogeo.cpp",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/wjammers.zip",
+        "file": "roms/wjammers.zip",
+        "sha256": "1846a55eaa394a3b3c84c74309847656178b46a539adf2df6bf176d4abb4348d",
+        "bytes": 4041194
+      },
+      "installed_sha256": "1846a55eaa394a3b3c84c74309847656178b46a539adf2df6bf176d4abb4348d",
+      "installed_members": [
+        {
+          "name": "065-c1.c1",
+          "crc32": "c7650204",
+          "bytes": 1048576
+        },
+        {
+          "name": "065-c2.c2",
+          "crc32": "d9f3e71d",
+          "bytes": 1048576
+        },
+        {
+          "name": "065-c3.c3",
+          "crc32": "40986386",
+          "bytes": 1048576
+        },
+        {
+          "name": "065-c4.c4",
+          "crc32": "715e15ff",
+          "bytes": 1048576
+        },
+        {
+          "name": "065-m1.m1",
+          "crc32": "52c23cfc",
+          "bytes": 131072
+        },
+        {
+          "name": "065-p1.p1",
+          "crc32": "6692c140",
+          "bytes": 1048576
+        },
+        {
+          "name": "065-s1.s1",
+          "crc32": "074b5723",
+          "bytes": 131072
+        },
+        {
+          "name": "065-v1.v1",
+          "crc32": "ce8b3698",
+          "bytes": 1048576
+        },
+        {
+          "name": "065-v2.v2",
+          "crc32": "659f9b96",
+          "bytes": 1048576
+        },
+        {
+          "name": "065-v3.v3",
+          "crc32": "39f73061",
+          "bytes": 1048576
+        },
+        {
+          "name": "065-v4.v4",
+          "crc32": "5dee7963",
+          "bytes": 1048576
+        }
+      ],
+      "pinned_driver_crc_verified": true,
+      "driver_source_sha256": "053f499c89de0b738303b270f16178d6df06727a129b8859a13cdb4e8e246702"
+    },
+    {
+      "id": "mslug",
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/neogeo/d_neogeo.cpp",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/mslug.zip",
+        "file": "roms/mslug.zip",
+        "sha256": "3ebe7ca4166f956a65ae98d86f9172f8b5d4462efa13723a5ea72fcf59adcbf8",
+        "bytes": 13165412
+      },
+      "installed_sha256": "3ebe7ca4166f956a65ae98d86f9172f8b5d4462efa13723a5ea72fcf59adcbf8",
+      "installed_members": [
+        {
+          "name": "201-c1.c1",
+          "crc32": "72813676",
+          "bytes": 4194304
+        },
+        {
+          "name": "201-c2.c2",
+          "crc32": "96f62574",
+          "bytes": 4194304
+        },
+        {
+          "name": "201-c3.c3",
+          "crc32": "5121456a",
+          "bytes": 4194304
+        },
+        {
+          "name": "201-c4.c4",
+          "crc32": "f4ad59a3",
+          "bytes": 4194304
+        },
+        {
+          "name": "201-m1.m1",
+          "crc32": "c28b3253",
+          "bytes": 131072
+        },
+        {
+          "name": "201-p1.p1",
+          "crc32": "08d8daa5",
+          "bytes": 2097152
+        },
+        {
+          "name": "201-s1.s1",
+          "crc32": "2f55958d",
+          "bytes": 131072
+        },
+        {
+          "name": "201-v1.v1",
+          "crc32": "23d22ed1",
+          "bytes": 4194304
+        },
+        {
+          "name": "201-v2.v2",
+          "crc32": "472cf9db",
+          "bytes": 4194304
+        }
+      ],
+      "pinned_driver_crc_verified": true,
+      "driver_source_sha256": "053f499c89de0b738303b270f16178d6df06727a129b8859a13cdb4e8e246702"
+    },
+    {
+      "id": "neodrift",
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/neogeo/d_neogeo.cpp",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/neodrift.zip",
+        "file": "roms/neodrift.zip",
+        "sha256": "25852683b3ed8cd739a7b35c79f2271c3dae3ac81e16dad55f6c84d19a4afe0d",
+        "bytes": 8575432
+      },
+      "installed_sha256": "25852683b3ed8cd739a7b35c79f2271c3dae3ac81e16dad55f6c84d19a4afe0d",
+      "installed_members": [
+        {
+          "name": "213-c1.c1",
+          "crc32": "3edc8bd3",
+          "bytes": 4194304
+        },
+        {
+          "name": "213-c2.c2",
+          "crc32": "46ae5f16",
+          "bytes": 4194304
+        },
+        {
+          "name": "213-m1.m1",
+          "crc32": "200045f1",
+          "bytes": 131072
+        },
+        {
+          "name": "213-p1.p1",
+          "crc32": "e397d798",
+          "bytes": 2097152
+        },
+        {
+          "name": "213-s1.s1",
+          "crc32": "b76b61bc",
+          "bytes": 131072
+        },
+        {
+          "name": "213-v1.v1",
+          "crc32": "a421c076",
+          "bytes": 2097152
+        },
+        {
+          "name": "213-v2.v2",
+          "crc32": "233c7dd9",
+          "bytes": 2097152
+        }
+      ],
+      "pinned_driver_crc_verified": true,
+      "driver_source_sha256": "053f499c89de0b738303b270f16178d6df06727a129b8859a13cdb4e8e246702"
+    },
+    {
+      "id": "turfmast",
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/neogeo/d_neogeo.cpp",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/turfmast.zip",
+        "file": "roms/turfmast.zip",
+        "sha256": "fb0c49b6ed1af4b99dbb8933d4f7a16d72043892d3d62fd9153912841017da40",
+        "bytes": 9330726
+      },
+      "installed_sha256": "fb0c49b6ed1af4b99dbb8933d4f7a16d72043892d3d62fd9153912841017da40",
+      "installed_members": [
+        {
+          "name": "200-c1.c1",
+          "crc32": "8e7bf41a",
+          "bytes": 4194304
+        },
+        {
+          "name": "200-c2.c2",
+          "crc32": "5a65a8ce",
+          "bytes": 4194304
+        },
+        {
+          "name": "200-m1.m1",
+          "crc32": "9994ac00",
+          "bytes": 131072
+        },
+        {
+          "name": "200-p1.p1",
+          "crc32": "28c83048",
+          "bytes": 2097152
+        },
+        {
+          "name": "200-s1.s1",
+          "crc32": "9a5402b2",
+          "bytes": 131072
+        },
+        {
+          "name": "200-v1.v1",
+          "crc32": "00fd48d2",
+          "bytes": 2097152
+        },
+        {
+          "name": "200-v2.v2",
+          "crc32": "082acb31",
+          "bytes": 2097152
+        },
+        {
+          "name": "200-v3.v3",
+          "crc32": "7abca053",
+          "bytes": 2097152
+        },
+        {
+          "name": "200-v4.v4",
+          "crc32": "6c7b4902",
+          "bytes": 2097152
+        }
+      ],
+      "pinned_driver_crc_verified": true,
+      "driver_source_sha256": "053f499c89de0b738303b270f16178d6df06727a129b8859a13cdb4e8e246702"
+    },
+    {
+      "id": "kof98",
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/neogeo/d_neogeo.cpp",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/kof98.zip",
+        "file": "roms/kof98.zip",
+        "sha256": "41d85684c3ef82a5e5369c7bcb9bff631c97b1e98637336fcdefed4cb6bc5c23",
+        "bytes": 40445835
+      },
+      "installed_sha256": "41d85684c3ef82a5e5369c7bcb9bff631c97b1e98637336fcdefed4cb6bc5c23",
+      "installed_members": [
+        {
+          "name": "242-c1.c1",
+          "crc32": "e564ecd6",
+          "bytes": 8388608
+        },
+        {
+          "name": "242-c2.c2",
+          "crc32": "bd959b60",
+          "bytes": 8388608
+        },
+        {
+          "name": "242-c3.c3",
+          "crc32": "22127b4f",
+          "bytes": 8388608
+        },
+        {
+          "name": "242-c4.c4",
+          "crc32": "0b4fa044",
+          "bytes": 8388608
+        },
+        {
+          "name": "242-c5.c5",
+          "crc32": "9d10bed3",
+          "bytes": 8388608
+        },
+        {
+          "name": "242-c6.c6",
+          "crc32": "da07b6a2",
+          "bytes": 8388608
+        },
+        {
+          "name": "242-c7.c7",
+          "crc32": "f6d7a38a",
+          "bytes": 8388608
+        },
+        {
+          "name": "242-c8.c8",
+          "crc32": "c823e045",
+          "bytes": 8388608
+        },
+        {
+          "name": "242-m1.m1",
+          "crc32": "4ef7016b",
+          "bytes": 262144
+        },
+        {
+          "name": "242-p1.p1",
+          "crc32": "8893df89",
+          "bytes": 2097152
+        },
+        {
+          "name": "242-p2.sp2",
+          "crc32": "980aba4c",
+          "bytes": 4194304
+        },
+        {
+          "name": "242-s1.s1",
+          "crc32": "7f7b4805",
+          "bytes": 131072
+        },
+        {
+          "name": "242-v1.v1",
+          "crc32": "b9ea8051",
+          "bytes": 4194304
+        },
+        {
+          "name": "242-v2.v2",
+          "crc32": "cc11106e",
+          "bytes": 4194304
+        },
+        {
+          "name": "242-v3.v3",
+          "crc32": "044ea4e1",
+          "bytes": 4194304
+        },
+        {
+          "name": "242-v4.v4",
+          "crc32": "7985ea30",
+          "bytes": 4194304
+        }
+      ],
+      "pinned_driver_crc_verified": true,
+      "driver_source_sha256": "053f499c89de0b738303b270f16178d6df06727a129b8859a13cdb4e8e246702"
+    },
+    {
+      "id": "garou",
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/neogeo/d_neogeo.cpp",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/garou.zip",
+        "file": "roms/garou.zip",
+        "sha256": "9716a9132b01c22e448767149485a022832aef15e1d86828baad9d9f8a4f23c9",
+        "bytes": 80982420
+      },
+      "installed_sha256": "9716a9132b01c22e448767149485a022832aef15e1d86828baad9d9f8a4f23c9",
+      "installed_members": [
+        {
+          "name": "253-c1.c1",
+          "crc32": "0603e046",
+          "bytes": 8388608
+        },
+        {
+          "name": "253-c2.c2",
+          "crc32": "0917d2a4",
+          "bytes": 8388608
+        },
+        {
+          "name": "253-c3.c3",
+          "crc32": "6737c92d",
+          "bytes": 8388608
+        },
+        {
+          "name": "253-c4.c4",
+          "crc32": "5ba92ec6",
+          "bytes": 8388608
+        },
+        {
+          "name": "253-c5.c5",
+          "crc32": "3eab5557",
+          "bytes": 8388608
+        },
+        {
+          "name": "253-c6.c6",
+          "crc32": "308d098b",
+          "bytes": 8388608
+        },
+        {
+          "name": "253-c7.c7",
+          "crc32": "c0e995ae",
+          "bytes": 8388608
+        },
+        {
+          "name": "253-c8.c8",
+          "crc32": "21a11303",
+          "bytes": 8388608
+        },
+        {
+          "name": "253-ep1.p1",
+          "crc32": "ea3171a4",
+          "bytes": 2097152
+        },
+        {
+          "name": "253-ep2.p2",
+          "crc32": "382f704b",
+          "bytes": 2097152
+        },
+        {
+          "name": "253-ep3.p3",
+          "crc32": "e395bfdd",
+          "bytes": 2097152
+        },
+        {
+          "name": "253-ep4.p4",
+          "crc32": "da92c08e",
+          "bytes": 2097152
+        },
+        {
+          "name": "253-m1.m1",
+          "crc32": "36a806be",
+          "bytes": 262144
+        },
+        {
+          "name": "253-v1.v1",
+          "crc32": "263e388c",
+          "bytes": 4194304
+        },
+        {
+          "name": "253-v2.v2",
+          "crc32": "2c6bc7be",
+          "bytes": 4194304
+        },
+        {
+          "name": "253-v3.v3",
+          "crc32": "0425b27d",
+          "bytes": 4194304
+        },
+        {
+          "name": "253-v4.v4",
+          "crc32": "a54be8a9",
+          "bytes": 4194304
+        },
+        {
+          "name": "kf.neo-sma",
+          "crc32": "98bc93dc",
+          "bytes": 262144
+        }
+      ],
+      "pinned_driver_crc_verified": true,
+      "driver_source_sha256": "053f499c89de0b738303b270f16178d6df06727a129b8859a13cdb4e8e246702"
+    },
+    {
+      "official_reference": "https://game.snk-corp.co.jp/event/virtual-console/metalslug3/index_metalslug3_j.html",
+      "emulation_note": null,
+      "id": "mslug3",
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/neogeo/d_neogeo.cpp",
+      "driver_source_sha256": "053f499c89de0b738303b270f16178d6df06727a129b8859a13cdb4e8e246702",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/mslug3.zip",
+        "file": "roms/mslug3.zip",
+        "sha256": "6b697834507270a0724795a71079efefc764a4826ae1e94a8fb8416673dfac6f",
+        "bytes": 80456836
+      },
+      "installed_sha256": "6b697834507270a0724795a71079efefc764a4826ae1e94a8fb8416673dfac6f",
+      "installed_members": [
+        {
+          "name": "256-c1.c1",
+          "crc32": "5a79c34e",
+          "bytes": 8388608
+        },
+        {
+          "name": "256-c2.c2",
+          "crc32": "944c362c",
+          "bytes": 8388608
+        },
+        {
+          "name": "256-c3.c3",
+          "crc32": "6e69d36f",
+          "bytes": 8388608
+        },
+        {
+          "name": "256-c4.c4",
+          "crc32": "b755b4eb",
+          "bytes": 8388608
+        },
+        {
+          "name": "256-c5.c5",
+          "crc32": "7aacab47",
+          "bytes": 8388608
+        },
+        {
+          "name": "256-c6.c6",
+          "crc32": "c698fd5d",
+          "bytes": 8388608
+        },
+        {
+          "name": "256-c7.c7",
+          "crc32": "cfceddd2",
+          "bytes": 8388608
+        },
+        {
+          "name": "256-c8.c8",
+          "crc32": "4d9be34c",
+          "bytes": 8388608
+        },
+        {
+          "name": "256-m1.m1",
+          "crc32": "eaeec116",
+          "bytes": 524288
+        },
+        {
+          "name": "256-pg1.p1",
+          "crc32": "b07edfd5",
+          "bytes": 4194304
+        },
+        {
+          "name": "256-pg2.p2",
+          "crc32": "6097c26b",
+          "bytes": 4194304
+        },
+        {
+          "name": "256-v1.v1",
+          "crc32": "f2690241",
+          "bytes": 4194304
+        },
+        {
+          "name": "256-v2.v2",
+          "crc32": "7e2a10bd",
+          "bytes": 4194304
+        },
+        {
+          "name": "256-v3.v3",
+          "crc32": "0eaec17c",
+          "bytes": 4194304
+        },
+        {
+          "name": "256-v4.v4",
+          "crc32": "9b4b22d4",
+          "bytes": 4194304
+        },
+        {
+          "name": "neo-sma",
+          "crc32": "9cd55736",
+          "bytes": 262144
+        }
+      ],
+      "pinned_driver_crc_verified": true,
+      "required_original_chips": [
+        {
+          "name": "green.neo-sma",
+          "bytes": 262144,
+          "crc32": "9cd55736"
+        },
+        {
+          "name": "256-pg1.p1",
+          "bytes": 4194304,
+          "crc32": "b07edfd5"
+        },
+        {
+          "name": "256-pg2.p2",
+          "bytes": 4194304,
+          "crc32": "6097c26b"
+        },
+        {
+          "name": "256-c1.c1",
+          "bytes": 8388608,
+          "crc32": "5a79c34e"
+        },
+        {
+          "name": "256-c2.c2",
+          "bytes": 8388608,
+          "crc32": "944c362c"
+        },
+        {
+          "name": "256-c3.c3",
+          "bytes": 8388608,
+          "crc32": "6e69d36f"
+        },
+        {
+          "name": "256-c4.c4",
+          "bytes": 8388608,
+          "crc32": "b755b4eb"
+        },
+        {
+          "name": "256-c5.c5",
+          "bytes": 8388608,
+          "crc32": "7aacab47"
+        },
+        {
+          "name": "256-c6.c6",
+          "bytes": 8388608,
+          "crc32": "c698fd5d"
+        },
+        {
+          "name": "256-c7.c7",
+          "bytes": 8388608,
+          "crc32": "cfceddd2"
+        },
+        {
+          "name": "256-c8.c8",
+          "bytes": 8388608,
+          "crc32": "4d9be34c"
+        },
+        {
+          "name": "256-m1.m1",
+          "bytes": 524288,
+          "crc32": "eaeec116"
+        },
+        {
+          "name": "256-v1.v1",
+          "bytes": 4194304,
+          "crc32": "f2690241"
+        },
+        {
+          "name": "256-v2.v2",
+          "bytes": 4194304,
+          "crc32": "7e2a10bd"
+        },
+        {
+          "name": "256-v3.v3",
+          "bytes": 4194304,
+          "crc32": "0eaec17c"
+        },
+        {
+          "name": "256-v4.v4",
+          "bytes": 4194304,
+          "crc32": "9b4b22d4"
+        }
+      ]
+    },
+    {
+      "official_reference": "https://www.snk-corp.co.jp/official/kof2002/english/e_kof2002_system.html",
+      "emulation_note": null,
+      "id": "kof2002",
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/neogeo/d_neogeo.cpp",
+      "driver_source_sha256": "053f499c89de0b738303b270f16178d6df06727a129b8859a13cdb4e8e246702",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/kof2002.zip",
+        "file": "roms/kof2002.zip",
+        "sha256": "870204ac21027c010de7a70da00da2202bb710a16f7c01b9b11ab680fe5c2c51",
+        "bytes": 82483673
+      },
+      "installed_sha256": "870204ac21027c010de7a70da00da2202bb710a16f7c01b9b11ab680fe5c2c51",
+      "installed_members": [
+        {
+          "name": "265-c1.c1",
+          "crc32": "2b65a656",
+          "bytes": 8388608
+        },
+        {
+          "name": "265-c2.c2",
+          "crc32": "adf18983",
+          "bytes": 8388608
+        },
+        {
+          "name": "265-c3.c3",
+          "crc32": "875e9fd7",
+          "bytes": 8388608
+        },
+        {
+          "name": "265-c4.c4",
+          "crc32": "2da13947",
+          "bytes": 8388608
+        },
+        {
+          "name": "265-c5.c5",
+          "crc32": "61bd165d",
+          "bytes": 8388608
+        },
+        {
+          "name": "265-c6.c6",
+          "crc32": "03fdd1eb",
+          "bytes": 8388608
+        },
+        {
+          "name": "265-c7.c7",
+          "crc32": "1a2749d8",
+          "bytes": 8388608
+        },
+        {
+          "name": "265-c8.c8",
+          "crc32": "ab0bb549",
+          "bytes": 8388608
+        },
+        {
+          "name": "265-m1.m1",
+          "crc32": "85aaa632",
+          "bytes": 131072
+        },
+        {
+          "name": "265-p1.p1",
+          "crc32": "9ede7323",
+          "bytes": 1048576
+        },
+        {
+          "name": "265-p2.sp2",
+          "crc32": "327266b8",
+          "bytes": 4194304
+        },
+        {
+          "name": "265-v1.v1",
+          "crc32": "15e8f3f5",
+          "bytes": 8388608
+        },
+        {
+          "name": "265-v2.v2",
+          "crc32": "da41d6f9",
+          "bytes": 8388608
+        }
+      ],
+      "pinned_driver_crc_verified": true,
+      "required_original_chips": [
+        {
+          "name": "265-p1.p1",
+          "bytes": 1048576,
+          "crc32": "9ede7323"
+        },
+        {
+          "name": "265-p2.sp2",
+          "bytes": 4194304,
+          "crc32": "327266b8"
+        },
+        {
+          "name": "265-c1.c1",
+          "bytes": 8388608,
+          "crc32": "2b65a656"
+        },
+        {
+          "name": "265-c2.c2",
+          "bytes": 8388608,
+          "crc32": "adf18983"
+        },
+        {
+          "name": "265-c3.c3",
+          "bytes": 8388608,
+          "crc32": "875e9fd7"
+        },
+        {
+          "name": "265-c4.c4",
+          "bytes": 8388608,
+          "crc32": "2da13947"
+        },
+        {
+          "name": "265-c5.c5",
+          "bytes": 8388608,
+          "crc32": "61bd165d"
+        },
+        {
+          "name": "265-c6.c6",
+          "bytes": 8388608,
+          "crc32": "03fdd1eb"
+        },
+        {
+          "name": "265-c7.c7",
+          "bytes": 8388608,
+          "crc32": "1a2749d8"
+        },
+        {
+          "name": "265-c8.c8",
+          "bytes": 8388608,
+          "crc32": "ab0bb549"
+        },
+        {
+          "name": "265-m1.m1",
+          "bytes": 131072,
+          "crc32": "85aaa632"
+        },
+        {
+          "name": "265-v1.v1",
+          "bytes": 8388608,
+          "crc32": "15e8f3f5"
+        },
+        {
+          "name": "265-v2.v2",
+          "bytes": 8388608,
+          "crc32": "da41d6f9"
+        }
+      ]
+    },
+    {
+      "official_reference": "https://samuraianiv.snk-corp.co.jp/english/title/samurai-shodown9/index.php",
+      "emulation_note": null,
+      "id": "samsh5sp",
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/neogeo/d_neogeo.cpp",
+      "driver_source_sha256": "053f499c89de0b738303b270f16178d6df06727a129b8859a13cdb4e8e246702",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/samsh5sp.zip",
+        "file": "roms/samsh5sp.zip",
+        "sha256": "9ee47b963107c0eb8a552bbb15ccace6221a512023fe187333c6cebbabce69b4",
+        "bytes": 83033266
+      },
+      "installed_sha256": "9ee47b963107c0eb8a552bbb15ccace6221a512023fe187333c6cebbabce69b4",
+      "installed_members": [
+        {
+          "name": "272-c1.c1",
+          "crc32": "4f97661a",
+          "bytes": 8388608
+        },
+        {
+          "name": "272-c2.c2",
+          "crc32": "a3afda4f",
+          "bytes": 8388608
+        },
+        {
+          "name": "272-c3.c3",
+          "crc32": "8c3c7502",
+          "bytes": 8388608
+        },
+        {
+          "name": "272-c4.c4",
+          "crc32": "32d5e2e2",
+          "bytes": 8388608
+        },
+        {
+          "name": "272-c5.c5",
+          "crc32": "6ce085bc",
+          "bytes": 8388608
+        },
+        {
+          "name": "272-c6.c6",
+          "crc32": "05c8dc8e",
+          "bytes": 8388608
+        },
+        {
+          "name": "272-c7.c7",
+          "crc32": "1417b742",
+          "bytes": 8388608
+        },
+        {
+          "name": "272-c8.c8",
+          "crc32": "d49773cd",
+          "bytes": 8388608
+        },
+        {
+          "name": "272-m1.m1",
+          "crc32": "adeebf40",
+          "bytes": 524288
+        },
+        {
+          "name": "272-p1.p1",
+          "crc32": "fb7a6bba",
+          "bytes": 4194304
+        },
+        {
+          "name": "272-p2.sp2",
+          "crc32": "63492ea6",
+          "bytes": 4194304
+        },
+        {
+          "name": "272-v1.v1",
+          "crc32": "76a94127",
+          "bytes": 8388608
+        },
+        {
+          "name": "272-v2.v2",
+          "crc32": "4ba507f1",
+          "bytes": 8388608
+        }
+      ],
+      "pinned_driver_crc_verified": true,
+      "required_original_chips": [
+        {
+          "name": "272-p1.p1",
+          "bytes": 4194304,
+          "crc32": "fb7a6bba"
+        },
+        {
+          "name": "272-p2.sp2",
+          "bytes": 4194304,
+          "crc32": "63492ea6"
+        },
+        {
+          "name": "272-c1.c1",
+          "bytes": 8388608,
+          "crc32": "4f97661a"
+        },
+        {
+          "name": "272-c2.c2",
+          "bytes": 8388608,
+          "crc32": "a3afda4f"
+        },
+        {
+          "name": "272-c3.c3",
+          "bytes": 8388608,
+          "crc32": "8c3c7502"
+        },
+        {
+          "name": "272-c4.c4",
+          "bytes": 8388608,
+          "crc32": "32d5e2e2"
+        },
+        {
+          "name": "272-c5.c5",
+          "bytes": 8388608,
+          "crc32": "6ce085bc"
+        },
+        {
+          "name": "272-c6.c6",
+          "bytes": 8388608,
+          "crc32": "05c8dc8e"
+        },
+        {
+          "name": "272-c7.c7",
+          "bytes": 8388608,
+          "crc32": "1417b742"
+        },
+        {
+          "name": "272-c8.c8",
+          "bytes": 8388608,
+          "crc32": "d49773cd"
+        },
+        {
+          "name": "272-m1.m1",
+          "bytes": 524288,
+          "crc32": "adeebf40"
+        },
+        {
+          "name": "272-v1.v1",
+          "bytes": 8388608,
+          "crc32": "76a94127"
+        },
+        {
+          "name": "272-v2.v2",
+          "bytes": 8388608,
+          "crc32": "4ba507f1"
+        }
+      ]
+    },
+    {
+      "official_reference": null,
+      "emulation_note": "Upstream original PGM driver emulates the undumped internal IGS027A ARM bootstrap; unchanged dumped 68K and external ARM programs remain original.",
+      "id": "dmnfrnt",
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/pgm/d_pgm.cpp",
+      "driver_source_sha256": "bfb8595859bf628eb46c16f605cb195bf49ee135afcc5c651f96a68ade59bafe",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/dmnfrnt.zip",
+        "file": "roms/dmnfrnt.zip",
+        "sha256": "569f9fa38c38b2ee34ccb5ebfd9b40ef1d46bcce40681392ff99ffbb80c422eb",
+        "bytes": 22900742
+      },
+      "installed_sha256": "569f9fa38c38b2ee34ccb5ebfd9b40ef1d46bcce40681392ff99ffbb80c422eb",
+      "installed_members": [
+        {
+          "name": "a04501.u3",
+          "crc32": "9741bea6",
+          "bytes": 8388608
+        },
+        {
+          "name": "a04502.u4",
+          "crc32": "e104f405",
+          "bytes": 8388608
+        },
+        {
+          "name": "a04503.u6",
+          "crc32": "bfd5cfe3",
+          "bytes": 8388608
+        },
+        {
+          "name": "b04501.u9",
+          "crc32": "29320b7d",
+          "bytes": 8388608
+        },
+        {
+          "name": "b04502.u11",
+          "crc32": "578c00e9",
+          "bytes": 2097152
+        },
+        {
+          "name": "t04501.u29",
+          "crc32": "900eaaac",
+          "bytes": 8388608
+        },
+        {
+          "name": "v105_16m.u5",
+          "crc32": "bda083bd",
+          "bytes": 2097152
+        },
+        {
+          "name": "v105_32m.u26",
+          "crc32": "c798c2ef",
+          "bytes": 4194304
+        },
+        {
+          "name": "w04501.u5",
+          "crc32": "3ab58137",
+          "bytes": 8388608
+        }
+      ],
+      "pinned_driver_crc_verified": true,
+      "required_original_chips": [
+        {
+          "name": "v105_16m.u5",
+          "bytes": 2097152,
+          "crc32": "bda083bd"
+        },
+        {
+          "name": "igs_t04501w064.u29",
+          "bytes": 8388608,
+          "crc32": "900eaaac"
+        },
+        {
+          "name": "igs_a04501w064.u3",
+          "bytes": 8388608,
+          "crc32": "9741bea6"
+        },
+        {
+          "name": "igs_a04502w064.u4",
+          "bytes": 8388608,
+          "crc32": "e104f405"
+        },
+        {
+          "name": "igs_a04503w064.u6",
+          "bytes": 8388608,
+          "crc32": "bfd5cfe3"
+        },
+        {
+          "name": "igs_b04501w064.u9",
+          "bytes": 8388608,
+          "crc32": "29320b7d"
+        },
+        {
+          "name": "igs_b04502w016.u11",
+          "bytes": 2097152,
+          "crc32": "578c00e9"
+        },
+        {
+          "name": "igs_w04501b064.u5",
+          "bytes": 8388608,
+          "crc32": "3ab58137"
+        },
+        {
+          "name": "v105_32m.u26",
+          "bytes": 4194304,
+          "crc32": "c798c2ef"
+        }
+      ]
+    },
+    {
+      "id": "progear",
+      "page_source": "https://archive.org/details/fbneo_20260918",
+      "config_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/capcom/d_cps2.cpp",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/progear.zip",
+        "file": "roms/progear.zip",
+        "sha256": "0f4e8fb2591bb15994ace853a1fd093007a378d6d7e8b11527b7901d95081b6b",
+        "bytes": 13800478
+      },
+      "installed_sha256": "0f4e8fb2591bb15994ace853a1fd093007a378d6d7e8b11527b7901d95081b6b",
+      "installed_members": [
+        {
+          "name": "pga-simm.01a",
+          "bytes": 2097152,
+          "crc32": "ae9ddafe"
+        },
+        {
+          "name": "pga-simm.01b",
+          "bytes": 2097152,
+          "crc32": "94d72d94"
+        },
+        {
+          "name": "pga-simm.01c",
+          "bytes": 2097152,
+          "crc32": "452f98b0"
+        },
+        {
+          "name": "pga-simm.01d",
+          "bytes": 2097152,
+          "crc32": "9e672092"
+        },
+        {
+          "name": "pga-simm.03a",
+          "bytes": 2097152,
+          "crc32": "9ee33d98"
+        },
+        {
+          "name": "pga-simm.03b",
+          "bytes": 2097152,
+          "crc32": "848dee32"
+        },
+        {
+          "name": "pga-simm.03c",
+          "bytes": 2097152,
+          "crc32": "48a1886d"
+        },
+        {
+          "name": "pga-simm.03d",
+          "bytes": 2097152,
+          "crc32": "172d7e37"
+        },
+        {
+          "name": "pga-simm.05a",
+          "bytes": 2097152,
+          "crc32": "c0aac80c"
+        },
+        {
+          "name": "pga-simm.05b",
+          "bytes": 2097152,
+          "crc32": "37a65d86"
+        },
+        {
+          "name": "pga-simm.06a",
+          "bytes": 2097152,
+          "crc32": "d3f1e934"
+        },
+        {
+          "name": "pga-simm.06b",
+          "bytes": 2097152,
+          "crc32": "8b39489a"
+        },
+        {
+          "name": "pga.01",
+          "bytes": 131072,
+          "crc32": "bdbfa992"
+        },
+        {
+          "name": "pgau.03",
+          "bytes": 524288,
+          "crc32": "343a783e"
+        },
+        {
+          "name": "pgau.04",
+          "bytes": 524288,
+          "crc32": "16208d79"
+        },
+        {
+          "name": "progear.key",
+          "bytes": 20,
+          "crc32": "46736b17"
+        }
+      ],
+      "required_members": [
+        {
+          "name": "pgau.03",
+          "bytes": 524288,
+          "crc32": "343a783e"
+        },
+        {
+          "name": "pgau.04",
+          "bytes": 524288,
+          "crc32": "16208d79"
+        },
+        {
+          "name": "pga-simm.01c",
+          "bytes": 2097152,
+          "crc32": "452f98b0"
+        },
+        {
+          "name": "pga-simm.01d",
+          "bytes": 2097152,
+          "crc32": "9e672092"
+        },
+        {
+          "name": "pga-simm.01a",
+          "bytes": 2097152,
+          "crc32": "ae9ddafe"
+        },
+        {
+          "name": "pga-simm.01b",
+          "bytes": 2097152,
+          "crc32": "94d72d94"
+        },
+        {
+          "name": "pga-simm.03c",
+          "bytes": 2097152,
+          "crc32": "48a1886d"
+        },
+        {
+          "name": "pga-simm.03d",
+          "bytes": 2097152,
+          "crc32": "172d7e37"
+        },
+        {
+          "name": "pga-simm.03a",
+          "bytes": 2097152,
+          "crc32": "9ee33d98"
+        },
+        {
+          "name": "pga-simm.03b",
+          "bytes": 2097152,
+          "crc32": "848dee32"
+        },
+        {
+          "name": "pga.01",
+          "bytes": 131072,
+          "crc32": "bdbfa992"
+        },
+        {
+          "name": "pga-simm.05a",
+          "bytes": 2097152,
+          "crc32": "c0aac80c"
+        },
+        {
+          "name": "pga-simm.05b",
+          "bytes": 2097152,
+          "crc32": "37a65d86"
+        },
+        {
+          "name": "pga-simm.06a",
+          "bytes": 2097152,
+          "crc32": "d3f1e934"
+        },
+        {
+          "name": "pga-simm.06b",
+          "bytes": 2097152,
+          "crc32": "8b39489a"
+        },
+        {
+          "name": "progear.key",
+          "bytes": 20,
+          "crc32": "46736b17"
+        }
+      ],
+      "required_rom_checksums_verified": true,
+      "edition": "USA 010117",
+      "original_unchanged_chips": true,
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/capcom/d_cps2.cpp",
+      "driver_input_definition": "ProgearInputList",
+      "native_pixels": [
+        384,
+        224
+      ],
+      "hardware": "original CPS-2 SIMM",
+      "parent_romset": null,
+      "software_edits": false,
+      "browser_core": "fbneo",
+      "input_wrapper_source": "https://github.com/libretro/FBNeo/blob/master/src/burner/libretro/retro_input.cpp"
+    },
+    {
+      "id": "pzloop2",
+      "page_source": "https://archive.org/details/fbneo_20260918",
+      "config_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/capcom/d_cps2.cpp",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/pzloop2.zip",
+        "file": "roms/pzloop2.zip",
+        "sha256": "d3cd0e75b00303ed3699923c3b838c517a171e71801773a96cae115f702997ed",
+        "bytes": 11143853
+      },
+      "installed_sha256": "d3cd0e75b00303ed3699923c3b838c517a171e71801773a96cae115f702997ed",
+      "installed_members": [
+        {
+          "name": "pl2-simm.01a",
+          "bytes": 2097152,
+          "crc32": "7e80ff8e"
+        },
+        {
+          "name": "pl2-simm.01b",
+          "bytes": 2097152,
+          "crc32": "cd93e6ed"
+        },
+        {
+          "name": "pl2-simm.01c",
+          "bytes": 2097152,
+          "crc32": "137b13a7"
+        },
+        {
+          "name": "pl2-simm.01d",
+          "bytes": 2097152,
+          "crc32": "a2db1507"
+        },
+        {
+          "name": "pl2-simm.03a",
+          "bytes": 2097152,
+          "crc32": "b60c9f8e"
+        },
+        {
+          "name": "pl2-simm.03b",
+          "bytes": 2097152,
+          "crc32": "83fef284"
+        },
+        {
+          "name": "pl2-simm.03c",
+          "bytes": 2097152,
+          "crc32": "0f52bbca"
+        },
+        {
+          "name": "pl2-simm.03d",
+          "bytes": 2097152,
+          "crc32": "a62712c3"
+        },
+        {
+          "name": "pl2-simm.05a",
+          "bytes": 2097152,
+          "crc32": "85d8fbe8"
+        },
+        {
+          "name": "pl2-simm.05b",
+          "bytes": 2097152,
+          "crc32": "1ed62584"
+        },
+        {
+          "name": "pl2.01",
+          "bytes": 131072,
+          "crc32": "35697569"
+        },
+        {
+          "name": "pl2e.03",
+          "bytes": 524288,
+          "crc32": "3b1285b2"
+        },
+        {
+          "name": "pl2e.04",
+          "bytes": 524288,
+          "crc32": "40a2d647"
+        },
+        {
+          "name": "pl2e.05",
+          "bytes": 524288,
+          "crc32": "0f11d818"
+        },
+        {
+          "name": "pl2e.06",
+          "bytes": 524288,
+          "crc32": "86fbbdf4"
+        },
+        {
+          "name": "pzloop2.key",
+          "bytes": 20,
+          "crc32": "ae13be78"
+        }
+      ],
+      "required_members": [
+        {
+          "name": "pl2e.03",
+          "bytes": 524288,
+          "crc32": "3b1285b2"
+        },
+        {
+          "name": "pl2e.04",
+          "bytes": 524288,
+          "crc32": "40a2d647"
+        },
+        {
+          "name": "pl2e.05",
+          "bytes": 524288,
+          "crc32": "0f11d818"
+        },
+        {
+          "name": "pl2e.06",
+          "bytes": 524288,
+          "crc32": "86fbbdf4"
+        },
+        {
+          "name": "pl2-simm.01c",
+          "bytes": 2097152,
+          "crc32": "137b13a7"
+        },
+        {
+          "name": "pl2-simm.01d",
+          "bytes": 2097152,
+          "crc32": "a2db1507"
+        },
+        {
+          "name": "pl2-simm.01a",
+          "bytes": 2097152,
+          "crc32": "7e80ff8e"
+        },
+        {
+          "name": "pl2-simm.01b",
+          "bytes": 2097152,
+          "crc32": "cd93e6ed"
+        },
+        {
+          "name": "pl2-simm.03c",
+          "bytes": 2097152,
+          "crc32": "0f52bbca"
+        },
+        {
+          "name": "pl2-simm.03d",
+          "bytes": 2097152,
+          "crc32": "a62712c3"
+        },
+        {
+          "name": "pl2-simm.03a",
+          "bytes": 2097152,
+          "crc32": "b60c9f8e"
+        },
+        {
+          "name": "pl2-simm.03b",
+          "bytes": 2097152,
+          "crc32": "83fef284"
+        },
+        {
+          "name": "pl2.01",
+          "bytes": 131072,
+          "crc32": "35697569"
+        },
+        {
+          "name": "pl2-simm.05a",
+          "bytes": 2097152,
+          "crc32": "85d8fbe8"
+        },
+        {
+          "name": "pl2-simm.05b",
+          "bytes": 2097152,
+          "crc32": "1ed62584"
+        },
+        {
+          "name": "pzloop2.key",
+          "bytes": 20,
+          "crc32": "ae13be78"
+        }
+      ],
+      "required_rom_checksums_verified": true,
+      "edition": "Europe 010302",
+      "original_unchanged_chips": true,
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/capcom/d_cps2.cpp",
+      "driver_input_definition": "Pzloop2InputList",
+      "native_pixels": [
+        384,
+        224
+      ],
+      "hardware": "original CPS-2 SIMM",
+      "parent_romset": null,
+      "software_edits": false,
+      "browser_core": "fbneo",
+      "input_wrapper_source": "https://github.com/libretro/FBNeo/blob/master/src/burner/libretro/retro_input.cpp"
+    },
+    {
+      "id": "ket",
+      "page_source": "https://archive.org/details/fbneo-1g1r-non-merged-rom-set_202605",
+      "config_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/pgm/d_pgm.cpp",
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/pgm/d_pgm.cpp",
+      "game": {
+        "url": "https://archive.org/download/fbneo-1g1r-non-merged-rom-set_202605/ket.zip",
+        "file": "roms/ket.zip",
+        "sha256": "4646cfeaa887adc7a4e26ebe8c2bd9a7214aae7ed22847286cbd70b21f33f955",
+        "bytes": 20364534
+      },
+      "installed_sha256": "fd711d8112cbb78c0f366260197e199ee73a693eaab570166139091a2c8136bd",
+      "installed_bytes": 20455056,
+      "installed_members": [
+        {
+          "name": "ketsui_v100.u38",
+          "bytes": 2097152,
+          "crc32": "dfe62f3b"
+        },
+        {
+          "name": "cave_t04701w064.u19",
+          "bytes": 8388608,
+          "crc32": "2665b041"
+        },
+        {
+          "name": "cave_a04701w064.u7",
+          "bytes": 8388608,
+          "crc32": "5ef1b94b"
+        },
+        {
+          "name": "cave_a04702w064.u8",
+          "bytes": 8388608,
+          "crc32": "26d6da7f"
+        },
+        {
+          "name": "cave_b04701w064.u1",
+          "bytes": 8388608,
+          "crc32": "1bec008d"
+        },
+        {
+          "name": "cave_m04701b032.u17",
+          "bytes": 4194304,
+          "crc32": "b46e22d1"
+        },
+        {
+          "name": "ket_defaults.nv",
+          "bytes": 131072,
+          "crc32": "3ca892d8"
+        },
+        {
+          "name": "pgm_t01s.rom",
+          "bytes": 2097152,
+          "crc32": "1a7123a0"
+        }
+      ],
+      "required_rom_checksums_verified": true,
+      "original_arcade_hardware": "Cave original PGM-based JAMMA PCB",
+      "rom_modifications": "None. Every dumped chip is unchanged. Required original board BIOS chips are packaged with their original set; undumped ARM protection is simulated by the unmodified FBNeo driver.",
+      "timing_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/pgm/pgm_run.cpp",
+      "driver_reference_fps": 59.185606,
+      "set_scope": "Original ordinary master version; no Arrange/Black Label hacks or home-console substitutions."
+    },
+    {
+      "id": "ddp3",
+      "page_source": "https://archive.org/details/fbneo-1g1r-non-merged-rom-set_202605",
+      "config_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/pgm/d_pgm.cpp",
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/pgm/d_pgm.cpp",
+      "game": {
+        "url": "https://archive.org/download/fbneo-1g1r-non-merged-rom-set_202605/ddp3.zip",
+        "file": "roms/ddp3.zip",
+        "sha256": "2b6ab09436499db62877c9944447fffe4e68c70891268a5d96dd761550eac551",
+        "bytes": 18646889
+      },
+      "installed_sha256": "757990b4dfd58082dca40b6971bcd6314bed237e841c6f124b8288455eb3ea20",
+      "installed_bytes": 18725857,
+      "installed_members": [
+        {
+          "name": "ddp3_v101_16m.u36",
+          "bytes": 2097152,
+          "crc32": "fba2180e"
+        },
+        {
+          "name": "cave_t04401w064.u19",
+          "bytes": 8388608,
+          "crc32": "3a95f19c"
+        },
+        {
+          "name": "cave_a04401w064.u7",
+          "bytes": 8388608,
+          "crc32": "ed229794"
+        },
+        {
+          "name": "cave_a04402w064.u8",
+          "bytes": 8388608,
+          "crc32": "752167b0"
+        },
+        {
+          "name": "cave_b04401w064.u1",
+          "bytes": 8388608,
+          "crc32": "17731c9d"
+        },
+        {
+          "name": "cave_m04401b032.u17",
+          "bytes": 4194304,
+          "crc32": "5a0dbd76"
+        },
+        {
+          "name": "ddp3_defaults.nv",
+          "bytes": 131072,
+          "crc32": "571e96c0"
+        },
+        {
+          "name": "pgm_t01s.rom",
+          "bytes": 2097152,
+          "crc32": "1a7123a0"
+        },
+        {
+          "name": "pgm_m01s.rom",
+          "bytes": 2097152,
+          "crc32": "45ae7159"
+        },
+        {
+          "name": "ddp3_bios.u37",
+          "bytes": 524288,
+          "crc32": "b3cc5c8f"
+        }
+      ],
+      "required_rom_checksums_verified": true,
+      "original_arcade_hardware": "Cave original PGM-based JAMMA PCB",
+      "rom_modifications": "None. Every dumped chip is unchanged. Required original board BIOS chips are packaged with their original set; undumped ARM protection is simulated by the unmodified FBNeo driver.",
+      "timing_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/pgm/pgm_run.cpp",
+      "driver_reference_fps": 59.185606,
+      "set_scope": "Original ordinary master version; no Arrange/Black Label hacks or home-console substitutions."
+    },
+    {
+      "id": "deathsml",
+      "page_source": "https://archive.org/details/fbneo-1g1r-non-merged-rom-set_202605",
+      "config_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/cave/d_cv1k.cpp",
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/cave/d_cv1k.cpp",
+      "game": {
+        "url": "https://archive.org/download/fbneo-1g1r-non-merged-rom-set_202605/deathsml.zip",
+        "file": "roms/deathsml.zip",
+        "sha256": "a3b5437f6238066ddf8c687d9d69dec6222d316b3da1d62630c10ba9b5fe7e85",
+        "bytes": 66177676
+      },
+      "installed_sha256": "b2d55830f6e842c46548bac8c560c89d0a5290f02bcee37c6f046cefd81df193",
+      "installed_bytes": 66268486,
+      "installed_members": [
+        {
+          "name": "u4",
+          "bytes": 2097152,
+          "crc32": "1a7b98bf"
+        },
+        {
+          "name": "u2",
+          "bytes": 138412032,
+          "crc32": "59ef5d78"
+        },
+        {
+          "name": "u23",
+          "bytes": 4194304,
+          "crc32": "aab718c8"
+        },
+        {
+          "name": "u24",
+          "bytes": 4194304,
+          "crc32": "83881d84"
+        }
+      ],
+      "required_rom_checksums_verified": true,
+      "original_arcade_hardware": "Cave CV1000-B",
+      "rom_modifications": "None. Every dumped chip is unchanged. Required original board BIOS chips are packaged with their original set; undumped ARM protection is simulated by the unmodified FBNeo driver.",
+      "timing_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/cave/d_cv1k.cpp",
+      "driver_reference_fps": 60,
+      "original_controls_source": "https://www.cave.co.jp/gameonline/deathsmiles/system05.html",
+      "set_scope": "Original ordinary master version; no Arrange/Black Label hacks or home-console substitutions.",
+      "blitter_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/devices/epic12.cpp",
+      "timing_configuration": "Original default Accurate (Buffis) timing, active computed hardware busy-delay model; no arbitrary CPU/delay tuning."
+    }
+  ],
+  "samples": [
+    {
+      "source": "https://github.com/Abdess/retrobios/releases/download/large-files/fbneo-samples.zip",
+      "file": "samples/dkong.zip",
+      "sha256": "b1fda078ac4575d6d40246e5f7195aff2ec7fbd9de6bb971e13f11fcbf3a64b7",
+      "installed_sha256": "3835ab13d5d324d2ee1b14398b6bdb36ec277d8afa078f2795d22ac48851ce5e",
+      "installed_members": [
+        "effect00.wav",
+        "effect01.wav",
+        "effect02.wav",
+        "run01.wav",
+        "run02.wav",
+        "run03.wav",
+        "jump.wav",
+        "dkstomp.wav"
+      ]
+    },
+    {
+      "source": "https://mirrors.arcadecontrols.com/www.mameworld.net/pc2jamma/downloads/galaga.zip",
+      "file": "samples/galaga.zip",
+      "sha256": "efea95828dafbe9a89a0e7415d6d4d9286d9fd601336ad63f9be52cd01cd7229",
+      "installed_sha256": "0b36f83a795ca9baa936738d3a8267ee384232d9ad43b6aa4507ba80703360a8",
+      "installed_members": [
+        "bang.wav",
+        "init.wav"
+      ]
+    },
+    {
+      "source": "https://github.com/Abdess/retrobios/releases/download/large-files/fbneo-samples.zip",
+      "file": "samples/invaders.zip",
+      "sha256": "c245089eab711c74a590f3ce19fd1423358dbb67d0cfd0c361b0385f79d6ffe8",
+      "installed_sha256": "6bc25fd3a1c1e23c082680ed35c2fde25f4a0377111b32e52d3cd0132ef0b811",
+      "installed_members": [
+        "4.wav",
+        "5.wav",
+        "6.wav",
+        "7.wav",
+        "8.wav",
+        "9.wav",
+        "1.wav",
+        "2.wav",
+        "3.wav",
+        "0.wav",
+        "18.wav"
+      ]
+    },
+    {
+      "source": "https://github.com/Abdess/retrobios/releases/download/large-files/fbneo-samples.zip",
+      "file": "samples/qbert.zip",
+      "sha256": "a313100f0472496fe189d4f752fba9093f710b68401a426514dc7dab2969d773",
+      "installed_sha256": "a313100f0472496fe189d4f752fba9093f710b68401a426514dc7dab2969d773"
+    }
+  ],
+  "sample_name_mappings": {
+    "dkong": {
+      "run01.wav": "effect00.wav",
+      "run02.wav": "effect00.wav",
+      "run03.wav": "effect00.wav",
+      "jump.wav": "effect01.wav",
+      "dkstomp.wav": "effect02.wav"
+    },
+    "invaders": {
+      "8.wav": "0.wav",
+      "18.wav": "8.wav"
+    }
+  },
+  "runtime_patch": {
+    "file": "emulator/emulator.min.js",
+    "reason": "Normalize external audio asset ArrayBuffer to Uint8Array; read pinned local version.json instead of optional CDN update check for offline play.",
+    "sha256": "15d03a396fe84776ef845a10ce5e64b6e283beb83995f53e087fc341b2ef4d79"
+  },
+  "bios": [
+    {
+      "id": "neogeo",
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/neogeo/d_neogeo.cpp",
+      "game": {
+        "url": "https://archive.org/download/fbneo_202401/FBNEO/roms/neogeo.zip",
+        "file": "roms/neogeo.zip",
+        "sha256": "462f322693b6a66a11604b28f043cc52f9dddb116fdd3011a03d083f64cab2d8",
+        "bytes": 1417113
+      },
+      "installed_sha256": "637592349ec549ada59fb43e1485085ba328c2ab0bb2322bb7ed23f24137a0d3",
+      "installed_members": [
+        {
+          "name": "sp-s3.sp1",
+          "crc32": "91b64be3",
+          "bytes": 131072
+        },
+        {
+          "name": "sm1.sm1",
+          "crc32": "94416d67",
+          "bytes": 131072
+        },
+        {
+          "name": "sfix.sfix",
+          "crc32": "c2ea0cfd",
+          "bytes": 131072
+        },
+        {
+          "name": "000-lo.lo",
+          "crc32": "5a86cff2",
+          "bytes": 131072
+        }
+      ],
+      "packaging": "Only original MVS Asia/Europe ver.6 BIOS and common original sound/text/zoom ROMs; unchanged ROM bytes.",
+      "pinned_driver_crc_verified": true
+    },
+    {
+      "id": "pgm",
+      "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/c8c70ba4858458c44b7200b88a29ebbb48c9bb23/src/burn/drv/pgm/d_pgm.cpp",
+      "driver_source_sha256": "bfb8595859bf628eb46c16f605cb195bf49ee135afcc5c651f96a68ade59bafe",
+      "game": {
+        "url": "https://filesus3.retrogames.cc/rom/19/new/pgm.zip",
+        "file": "roms/pgm.zip",
+        "sha256": "b26918d5b844b60490a748e3afe21313db2de285c188e58bdfc72add865b9049",
+        "bytes": 2190114
+      },
+      "installed_sha256": "3f7065799b94efddc7a23b3aeadf1b5bba27e3e1c31fb63a5b30c11660549c3b",
+      "installed_members": [
+        {
+          "name": "pgm_t01s.rom",
+          "crc32": "1a7123a0",
+          "bytes": 2097152
+        },
+        {
+          "name": "pgm_m01s.rom",
+          "crc32": "45ae7159",
+          "bytes": 2097152
+        },
+        {
+          "name": "pgm_p01s.u20",
+          "crc32": "e42b166e",
+          "bytes": 131072
+        },
+        {
+          "name": "pgm_p02s.u20",
+          "crc32": "78c15fa2",
+          "bytes": 131072
+        },
+        {
+          "name": "ddp3_bios.u37",
+          "crc32": "b3cc5c8f",
+          "bytes": 524288
+        },
+        {
+          "name": "bios.u42",
+          "crc32": "517cf7a2",
+          "bytes": 131072
+        }
+      ],
+      "packaging": "Original PGM tile/sample ROMs, older and newer original PGM BIOS, original DoDonPachi Dai-Ou-Jou board BIOS, and original V0001-01J custom BIOS. No modified no-intro BIOS.",
+      "pinned_driver_crc_verified": true
+    }
+  ],
+  "cabinetDefaults": [
+    {
+      "id": "ddsom-4p",
+      "file": "nvram/ddsom-4p.nv",
+      "sha256": "691da7b5905f28eda4c497e150048e4c6212e3dc8c9517b7504ec996259fdaec",
+      "bytes": 128,
+      "generated_by": "Original Shadow over Mystara operator menu: 4 PLAYERS 4 CHUTES MULTI; read-only original EEPROM device export.",
+      "record": "docs/1990s-capcom-taito-ddsom-eeprom-export.json",
+      "target": "/data/saves/FinalBurn Neo/fbneo/ddsom.nv",
+      "policy": "Initialize only when no saved EEPROM exists; preserve existing user saves. Original ROM chips remain unchanged."
+    }
+  ]
+}

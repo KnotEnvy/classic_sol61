@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#141c20">
+  <title>Browser arcade · Expansion plan</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="roadmap.css">
+  <script defer src="roadmap-data.js"></script>
+  <script defer src="roadmap.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./"><span class="brand-symbol" aria-hidden="true">CA</span> CLASSIC ARCADE</a>
+    <nav aria-label="Page navigation"><a href="#roster">The roster</a><a href="#batches">Build order</a><a href="./">Play the arcade <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">EXPANSION STUDY / 01 OCT 2026</p>
+        <h1 id="page-title">Three decades.<br><span>One browser.</span></h1>
+        <p class="intro">An original arcade collection, from the golden age to the 2000s. Every game we add must play in a browser, with its original screens, sounds and behavior.</p>
+        <div class="hero-actions"><a class="button" href="#roster">Explore the proposed roster ↓</a><a class="text-link" href="expansion-plan.md" download="Classic-Arcade-Expansion-Plan.md">Download full plan</a></div>
+      </div>
+      <aside class="collection-card" aria-label="Collection status">
+        <p class="eyebrow">THE COLLECTION WE'RE BUILDING</p>
+        <div class="target-number">51<span>roster games</span></div>
+        <div class="progress-track" aria-label="51 of 51 games available for player testing"><span></span></div>
+        <div class="counts"><div><strong>51</strong><span>player testing</span></div><div><strong>0</strong><span>planned additions</span></div></div>
+        <p class="card-note">1942 joins the approved roster. The approved 1980s, 1990s and 2000s collection is ready for player testing.</p>
+      </aside>
+    </section>
+    <section class="policy" aria-label="Admission requirement">
+      <span class="policy-label">THE ADMISSION RULE</span>
+      <p>Original arcade software. Browser play. No player installation. The 1980s and 1990s rooms are open for player testing. Later games stay planned until their browser controls, sound and performance are checked.</p>
+    </section>
+    <section class="roster-section" id="roster" aria-labelledby="roster-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / THE PROPOSED COLLECTION</p><h2 id="roster-title">Find your era.</h2></div><p>21 from the ’80s · 20 from the ’90s · 9 from the 2000s<br>Plus one 1978 heritage cabinet.</p></div>
+      <div class="era-tabs" role="group" aria-label="Filter games by era">
+        <button type="button" data-era="all" aria-pressed="true">All eras <span>51</span></button>
+        <button type="button" data-era="1980s" aria-pressed="false">1980s <span>21</span></button>
+        <button type="button" data-era="1990s" aria-pressed="false">1990s <span>20</span></button>
+        <button type="button" data-era="2000s" aria-pressed="false">2000s <span>09</span></button>
+        <button type="button" data-era="Heritage" aria-pressed="false">Heritage <span>01</span></button>
+      </div>
+      <div class="filters">
+        <label class="search-label">Search the collection<input id="search" type="search" placeholder="Try Strider, racing, or 1994…" autocomplete="off"></label>
+        <label>Genre<select id="genre"><option value="all">All genres</option></select></label>
+        <label>Build stage<select id="batch"><option value="all">All stages</option><option value="installed">Player testing · 51 cabinets</option><option value="0">Original eight</option><option value="1">Batch 1 · First seven</option><option value="2">Batch 2 · 1980s</option><option value="3">Batch 3 · 1990s essentials</option><option value="4">Batch 4 · 1990s depth</option><option value="5">Batch 5 · 2000s</option></select></label>
+        <button class="reset" id="reset" type="button">Reset filters</button>
+      </div>
+      <div class="result-meta"><p id="result-count" role="status" aria-live="polite"></p><p><span class="dot live"></span> Playable now <span class="dot planned"></span> Planned · browser test required</p></div>
+      <div class="table-wrap"><table><caption class="sr-only">Proposed arcade games and their implementation status</caption><thead><tr><th scope="col">Game / edition details</th><th scope="col">Year</th><th scope="col">Genre</th><th scope="col">Status</th></tr></thead><tbody id="game-rows"></tbody></table></div>
+      <p id="empty" class="empty" hidden>No titles match these filters. Try another era or clear your search.</p>
+      <p class="evidence-note">All proposed sets appear as playable drivers in current official FBNeo metadata. All 51 selected cabinets across the three decades are available for player testing. Longer sessions, endings and physical gamepad checks remain part of user testing. The nine 2000s additions run their original arcade software in the browser.</p>
+    </section>
+    <section class="batch-section" id="batches" aria-labelledby="batch-title">
+      <div class="section-heading"><div><p class="eyebrow">02 / BUILD ORDER</p><h2 id="batch-title">Three decades are in.</h2></div><p>51 cabinets available for player testing.<br>The complete approved roster is ready.</p></div>
+      <div class="first-six"><p class="eyebrow">BATCH 01</p><h3>Strider · OutRun · Super Sprint<br>Super Hang-On · Double Dragon · Bubble Bobble · 1942</h3><p>Landscape action, two different steering systems, motorcycle turbo and local co-op. These seven give us the foundations for a much larger arcade.</p></div>
+      <ol class="phases" id="phases"></ol>
+      <div class="gate-note"><strong>Before a game becomes playable</strong><p>Check the exact original revision, all controls, attract and start screens, sustained gameplay, audio, continues, game over, high scores, intermissions and endings. Keep original board timing and slowdown. If the browser cannot deliver it faithfully, leave it out of the launch count.</p></div>
+    </section>
+    <section class="research-section" aria-labelledby="research-title">
+      <div><p class="eyebrow">03 / THE NEXT FRONTIER</p><h2 id="research-title">The 3D research shelf.</h2><p>Later cabinet hardware needs a proven browser runtime of its own. These favourites stay outside the 51-title roster until their original arcade editions pass the same browser checks.</p></div>
+      <div><p class="research-games" id="research-games"></p><p class="research-note">A Dreamcast browser port is worth exploring, but it does not establish compatibility with original NAOMI arcade games. No native launcher or console edition is part of this plan.</p><details class="reserves"><summary>Alternative browser candidates</summary><p id="reserves"></p></details></div>
+    </section>
+    <footer class="sources"><p class="eyebrow">PRIMARY RESEARCH / ORIGINAL HARDWARE & EMULATOR DOCUMENTATION</p><div><a href="https://emulatorjs.org/docs/systems/arcade/" target="_blank" rel="noopener noreferrer">EmulatorJS arcade cores ↗</a><a href="https://docs.libretro.com/library/fbneo/" target="_blank" rel="noopener noreferrer">FBNeo documentation ↗</a><a id="dat-source" target="_blank" rel="noopener noreferrer">Pinned driver metadata ↗</a><a href="https://www.sega.jp/history/arcade/" target="_blank" rel="noopener noreferrer">Sega arcade history ↗</a><a href="https://www.cave.co.jp/business/" target="_blank" rel="noopener noreferrer">Cave release archive ↗</a></div><p>51 cabinets in the playable arcade. The approved collection is ready for player testing.</p></footer>
+  </main>
+  <noscript><p class="noscript">Enable JavaScript to browse the roster, or download the full Markdown plan above.</p></noscript>
+</body>
+</html>
