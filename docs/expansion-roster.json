@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-02",
-  "target": 51,
+  "date": "2026-10-09",
+  "target": 63,
   "policy": "Original arcade games running locally inside the browser. No native emulator, companion application, extension, streaming service, or console-port substitution.",
   "games": [
     {
@@ -484,6 +484,126 @@
       "benchmark": true,
       "controls": "Movement + left/right fire + bomb; 2 players",
       "note": "Higher-demand CV1000 browser benchmark for late-2000s coverage. Check loading memory, sustained sound and original slowdown. If it cannot meet fidelity and speed requirements, launch with 49 or choose another proven browser game.",
+      "installed": true
+    },
+    {
+      "id": "chasehq",
+      "name": "Chase H.Q.",
+      "year": 1988,
+      "genre": "Racing",
+      "batch": 6,
+      "controls": "Accelerator; Brake; Turbo; Gear shift",
+      "note": "Requested police pursuit racer; preserve steering, brake, turbo, gear and criminal-car ramming.",
+      "installed": true
+    },
+    {
+      "id": "apb",
+      "name": "APB: All Points Bulletin",
+      "year": 1987,
+      "genre": "Driving / action",
+      "batch": 6,
+      "controls": "Accelerator; Siren; Fire",
+      "note": "Requested Atari police patrol; preserve the continuous wheel, pedal, siren and arrest quotas.",
+      "installed": true
+    },
+    {
+      "id": "goldnaxe",
+      "name": "Golden Axe",
+      "year": 1989,
+      "genre": "Beat em up",
+      "batch": 6,
+      "controls": "Attack; Jump; Magic",
+      "note": "Adds fantasyco-op, mounts, magic and camp scenes distinct from the existing urban brawlers.",
+      "installed": true
+    },
+    {
+      "id": "rtype",
+      "name": "R-Type",
+      "year": 1987,
+      "genre": "Shooter",
+      "batch": 6,
+      "controls": "Shot / charge beam; Detach / recall Force",
+      "note": "Adds the chargebeam and detachableForce branch of horizontal shooting.",
+      "installed": true
+    },
+    {
+      "id": "gradius",
+      "name": "Gradius",
+      "year": 1985,
+      "genre": "Shooter",
+      "batch": 6,
+      "controls": "Power-up select; Shot; Missile",
+      "note": "Adds the capsule-selection upgrade bar and classic horizontal stage design.",
+      "installed": true
+    },
+    {
+      "id": "arkanoid",
+      "name": "Arkanoid",
+      "year": 1986,
+      "genre": "Puzzle / action",
+      "batch": 6,
+      "controls": "Launch / fire",
+      "note": "Adds paddle-based brickbreaking with original capsule powerups.",
+      "installed": true
+    },
+    {
+      "id": "marble",
+      "name": "Marble Madness",
+      "year": 1984,
+      "genre": "Skill / racing",
+      "batch": 6,
+      "controls": "Trackball movement",
+      "note": "Adds two-trackball isometric skill racing.",
+      "installed": true
+    },
+    {
+      "id": "atetris",
+      "name": "Tetris",
+      "year": 1988,
+      "genre": "Puzzle",
+      "batch": 6,
+      "controls": "Rotate",
+      "note": "Adds classic fallingblock play and simultaneous independent wells.",
+      "installed": true
+    },
+    {
+      "id": "shinobi",
+      "name": "Shinobi",
+      "year": 1987,
+      "genre": "Platformer",
+      "batch": 6,
+      "controls": "Attack; Jump; Ninja magic",
+      "note": "User-requested replacement for Ghouls nGhosts; rescue missions, ninja magic and bonus rounds.",
+      "installed": true
+    },
+    {
+      "id": "sfa2",
+      "name": "Street Fighter Alpha 2",
+      "year": 1996,
+      "genre": "Fighting",
+      "batch": 6,
+      "controls": "Light punch; Medium punch; Heavy punch; Light kick; Medium kick; Heavy kick",
+      "note": "Adds Alpha Counters, CustomCombos and the Alpha-era arcade roster.",
+      "installed": true
+    },
+    {
+      "id": "avsp",
+      "name": "Alien vs. Predator",
+      "year": 1994,
+      "genre": "Beat em up",
+      "batch": 6,
+      "controls": "Shoot; Attack; Jump",
+      "note": "Adds three-player sci-fi combat, ammo and distinct human/Predator combat systems.",
+      "installed": true
+    },
+    {
+      "id": "qix",
+      "name": "Qix",
+      "year": 1981,
+      "genre": "Puzzle / action",
+      "batch": 6,
+      "controls": "Fast draw; Slow draw",
+      "note": "Adds territory-drawing puzzles; selected after Paperboy failed its browser rendering gate.",
       "installed": true
     }
   ],

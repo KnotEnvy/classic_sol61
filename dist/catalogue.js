@@ -1284,3 +1284,365 @@ window.ARCADE_GAMES.push(...[
     "bootDelay": 42000
   }
 ]);
+
+/* Expansion twelve arcade cabinets */
+window.ARCADE_GAMES.push(...[
+  {
+    "id": "chasehq",
+    "name": "Chase H.Q.",
+    "year": 1988,
+    "maker": "TAITO",
+    "developer": "Taito",
+    "version": "World",
+    "rom": "chasehq.zip",
+    "token": "CHA",
+    "color": "#83bdcf",
+    "size": [
+      320,
+      240
+    ],
+    "move": "Steer with<br>left / right",
+    "actions": [
+      "Accelerator",
+      "Brake",
+      "Turbo",
+      "Gear shift"
+    ],
+    "players": 1,
+    "coop": false,
+    "objective": "Catch the criminal cars and ram them until they stop.",
+    "notes": "Original five-case Taito Z chase game. Left/right steer; Ctrl accelerates, Z brakes, X uses limited turbo, C changes gear.",
+    "bootDelay": 18000,
+    "action": "Accelerator",
+    "axes": "steer",
+    "actionInputs": [
+      8,
+      0,
+      1,
+      9
+    ]
+  },
+  {
+    "id": "apb",
+    "name": "APB: All Points Bulletin",
+    "year": 1987,
+    "maker": "ATARI GAMES",
+    "developer": "Atari Games",
+    "version": "Revision 7",
+    "rom": "apb.zip",
+    "token": "APB",
+    "color": "#d6bd65",
+    "size": [
+      384,
+      512
+    ],
+    "move": "Steer with<br>left / right",
+    "actions": [
+      "Accelerator",
+      "Siren",
+      "Fire"
+    ],
+    "players": 1,
+    "coop": false,
+    "objective": "Patrol as Officer Bob, make arrests and meet each day’s quota.",
+    "notes": "Original continuous-wheel police patrol cabinet. Left/right turn the wheel; Ctrl accelerates; Z sounds the siren, X fires. The siren button also starts the game.",
+    "bootDelay": 18000,
+    "action": "Accelerator",
+    "core": "mame2003_plus",
+    "actionInputs": [
+      11,
+      1,
+      8
+    ],
+    "startButton": 1
+  },
+  {
+    "id": "goldnaxe",
+    "name": "Golden Axe",
+    "year": 1989,
+    "maker": "SEGA",
+    "developer": "Sega",
+    "version": "US · set 6",
+    "rom": "goldnaxe.zip",
+    "token": "GOL",
+    "color": "#dfb07b",
+    "size": [
+      320,
+      224
+    ],
+    "move": "Move with<br>the arrow keys",
+    "actions": [
+      "Attack",
+      "Jump",
+      "Magic"
+    ],
+    "players": 2,
+    "coop": true,
+    "objective": "Choose a warrior and fight Death Adder with a companion.",
+    "notes": "Original System 16B arcade campaign, with rideable beasts, potion thieves and camp scenes.",
+    "bootDelay": 18000,
+    "action": "Attack"
+  },
+  {
+    "id": "rtype",
+    "name": "R-Type",
+    "year": 1987,
+    "maker": "IREM",
+    "developer": "Irem",
+    "version": "World",
+    "rom": "rtype.zip",
+    "token": "R-T",
+    "color": "#9dcbe0",
+    "size": [
+      384,
+      256
+    ],
+    "move": "Move with<br>the arrow keys",
+    "actions": [
+      "Shot / charge beam",
+      "Detach / recall Force"
+    ],
+    "players": 2,
+    "coop": false,
+    "objective": "Charge the beam and position the Force through the original eight stages.",
+    "notes": "Original arcade R-Type. Hold fire for the charge beam; the other button detaches or recalls an acquired Force. Two players alternate using the main controls.",
+    "bootDelay": 18000,
+    "action": "Shot / charge beam",
+    "sharedControls": true
+  },
+  {
+    "id": "gradius",
+    "name": "Gradius",
+    "year": 1985,
+    "maker": "KONAMI",
+    "developer": "Konami",
+    "version": "Japan · ROM board",
+    "rom": "gradius.zip",
+    "token": "GRA",
+    "color": "#a1c8b5",
+    "size": [
+      256,
+      224
+    ],
+    "move": "Move with<br>the arrow keys",
+    "actions": [
+      "Power-up select",
+      "Shot",
+      "Missile"
+    ],
+    "players": 2,
+    "coop": false,
+    "objective": "Collect capsules, select upgrades and destroy the cores.",
+    "notes": "Original Japanese arcade ROM-board version, titled Gradius. Upgrade selection, shot and missile are separate original buttons. Players alternate on the main controls.",
+    "bootDelay": 18000,
+    "action": "Power-up select",
+    "sharedControls": true
+  },
+  {
+    "id": "arkanoid",
+    "name": "Arkanoid",
+    "year": 1986,
+    "maker": "TAITO",
+    "developer": "Taito",
+    "version": "World · older",
+    "rom": "arkanoid.zip",
+    "token": "ARK",
+    "color": "#cab486",
+    "size": [
+      224,
+      256
+    ],
+    "move": "Turn the paddle<br>with left / right",
+    "actions": [
+      "Launch / fire"
+    ],
+    "players": 2,
+    "coop": false,
+    "objective": "Control the paddle, collect capsules and break through the original stages.",
+    "notes": "Original protected Taito arcade edition. Left/right turn the paddle; Ctrl launches or fires the laser. Players alternate using the main controls.",
+    "bootDelay": 18000,
+    "action": "Launch / fire",
+    "axes": "steer",
+    "sharedControls": true
+  },
+  {
+    "id": "marble",
+    "name": "Marble Madness",
+    "year": 1984,
+    "maker": "ATARI GAMES",
+    "developer": "Atari Games",
+    "version": "Set 1",
+    "rom": "marble.zip",
+    "token": "MAR",
+    "color": "#b1a3d7",
+    "size": [
+      336,
+      240
+    ],
+    "move": "Move with<br>the arrow keys",
+    "actions": [],
+    "players": 2,
+    "coop": false,
+    "objective": "Race the marble across six original courses before time expires.",
+    "notes": "Original two-trackball arcade game. Arrow keys move P1’s trackball; P2 uses I/J/K/L. Two simultaneous marbles race on the original courses.",
+    "bootDelay": 18000,
+    "core": "mame2003_plus"
+  },
+  {
+    "id": "atetris",
+    "name": "Tetris",
+    "year": 1988,
+    "maker": "ATARI GAMES",
+    "developer": "Atari Games",
+    "version": "Atari arcade · set 1",
+    "rom": "atetris.zip",
+    "token": "TET",
+    "color": "#d4a5ae",
+    "size": [
+      336,
+      240
+    ],
+    "move": "Move with<br>the arrow keys",
+    "actions": [
+      "Rotate"
+    ],
+    "players": 2,
+    "coop": false,
+    "objective": "Fit the falling tetrominoes together and clear lines.",
+    "notes": "Original Atari arcade Tetris, with separate simultaneous player wells. Left/right move, down drops faster, Ctrl rotates; P2 uses J/L/K and A.",
+    "bootDelay": 18000,
+    "action": "Rotate"
+  },
+  {
+    "id": "shinobi",
+    "name": "Shinobi",
+    "year": 1987,
+    "maker": "SEGA",
+    "developer": "Sega",
+    "version": "Set 6 · original System 16A",
+    "rom": "shinobi.zip",
+    "token": "SHI",
+    "color": "#b8c692",
+    "size": [
+      320,
+      224
+    ],
+    "move": "Move with<br>the arrow keys",
+    "actions": [
+      "Attack",
+      "Jump",
+      "Ninja magic"
+    ],
+    "players": 2,
+    "coop": false,
+    "objective": "Rescue the hostages and clear the five original ninja missions.",
+    "notes": "Original factory unprotected arcade board revision. Attack throws shuriken or strikes at close range; magic is limited by the original game. Players alternate on the main controls.",
+    "bootDelay": 18000,
+    "action": "Attack",
+    "sharedControls": true
+  },
+  {
+    "id": "sfa2",
+    "name": "Street Fighter Alpha 2",
+    "year": 1996,
+    "maker": "CAPCOM",
+    "developer": "Capcom",
+    "version": "Europe · 960229",
+    "rom": "sfa2.zip",
+    "token": "STR",
+    "color": "#dba187",
+    "size": [
+      384,
+      224
+    ],
+    "move": "Move with<br>the arrow keys",
+    "actions": [
+      "Light punch",
+      "Medium punch",
+      "Heavy punch",
+      "Light kick",
+      "Medium kick",
+      "Heavy kick"
+    ],
+    "players": 2,
+    "coop": false,
+    "objective": "Choose a fighter and master Alpha Counters and Custom Combos.",
+    "notes": "Original CPS-2 Alpha 2, with the arcade roster, round rules and character endings.",
+    "bootDelay": 18000,
+    "action": "Light punch",
+    "actionInputs": [
+      1,
+      9,
+      10,
+      0,
+      8,
+      11
+    ]
+  },
+  {
+    "id": "avsp",
+    "name": "Alien vs. Predator",
+    "year": 1994,
+    "maker": "CAPCOM",
+    "developer": "Capcom",
+    "version": "Europe · 940520",
+    "rom": "avsp.zip",
+    "token": "ALI",
+    "color": "#8dbcb2",
+    "size": [
+      384,
+      224
+    ],
+    "move": "Move with<br>the arrow keys",
+    "actions": [
+      "Attack",
+      "Jump",
+      "Shoot"
+    ],
+    "players": 3,
+    "coop": true,
+    "objective": "Choose a human or Predator and fight through the original alien invasion.",
+    "notes": "Original three-player CPS-2 arcade game. Ctrl attacks, Z jumps, X shoots; every player has independent coin and Start. New cabinets use the original3-player/3-chute operator setting; existing saves are preserved.",
+    "bootDelay": 18000,
+    "action": "Attack",
+    "actionInputs": [
+      1,
+      0,
+      8
+    ],
+    "nvramSeed": {
+      "file": "nvram/avsp-3p.nv",
+      "target": "/data/saves/FinalBurn Neo/fbneo/avsp.nv"
+    }
+  },
+  {
+    "id": "qix",
+    "name": "Qix",
+    "year": 1981,
+    "maker": "TAITO",
+    "developer": "Taito",
+    "version": "Revision 2",
+    "rom": "qix.zip",
+    "token": "QIX",
+    "color": "#c59cb8",
+    "size": [
+      240,
+      256
+    ],
+    "move": "Move along<br>the boundary",
+    "actions": [
+      "Fast draw",
+      "Slow draw"
+    ],
+    "action": "Fast draw",
+    "players": 2,
+    "coop": false,
+    "sharedControls": true,
+    "objective": "Claim the playfield while avoiding Qix and the boundary-roaming Sparx.",
+    "notes": "Original arcade territory-drawing puzzle. Hold Ctrl to draw fast or Z to draw slowly for higher rewards. Players alternate using the main controls. The first launch selects English through the original Test Advance control; existing factory settings are preserved.",
+    "bootDelay": 18000,
+    "firstBootButton": 13,
+    "firstBootWait": 10000,
+    "firstBootReset": true
+  }
+]);

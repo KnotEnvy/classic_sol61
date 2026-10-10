@@ -1,0 +1,3081 @@
+[
+  {
+    "id": "paperboy",
+    "driver_source": "https://raw.githubusercontent.com/libretro/mame2003-plus-libretro/09e84fe55799031e225b9da5e526d82ee85b9cd8/src/drivers/atarisy2.c",
+    "game": {
+      "url": "https://filesus3.retrogames.cc/rom/mame0243/paperboy.zip",
+      "file": "roms/paperboy.zip",
+      "sha256": "7a705e86185596571101e8988e95507fc76d95d5e826810c076e2503f4430283",
+      "bytes": 279214
+    },
+    "installed_sha256": "6a3c06509ccc7876d30fe535c5e05a2d6554cc5b6fcb27fbeeb89e32aa56eddc",
+    "installed_members": [
+      {
+        "name": "cpu_a02.rv3",
+        "bytes": 16384,
+        "crc32": "ba251bc4"
+      },
+      {
+        "name": "cpu_b02.rv2",
+        "bytes": 16384,
+        "crc32": "e4e7a8b9"
+      },
+      {
+        "name": "cpu_c02.rv2",
+        "bytes": 16384,
+        "crc32": "d44c2aa2"
+      },
+      {
+        "name": "cpu_f06.rv2",
+        "bytes": 16384,
+        "crc32": "3fea86ac"
+      },
+      {
+        "name": "cpu_j06.rv1",
+        "bytes": 16384,
+        "crc32": "a754b12d"
+      },
+      {
+        "name": "cpu_k06.rv1",
+        "bytes": 16384,
+        "crc32": "290bb034"
+      },
+      {
+        "name": "cpu_l06.rv2",
+        "bytes": 16384,
+        "crc32": "8a754466"
+      },
+      {
+        "name": "cpu_l07.rv3",
+        "bytes": 16384,
+        "crc32": "4024bb9b"
+      },
+      {
+        "name": "cpu_n06.rv2",
+        "bytes": 16384,
+        "crc32": "711b17ba"
+      },
+      {
+        "name": "cpu_n07.rv3",
+        "bytes": 16384,
+        "crc32": "0260901a"
+      },
+      {
+        "name": "cpu_p06.rv1",
+        "bytes": 16384,
+        "crc32": "89a1ff9c"
+      },
+      {
+        "name": "cpu_r06.rv1",
+        "bytes": 16384,
+        "crc32": "826993de"
+      },
+      {
+        "name": "cpu_s06.rv2",
+        "bytes": 16384,
+        "crc32": "224209f9"
+      },
+      {
+        "name": "paperboy-eeprom.bin",
+        "bytes": 512,
+        "crc32": "756b90cc"
+      },
+      {
+        "name": "vid_a06.rv1",
+        "bytes": 32768,
+        "crc32": "b32ffddf"
+      },
+      {
+        "name": "vid_b06.rv1",
+        "bytes": 16384,
+        "crc32": "301b849d"
+      },
+      {
+        "name": "vid_c06.rv1",
+        "bytes": 32768,
+        "crc32": "7bb59d68"
+      },
+      {
+        "name": "vid_d06.rv1",
+        "bytes": 16384,
+        "crc32": "1a1d4ba8"
+      },
+      {
+        "name": "vid_h06.rv1",
+        "bytes": 32768,
+        "crc32": "6763a321"
+      },
+      {
+        "name": "vid_j06.rv1",
+        "bytes": 32768,
+        "crc32": "2a3cc8d0"
+      },
+      {
+        "name": "vid_k06.rv1",
+        "bytes": 32768,
+        "crc32": "76b977c4"
+      },
+      {
+        "name": "vid_l06.rv1",
+        "bytes": 32768,
+        "crc32": "067ef202"
+      },
+      {
+        "name": "vid_m06.rv1",
+        "bytes": 32768,
+        "crc32": "df723956"
+      },
+      {
+        "name": "vid_n06.rv1",
+        "bytes": 32768,
+        "crc32": "c34a517d"
+      },
+      {
+        "name": "vid_p06.rv1",
+        "bytes": 32768,
+        "crc32": "5bd089ee"
+      },
+      {
+        "name": "vid_s06.rv1",
+        "bytes": 32768,
+        "crc32": "0a321b7b"
+      },
+      {
+        "name": "vid_t06.rv1",
+        "bytes": 8192,
+        "crc32": "60d7aebb"
+      }
+    ],
+    "required_original_chips": [
+      {
+        "name": "cpu_l07.rv3",
+        "bytes": 16384,
+        "crc32": "4024bb9b"
+      },
+      {
+        "name": "cpu_n07.rv3",
+        "bytes": 16384,
+        "crc32": "0260901a"
+      },
+      {
+        "name": "cpu_f06.rv2",
+        "bytes": 16384,
+        "crc32": "3fea86ac"
+      },
+      {
+        "name": "cpu_n06.rv2",
+        "bytes": 16384,
+        "crc32": "711b17ba"
+      },
+      {
+        "name": "cpu_j06.rv1",
+        "bytes": 16384,
+        "crc32": "a754b12d"
+      },
+      {
+        "name": "cpu_p06.rv1",
+        "bytes": 16384,
+        "crc32": "89a1ff9c"
+      },
+      {
+        "name": "cpu_k06.rv1",
+        "bytes": 16384,
+        "crc32": "290bb034"
+      },
+      {
+        "name": "cpu_r06.rv1",
+        "bytes": 16384,
+        "crc32": "826993de"
+      },
+      {
+        "name": "cpu_l06.rv2",
+        "bytes": 16384,
+        "crc32": "8a754466"
+      },
+      {
+        "name": "cpu_s06.rv2",
+        "bytes": 16384,
+        "crc32": "224209f9"
+      },
+      {
+        "name": "cpu_a02.rv3",
+        "bytes": 16384,
+        "crc32": "ba251bc4"
+      },
+      {
+        "name": "cpu_b02.rv2",
+        "bytes": 16384,
+        "crc32": "e4e7a8b9"
+      },
+      {
+        "name": "cpu_c02.rv2",
+        "bytes": 16384,
+        "crc32": "d44c2aa2"
+      },
+      {
+        "name": "vid_a06.rv1",
+        "bytes": 32768,
+        "crc32": "b32ffddf"
+      },
+      {
+        "name": "vid_b06.rv1",
+        "bytes": 16384,
+        "crc32": "301b849d"
+      },
+      {
+        "name": "vid_c06.rv1",
+        "bytes": 32768,
+        "crc32": "7bb59d68"
+      },
+      {
+        "name": "vid_d06.rv1",
+        "bytes": 16384,
+        "crc32": "1a1d4ba8"
+      },
+      {
+        "name": "vid_l06.rv1",
+        "bytes": 32768,
+        "crc32": "067ef202"
+      },
+      {
+        "name": "vid_k06.rv1",
+        "bytes": 32768,
+        "crc32": "76b977c4"
+      },
+      {
+        "name": "vid_j06.rv1",
+        "bytes": 32768,
+        "crc32": "2a3cc8d0"
+      },
+      {
+        "name": "vid_h06.rv1",
+        "bytes": 32768,
+        "crc32": "6763a321"
+      },
+      {
+        "name": "vid_s06.rv1",
+        "bytes": 32768,
+        "crc32": "0a321b7b"
+      },
+      {
+        "name": "vid_p06.rv1",
+        "bytes": 32768,
+        "crc32": "5bd089ee"
+      },
+      {
+        "name": "vid_n06.rv1",
+        "bytes": 32768,
+        "crc32": "c34a517d"
+      },
+      {
+        "name": "vid_m06.rv1",
+        "bytes": 32768,
+        "crc32": "df723956"
+      },
+      {
+        "name": "vid_t06.rv1",
+        "bytes": 8192,
+        "crc32": "60d7aebb"
+      }
+    ],
+    "required_rom_checksums_verified": true,
+    "original_unchanged_chips": true,
+    "dependencies": [],
+    "packaging": "Unchanged original chip bytes; expected historical MAME socket-label aliases included. Marble also includes its original motherboard firmware."
+  },
+  {
+    "id": "goldnaxe",
+    "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/sega/d_sys16b.cpp",
+    "game": {
+      "url": "https://filesus3.retrogames.cc/rom/19/new/goldnaxe.zip",
+      "file": "roms/goldnaxe.zip",
+      "sha256": "ca99194e13416217a1c5f2182cf25befb7fe2b459e72ed0f17f194f81a7a98db",
+      "bytes": 1164058
+    },
+    "installed_sha256": "ca99194e13416217a1c5f2182cf25befb7fe2b459e72ed0f17f194f81a7a98db",
+    "installed_members": [
+      {
+        "name": "317-0123a.c2",
+        "bytes": 4096,
+        "crc32": "cf19e7d4"
+      },
+      {
+        "name": "epr-12385.ic19",
+        "bytes": 131072,
+        "crc32": "b8a4e7e0"
+      },
+      {
+        "name": "epr-12386.ic20",
+        "bytes": 131072,
+        "crc32": "25d7d779"
+      },
+      {
+        "name": "epr-12387.ic21",
+        "bytes": 131072,
+        "crc32": "c7fcadf3"
+      },
+      {
+        "name": "epr-12390.ic8",
+        "bytes": 32768,
+        "crc32": "399fc5f5"
+      },
+      {
+        "name": "epr-12544.ic1",
+        "bytes": 262144,
+        "crc32": "5e38f668"
+      },
+      {
+        "name": "epr-12545.ic2",
+        "bytes": 262144,
+        "crc32": "a97c4e4d"
+      },
+      {
+        "name": "mpr-12378.ic9",
+        "bytes": 262144,
+        "crc32": "119e5a82"
+      },
+      {
+        "name": "mpr-12379.ic12",
+        "bytes": 262144,
+        "crc32": "1a0e8c57"
+      },
+      {
+        "name": "mpr-12380.ic10",
+        "bytes": 262144,
+        "crc32": "bb2c0853"
+      },
+      {
+        "name": "mpr-12381.ic13",
+        "bytes": 262144,
+        "crc32": "81ba6ecc"
+      },
+      {
+        "name": "mpr-12382.ic11",
+        "bytes": 262144,
+        "crc32": "81601c6f"
+      },
+      {
+        "name": "mpr-12383.ic14",
+        "bytes": 262144,
+        "crc32": "5dbacf7a"
+      },
+      {
+        "name": "mpr-12384.ic6",
+        "bytes": 131072,
+        "crc32": "6218d8e7"
+      }
+    ],
+    "required_original_chips": [
+      {
+        "name": "epr-12545.ic2",
+        "bytes": 262144,
+        "crc32": "a97c4e4d"
+      },
+      {
+        "name": "epr-12544.ic1",
+        "bytes": 262144,
+        "crc32": "5e38f668"
+      },
+      {
+        "name": "epr-12385.ic19",
+        "bytes": 131072,
+        "crc32": "b8a4e7e0"
+      },
+      {
+        "name": "epr-12386.ic20",
+        "bytes": 131072,
+        "crc32": "25d7d779"
+      },
+      {
+        "name": "epr-12387.ic21",
+        "bytes": 131072,
+        "crc32": "c7fcadf3"
+      },
+      {
+        "name": "mpr-12378.ic9",
+        "bytes": 262144,
+        "crc32": "119e5a82"
+      },
+      {
+        "name": "mpr-12379.ic12",
+        "bytes": 262144,
+        "crc32": "1a0e8c57"
+      },
+      {
+        "name": "mpr-12380.ic10",
+        "bytes": 262144,
+        "crc32": "bb2c0853"
+      },
+      {
+        "name": "mpr-12381.ic13",
+        "bytes": 262144,
+        "crc32": "81ba6ecc"
+      },
+      {
+        "name": "mpr-12382.ic11",
+        "bytes": 262144,
+        "crc32": "81601c6f"
+      },
+      {
+        "name": "mpr-12383.ic14",
+        "bytes": 262144,
+        "crc32": "5dbacf7a"
+      },
+      {
+        "name": "epr-12390.ic8",
+        "bytes": 32768,
+        "crc32": "399fc5f5"
+      },
+      {
+        "name": "mpr-12384.ic6",
+        "bytes": 131072,
+        "crc32": "6218d8e7"
+      },
+      {
+        "name": "317-0123a.c2",
+        "bytes": 4096,
+        "crc32": "cf19e7d4"
+      }
+    ],
+    "required_rom_checksums_verified": true,
+    "original_unchanged_chips": true,
+    "dependencies": []
+  },
+  {
+    "id": "apb",
+    "driver_source": "https://raw.githubusercontent.com/libretro/mame2003-plus-libretro/09e84fe55799031e225b9da5e526d82ee85b9cd8/src/drivers/atarisy2.c",
+    "game": {
+      "url": "https://filesus3.retrogames.cc/rom/mame0243/apb.zip",
+      "file": "roms/apb.zip",
+      "sha256": "b431e09fe8c3556abaf0b57ffd276ee72d087423dd04ca81a824b7c9b8473677",
+      "bytes": 766857
+    },
+    "installed_sha256": "35c35d215100365c5531e92e6c92173de89e4dc1b00b423d6838f95b11a3cbde",
+    "installed_members": [
+      {
+        "name": "136051-1101.5t",
+        "bytes": 65536,
+        "crc32": "0ef13513"
+      },
+      {
+        "name": "136051-1102.5rs",
+        "bytes": 65536,
+        "crc32": "401e06fd"
+      },
+      {
+        "name": "136051-1103.5pr",
+        "bytes": 65536,
+        "crc32": "50d820e8"
+      },
+      {
+        "name": "136051-1104.5n",
+        "bytes": 65536,
+        "crc32": "912d878f"
+      },
+      {
+        "name": "136051-1105.6t",
+        "bytes": 65536,
+        "crc32": "9b78a88e"
+      },
+      {
+        "name": "136051-1106.6rs",
+        "bytes": 65536,
+        "crc32": "4787ff58"
+      },
+      {
+        "name": "136051-1107.6pr",
+        "bytes": 65536,
+        "crc32": "0e85f2ac"
+      },
+      {
+        "name": "136051-1108.6n",
+        "bytes": 65536,
+        "crc32": "70ff9308"
+      },
+      {
+        "name": "136051-1109.5m",
+        "bytes": 65536,
+        "crc32": "6716a408"
+      },
+      {
+        "name": "136051-1110.5kl",
+        "bytes": 65536,
+        "crc32": "7e184981"
+      },
+      {
+        "name": "136051-1111.5jk",
+        "bytes": 65536,
+        "crc32": "353a14fd"
+      },
+      {
+        "name": "136051-1112.5h",
+        "bytes": 65536,
+        "crc32": "3af7c50f"
+      },
+      {
+        "name": "136051-1113.6m",
+        "bytes": 65536,
+        "crc32": "4a445356"
+      },
+      {
+        "name": "136051-1114.6kl",
+        "bytes": 65536,
+        "crc32": "b9b27f3c"
+      },
+      {
+        "name": "136051-1115.6jk",
+        "bytes": 65536,
+        "crc32": "a7671dd8"
+      },
+      {
+        "name": "136051-1116.6h",
+        "bytes": 65536,
+        "crc32": "879fc7de"
+      },
+      {
+        "name": "136051-1117.6cd",
+        "bytes": 32768,
+        "crc32": "cfc3f8a3"
+      },
+      {
+        "name": "136051-1118.6a",
+        "bytes": 32768,
+        "crc32": "93752c49"
+      },
+      {
+        "name": "136051-1119.6de",
+        "bytes": 65536,
+        "crc32": "68850612"
+      },
+      {
+        "name": "136051-1120.6bc",
+        "bytes": 65536,
+        "crc32": "043086f8"
+      },
+      {
+        "name": "136051-1121.7de",
+        "bytes": 65536,
+        "crc32": "c7977062"
+      },
+      {
+        "name": "136051-1122.7a",
+        "bytes": 65536,
+        "crc32": "5ee79481"
+      },
+      {
+        "name": "136051-1123.7cd",
+        "bytes": 65536,
+        "crc32": "3c96c848"
+      },
+      {
+        "name": "136051-1124.7bc",
+        "bytes": 65536,
+        "crc32": "27760395"
+      },
+      {
+        "name": "136051-1125.4t",
+        "bytes": 16384,
+        "crc32": "05a0341c"
+      },
+      {
+        "name": "136051-1130.6j",
+        "bytes": 65536,
+        "crc32": "f64c752e"
+      },
+      {
+        "name": "136051-1131.6p",
+        "bytes": 65536,
+        "crc32": "0a506e04"
+      },
+      {
+        "name": "136051-1132.6l",
+        "bytes": 65536,
+        "crc32": "6d0e7a4e"
+      },
+      {
+        "name": "136051-1133.6s",
+        "bytes": 65536,
+        "crc32": "af88d429"
+      },
+      {
+        "name": "136051-2126.7l",
+        "bytes": 16384,
+        "crc32": "8edf4726"
+      },
+      {
+        "name": "136051-2127.7n",
+        "bytes": 16384,
+        "crc32": "e2b2aff2"
+      },
+      {
+        "name": "136051-5134.2a",
+        "bytes": 16384,
+        "crc32": "1c8bdeed"
+      },
+      {
+        "name": "136051-5135.2bc",
+        "bytes": 16384,
+        "crc32": "ed6adb91"
+      },
+      {
+        "name": "136051-5136.2d",
+        "bytes": 16384,
+        "crc32": "341f8486"
+      },
+      {
+        "name": "136051-7128.6f",
+        "bytes": 65536,
+        "crc32": "c08504d2"
+      },
+      {
+        "name": "136051-7129.6n",
+        "bytes": 65536,
+        "crc32": "79adb57f"
+      },
+      {
+        "name": "2126-7l.051",
+        "bytes": 16384,
+        "crc32": "8edf4726"
+      },
+      {
+        "name": "2127-7n.051",
+        "bytes": 16384,
+        "crc32": "e2b2aff2"
+      },
+      {
+        "name": "7128-6f.051",
+        "bytes": 65536,
+        "crc32": "c08504d2"
+      },
+      {
+        "name": "7129-6n.051",
+        "bytes": 65536,
+        "crc32": "79adb57f"
+      },
+      {
+        "name": "1130-6j.051",
+        "bytes": 65536,
+        "crc32": "f64c752e"
+      },
+      {
+        "name": "1131-6p.051",
+        "bytes": 65536,
+        "crc32": "0a506e04"
+      },
+      {
+        "name": "1132-6l.051",
+        "bytes": 65536,
+        "crc32": "6d0e7a4e"
+      },
+      {
+        "name": "1133-6s.051",
+        "bytes": 65536,
+        "crc32": "af88d429"
+      },
+      {
+        "name": "5134-2a.051",
+        "bytes": 16384,
+        "crc32": "1c8bdeed"
+      },
+      {
+        "name": "5135-2bc.051",
+        "bytes": 16384,
+        "crc32": "ed6adb91"
+      },
+      {
+        "name": "5136-2d.051",
+        "bytes": 16384,
+        "crc32": "341f8486"
+      },
+      {
+        "name": "1118-6a.051",
+        "bytes": 32768,
+        "crc32": "93752c49"
+      },
+      {
+        "name": "1120-6bc.051",
+        "bytes": 65536,
+        "crc32": "043086f8"
+      },
+      {
+        "name": "1122-7a.051",
+        "bytes": 65536,
+        "crc32": "5ee79481"
+      },
+      {
+        "name": "1124-7bc.051",
+        "bytes": 65536,
+        "crc32": "27760395"
+      },
+      {
+        "name": "1117-6cd.051",
+        "bytes": 32768,
+        "crc32": "cfc3f8a3"
+      },
+      {
+        "name": "1119-6de.051",
+        "bytes": 65536,
+        "crc32": "68850612"
+      },
+      {
+        "name": "1121-7de.051",
+        "bytes": 65536,
+        "crc32": "c7977062"
+      },
+      {
+        "name": "1123-7cd.051",
+        "bytes": 65536,
+        "crc32": "3c96c848"
+      },
+      {
+        "name": "1105-6t.051",
+        "bytes": 65536,
+        "crc32": "9b78a88e"
+      },
+      {
+        "name": "1106-6rs.051",
+        "bytes": 65536,
+        "crc32": "4787ff58"
+      },
+      {
+        "name": "1107-6pr.051",
+        "bytes": 65536,
+        "crc32": "0e85f2ac"
+      },
+      {
+        "name": "1108-6n.051",
+        "bytes": 65536,
+        "crc32": "70ff9308"
+      },
+      {
+        "name": "1113-6m.051",
+        "bytes": 65536,
+        "crc32": "4a445356"
+      },
+      {
+        "name": "1114-6kl.051",
+        "bytes": 65536,
+        "crc32": "b9b27f3c"
+      },
+      {
+        "name": "1115-6jk.051",
+        "bytes": 65536,
+        "crc32": "a7671dd8"
+      },
+      {
+        "name": "1116-6h.051",
+        "bytes": 65536,
+        "crc32": "879fc7de"
+      },
+      {
+        "name": "1101-5t.051",
+        "bytes": 65536,
+        "crc32": "0ef13513"
+      },
+      {
+        "name": "1102-5rs.051",
+        "bytes": 65536,
+        "crc32": "401e06fd"
+      },
+      {
+        "name": "1103-5pr.051",
+        "bytes": 65536,
+        "crc32": "50d820e8"
+      },
+      {
+        "name": "1104-5n.051",
+        "bytes": 65536,
+        "crc32": "912d878f"
+      },
+      {
+        "name": "1109-5m.051",
+        "bytes": 65536,
+        "crc32": "6716a408"
+      },
+      {
+        "name": "1110-5kl.051",
+        "bytes": 65536,
+        "crc32": "7e184981"
+      },
+      {
+        "name": "1111-5jk.051",
+        "bytes": 65536,
+        "crc32": "353a14fd"
+      },
+      {
+        "name": "1112-5h.051",
+        "bytes": 65536,
+        "crc32": "3af7c50f"
+      },
+      {
+        "name": "1125-4t.051",
+        "bytes": 16384,
+        "crc32": "05a0341c"
+      }
+    ],
+    "required_original_chips": [
+      {
+        "name": "2126-7l.051",
+        "bytes": 16384,
+        "crc32": "8edf4726"
+      },
+      {
+        "name": "2127-7n.051",
+        "bytes": 16384,
+        "crc32": "e2b2aff2"
+      },
+      {
+        "name": "7128-6f.051",
+        "bytes": 65536,
+        "crc32": "c08504d2"
+      },
+      {
+        "name": "7129-6n.051",
+        "bytes": 65536,
+        "crc32": "79adb57f"
+      },
+      {
+        "name": "1130-6j.051",
+        "bytes": 65536,
+        "crc32": "f64c752e"
+      },
+      {
+        "name": "1131-6p.051",
+        "bytes": 65536,
+        "crc32": "0a506e04"
+      },
+      {
+        "name": "1132-6l.051",
+        "bytes": 65536,
+        "crc32": "6d0e7a4e"
+      },
+      {
+        "name": "1133-6s.051",
+        "bytes": 65536,
+        "crc32": "af88d429"
+      },
+      {
+        "name": "5134-2a.051",
+        "bytes": 16384,
+        "crc32": "1c8bdeed"
+      },
+      {
+        "name": "5135-2bc.051",
+        "bytes": 16384,
+        "crc32": "ed6adb91"
+      },
+      {
+        "name": "5136-2d.051",
+        "bytes": 16384,
+        "crc32": "341f8486"
+      },
+      {
+        "name": "1118-6a.051",
+        "bytes": 32768,
+        "crc32": "93752c49"
+      },
+      {
+        "name": "1120-6bc.051",
+        "bytes": 65536,
+        "crc32": "043086f8"
+      },
+      {
+        "name": "1122-7a.051",
+        "bytes": 65536,
+        "crc32": "5ee79481"
+      },
+      {
+        "name": "1124-7bc.051",
+        "bytes": 65536,
+        "crc32": "27760395"
+      },
+      {
+        "name": "1117-6cd.051",
+        "bytes": 32768,
+        "crc32": "cfc3f8a3"
+      },
+      {
+        "name": "1119-6de.051",
+        "bytes": 65536,
+        "crc32": "68850612"
+      },
+      {
+        "name": "1121-7de.051",
+        "bytes": 65536,
+        "crc32": "c7977062"
+      },
+      {
+        "name": "1123-7cd.051",
+        "bytes": 65536,
+        "crc32": "3c96c848"
+      },
+      {
+        "name": "1105-6t.051",
+        "bytes": 65536,
+        "crc32": "9b78a88e"
+      },
+      {
+        "name": "1106-6rs.051",
+        "bytes": 65536,
+        "crc32": "4787ff58"
+      },
+      {
+        "name": "1107-6pr.051",
+        "bytes": 65536,
+        "crc32": "0e85f2ac"
+      },
+      {
+        "name": "1108-6n.051",
+        "bytes": 65536,
+        "crc32": "70ff9308"
+      },
+      {
+        "name": "1113-6m.051",
+        "bytes": 65536,
+        "crc32": "4a445356"
+      },
+      {
+        "name": "1114-6kl.051",
+        "bytes": 65536,
+        "crc32": "b9b27f3c"
+      },
+      {
+        "name": "1115-6jk.051",
+        "bytes": 65536,
+        "crc32": "a7671dd8"
+      },
+      {
+        "name": "1116-6h.051",
+        "bytes": 65536,
+        "crc32": "879fc7de"
+      },
+      {
+        "name": "1101-5t.051",
+        "bytes": 65536,
+        "crc32": "0ef13513"
+      },
+      {
+        "name": "1102-5rs.051",
+        "bytes": 65536,
+        "crc32": "401e06fd"
+      },
+      {
+        "name": "1103-5pr.051",
+        "bytes": 65536,
+        "crc32": "50d820e8"
+      },
+      {
+        "name": "1104-5n.051",
+        "bytes": 65536,
+        "crc32": "912d878f"
+      },
+      {
+        "name": "1109-5m.051",
+        "bytes": 65536,
+        "crc32": "6716a408"
+      },
+      {
+        "name": "1110-5kl.051",
+        "bytes": 65536,
+        "crc32": "7e184981"
+      },
+      {
+        "name": "1111-5jk.051",
+        "bytes": 65536,
+        "crc32": "353a14fd"
+      },
+      {
+        "name": "1112-5h.051",
+        "bytes": 65536,
+        "crc32": "3af7c50f"
+      },
+      {
+        "name": "1125-4t.051",
+        "bytes": 16384,
+        "crc32": "05a0341c"
+      }
+    ],
+    "required_rom_checksums_verified": true,
+    "original_unchanged_chips": true,
+    "dependencies": [],
+    "packaging": "Unchanged original chip bytes; expected historical MAME socket-label aliases included. Marble also includes its original motherboard firmware."
+  },
+  {
+    "id": "chasehq",
+    "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/taito/d_taitoz.cpp",
+    "game": {
+      "url": "https://filesus3.retrogames.cc/rom/19/new/chasehq.zip",
+      "file": "roms/chasehq.zip",
+      "sha256": "09032305d41ce073961a6cca0e8e451c56d188784e638062a1f2f82d62d4ff68",
+      "bytes": 3728745
+    },
+    "installed_sha256": "09032305d41ce073961a6cca0e8e451c56d188784e638062a1f2f82d62d4ff68",
+    "installed_members": [
+      {
+        "name": "b52-01.7",
+        "bytes": 256,
+        "crc32": "89719d17"
+      },
+      {
+        "name": "b52-03.135",
+        "bytes": 1024,
+        "crc32": "a3f8490d"
+      },
+      {
+        "name": "b52-06.24",
+        "bytes": 256,
+        "crc32": "fbf81f30"
+      },
+      {
+        "name": "b52-113.73",
+        "bytes": 524288,
+        "crc32": "2c6a3a05"
+      },
+      {
+        "name": "b52-114.72",
+        "bytes": 524288,
+        "crc32": "3a73d6b1"
+      },
+      {
+        "name": "b52-115.71",
+        "bytes": 524288,
+        "crc32": "4e117e93"
+      },
+      {
+        "name": "b52-116.70",
+        "bytes": 524288,
+        "crc32": "ad46983c"
+      },
+      {
+        "name": "b52-126.136",
+        "bytes": 1024,
+        "crc32": "fa2f840e"
+      },
+      {
+        "name": "b52-127.156",
+        "bytes": 1024,
+        "crc32": "77682a4f"
+      },
+      {
+        "name": "b52-129.30",
+        "bytes": 131072,
+        "crc32": "0eaebc08"
+      },
+      {
+        "name": "b52-130.36",
+        "bytes": 131072,
+        "crc32": "4e7beb46"
+      },
+      {
+        "name": "b52-131.37",
+        "bytes": 131072,
+        "crc32": "aa945d83"
+      },
+      {
+        "name": "b52-132.39",
+        "bytes": 65536,
+        "crc32": "a2f54789"
+      },
+      {
+        "name": "b52-133.55",
+        "bytes": 65536,
+        "crc32": "12232f95"
+      },
+      {
+        "name": "b52-136.29",
+        "bytes": 131072,
+        "crc32": "2f414df0"
+      },
+      {
+        "name": "b52-137.51",
+        "bytes": 65536,
+        "crc32": "37abb74a"
+      },
+      {
+        "name": "b52-18.93",
+        "bytes": 256,
+        "crc32": "60bdaf1a"
+      },
+      {
+        "name": "b52-18a",
+        "bytes": 256,
+        "crc32": "6271be0d"
+      },
+      {
+        "name": "b52-28.4",
+        "bytes": 524288,
+        "crc32": "963bc82b"
+      },
+      {
+        "name": "b52-29.27",
+        "bytes": 524288,
+        "crc32": "8366d27c"
+      },
+      {
+        "name": "b52-30.4",
+        "bytes": 524288,
+        "crc32": "1b8cc647"
+      },
+      {
+        "name": "b52-31.6",
+        "bytes": 524288,
+        "crc32": "f1998e20"
+      },
+      {
+        "name": "b52-32.8",
+        "bytes": 524288,
+        "crc32": "8620780c"
+      },
+      {
+        "name": "b52-33.10",
+        "bytes": 524288,
+        "crc32": "e6f4b8c4"
+      },
+      {
+        "name": "b52-34.5",
+        "bytes": 524288,
+        "crc32": "7d8dce36"
+      },
+      {
+        "name": "b52-35.7",
+        "bytes": 524288,
+        "crc32": "78eeec0d"
+      },
+      {
+        "name": "b52-36.9",
+        "bytes": 524288,
+        "crc32": "61e89e91"
+      },
+      {
+        "name": "b52-37.11",
+        "bytes": 524288,
+        "crc32": "f02e47b9"
+      },
+      {
+        "name": "b52-38.34",
+        "bytes": 524288,
+        "crc32": "5b5bf7f6"
+      },
+      {
+        "name": "b52-49.68",
+        "bytes": 8192,
+        "crc32": "60dd2ed1"
+      },
+      {
+        "name": "b52-50.66",
+        "bytes": 65536,
+        "crc32": "c189781c"
+      },
+      {
+        "name": "b52-51.65",
+        "bytes": 65536,
+        "crc32": "30cc1f79"
+      },
+      {
+        "name": "pal16l8b-b52-120.ic56",
+        "bytes": 260,
+        "crc32": "3e7effa0"
+      },
+      {
+        "name": "pal16l8b-b52-122.ic124",
+        "bytes": 260,
+        "crc32": "04c0fb04"
+      },
+      {
+        "name": "pal16l8b-b52-123.ic125",
+        "bytes": 260,
+        "crc32": "3865d1c8"
+      },
+      {
+        "name": "pal16l8b-b52-124.ic180",
+        "bytes": 260,
+        "crc32": "d448a25a"
+      },
+      {
+        "name": "pal16l8b-b52-125.ic112",
+        "bytes": 260,
+        "crc32": "7628c557"
+      },
+      {
+        "name": "pal16l8b-b52-19.ic33",
+        "bytes": 260,
+        "crc32": "3ba292dc"
+      },
+      {
+        "name": "pal16l8b-b52-20.ic35",
+        "bytes": 260,
+        "crc32": "bd39ad73"
+      },
+      {
+        "name": "pal16l8b-b52-21.ic51",
+        "bytes": 260,
+        "crc32": "2fe76aa4"
+      },
+      {
+        "name": "pal20l8b-b52-118.ic20",
+        "bytes": 324,
+        "crc32": "9c5fe4af"
+      },
+      {
+        "name": "pal20l8b-b52-119.ic21",
+        "bytes": 324,
+        "crc32": "8b8e2106"
+      },
+      {
+        "name": "pal20l8b-b52-121.ic57",
+        "bytes": 324,
+        "crc32": "7056fd1d"
+      },
+      {
+        "name": "pal20l8b-b52-17.ic16",
+        "bytes": 324,
+        "crc32": "4851316d"
+      },
+      {
+        "name": "pal20l8b-b52-17.ic18",
+        "bytes": 324,
+        "crc32": "4851316d"
+      },
+      {
+        "name": "pal20l8b-b52-17.ic53",
+        "bytes": 324,
+        "crc32": "4851316d"
+      },
+      {
+        "name": "pal20l8b-b52-17.ic55",
+        "bytes": 324,
+        "crc32": "4851316d"
+      },
+      {
+        "name": "pal20l8b-b52-25.ic123",
+        "bytes": 324,
+        "crc32": "372b632d"
+      },
+      {
+        "name": "pal20l8b-b52-26.ic15",
+        "bytes": 324,
+        "crc32": "d94f2bc2"
+      },
+      {
+        "name": "pal20l8b-b52-26.ic18",
+        "bytes": 324,
+        "crc32": "d94f2bc2"
+      },
+      {
+        "name": "pal20l8b-b52-26.ic52",
+        "bytes": 324,
+        "crc32": "d94f2bc2"
+      },
+      {
+        "name": "pal20l8b-b52-26.ic54",
+        "bytes": 324,
+        "crc32": "d94f2bc2"
+      },
+      {
+        "name": "pal20l8b-b52-27.ic64",
+        "bytes": 324,
+        "crc32": "61c2ab26"
+      }
+    ],
+    "required_original_chips": [
+      {
+        "name": "b52-130.36",
+        "bytes": 131072,
+        "crc32": "4e7beb46"
+      },
+      {
+        "name": "b52-136.29",
+        "bytes": 131072,
+        "crc32": "2f414df0"
+      },
+      {
+        "name": "b52-131.37",
+        "bytes": 131072,
+        "crc32": "aa945d83"
+      },
+      {
+        "name": "b52-129.30",
+        "bytes": 131072,
+        "crc32": "0eaebc08"
+      },
+      {
+        "name": "b52-132.39",
+        "bytes": 65536,
+        "crc32": "a2f54789"
+      },
+      {
+        "name": "b52-133.55",
+        "bytes": 65536,
+        "crc32": "12232f95"
+      },
+      {
+        "name": "b52-137.51",
+        "bytes": 65536,
+        "crc32": "37abb74a"
+      },
+      {
+        "name": "b52-29.27",
+        "bytes": 524288,
+        "crc32": "8366d27c"
+      },
+      {
+        "name": "b52-34.5",
+        "bytes": 524288,
+        "crc32": "7d8dce36"
+      },
+      {
+        "name": "b52-35.7",
+        "bytes": 524288,
+        "crc32": "78eeec0d"
+      },
+      {
+        "name": "b52-36.9",
+        "bytes": 524288,
+        "crc32": "61e89e91"
+      },
+      {
+        "name": "b52-37.11",
+        "bytes": 524288,
+        "crc32": "f02e47b9"
+      },
+      {
+        "name": "b52-30.4",
+        "bytes": 524288,
+        "crc32": "1b8cc647"
+      },
+      {
+        "name": "b52-31.6",
+        "bytes": 524288,
+        "crc32": "f1998e20"
+      },
+      {
+        "name": "b52-32.8",
+        "bytes": 524288,
+        "crc32": "8620780c"
+      },
+      {
+        "name": "b52-33.10",
+        "bytes": 524288,
+        "crc32": "e6f4b8c4"
+      },
+      {
+        "name": "b52-28.4",
+        "bytes": 524288,
+        "crc32": "963bc82b"
+      },
+      {
+        "name": "b52-38.34",
+        "bytes": 524288,
+        "crc32": "5b5bf7f6"
+      },
+      {
+        "name": "b52-115.71",
+        "bytes": 524288,
+        "crc32": "4e117e93"
+      },
+      {
+        "name": "b52-114.72",
+        "bytes": 524288,
+        "crc32": "3a73d6b1"
+      },
+      {
+        "name": "b52-113.73",
+        "bytes": 524288,
+        "crc32": "2c6a3a05"
+      },
+      {
+        "name": "b52-116.70",
+        "bytes": 524288,
+        "crc32": "ad46983c"
+      }
+    ],
+    "required_rom_checksums_verified": true,
+    "original_unchanged_chips": true,
+    "dependencies": []
+  },
+  {
+    "id": "rtype",
+    "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/irem/d_m72.cpp",
+    "game": {
+      "url": "https://archive.org/download/fbneo_20260918/rtype.zip",
+      "file": "roms/rtype.zip",
+      "sha256": "34f0a12c7ab1f917a4bba16c94450b47563b7484cca495e6e130ecb7ca75e6d5",
+      "bytes": 387155
+    },
+    "installed_sha256": "34f0a12c7ab1f917a4bba16c94450b47563b7484cca495e6e130ecb7ca75e6d5",
+    "installed_members": [
+      {
+        "name": "m72_a-3d-.ic11",
+        "bytes": 279,
+        "crc32": "8a3732ff"
+      },
+      {
+        "name": "m72_a-4d-.ic19",
+        "bytes": 279,
+        "crc32": "56c29834"
+      },
+      {
+        "name": "m72_a-8l-.ic66",
+        "bytes": 256,
+        "crc32": "b460c438"
+      },
+      {
+        "name": "m72_a-9l-.ic75",
+        "bytes": 256,
+        "crc32": "a4f2c4bc"
+      },
+      {
+        "name": "m72_r-3a-.3a",
+        "bytes": 279,
+        "crc32": "055af779"
+      },
+      {
+        "name": "rt_b-a0.ic20",
+        "bytes": 32768,
+        "crc32": "4e212fb0"
+      },
+      {
+        "name": "rt_b-a1.ic22",
+        "bytes": 32768,
+        "crc32": "8a65bdff"
+      },
+      {
+        "name": "rt_b-a2.ic20",
+        "bytes": 32768,
+        "crc32": "5a4ae5b9"
+      },
+      {
+        "name": "rt_b-a3.ic23",
+        "bytes": 32768,
+        "crc32": "73327606"
+      },
+      {
+        "name": "rt_b-b0.ic26",
+        "bytes": 32768,
+        "crc32": "a7b17491"
+      },
+      {
+        "name": "rt_b-b1.ic27",
+        "bytes": 32768,
+        "crc32": "b9709686"
+      },
+      {
+        "name": "rt_b-b2.ic25",
+        "bytes": 32768,
+        "crc32": "433b229a"
+      },
+      {
+        "name": "rt_b-b3.ic24",
+        "bytes": 32768,
+        "crc32": "ad89b072"
+      },
+      {
+        "name": "rt_r-00.1h",
+        "bytes": 65536,
+        "crc32": "dad53bc0"
+      },
+      {
+        "name": "rt_r-01.1j",
+        "bytes": 32768,
+        "crc32": "5e441e7f"
+      },
+      {
+        "name": "rt_r-10.1k",
+        "bytes": 65536,
+        "crc32": "d6a66298"
+      },
+      {
+        "name": "rt_r-11.1l",
+        "bytes": 32768,
+        "crc32": "791df4f8"
+      },
+      {
+        "name": "rt_r-20.3h",
+        "bytes": 65536,
+        "crc32": "fc247c8a"
+      },
+      {
+        "name": "rt_r-21.3j",
+        "bytes": 32768,
+        "crc32": "ed793841"
+      },
+      {
+        "name": "rt_r-30.3k",
+        "bytes": 65536,
+        "crc32": "eb02a1cb"
+      },
+      {
+        "name": "rt_r-31.3l",
+        "bytes": 32768,
+        "crc32": "8558355d"
+      },
+      {
+        "name": "rt_r-h0-b.1b",
+        "bytes": 65536,
+        "crc32": "591c7754"
+      },
+      {
+        "name": "rt_r-h1-b.1c",
+        "bytes": 65536,
+        "crc32": "a9d71eca"
+      },
+      {
+        "name": "rt_r-l0-b.3b",
+        "bytes": 65536,
+        "crc32": "a1928df0"
+      },
+      {
+        "name": "rt_r-l1-b.3c",
+        "bytes": 65536,
+        "crc32": "0df3573d"
+      }
+    ],
+    "required_original_chips": [
+      {
+        "name": "rt_r-h0-b.1b",
+        "bytes": 65536,
+        "crc32": "591c7754"
+      },
+      {
+        "name": "rt_r-l0-b.3b",
+        "bytes": 65536,
+        "crc32": "a1928df0"
+      },
+      {
+        "name": "rt_r-h1-b.1c",
+        "bytes": 65536,
+        "crc32": "a9d71eca"
+      },
+      {
+        "name": "rt_r-l1-b.3c",
+        "bytes": 65536,
+        "crc32": "0df3573d"
+      },
+      {
+        "name": "rt_r-00.1h",
+        "bytes": 65536,
+        "crc32": "dad53bc0"
+      },
+      {
+        "name": "rt_r-01.1j",
+        "bytes": 32768,
+        "crc32": "5e441e7f"
+      },
+      {
+        "name": "rt_r-10.1k",
+        "bytes": 65536,
+        "crc32": "d6a66298"
+      },
+      {
+        "name": "rt_r-11.1l",
+        "bytes": 32768,
+        "crc32": "791df4f8"
+      },
+      {
+        "name": "rt_r-20.3h",
+        "bytes": 65536,
+        "crc32": "fc247c8a"
+      },
+      {
+        "name": "rt_r-21.3j",
+        "bytes": 32768,
+        "crc32": "ed793841"
+      },
+      {
+        "name": "rt_r-30.3k",
+        "bytes": 65536,
+        "crc32": "eb02a1cb"
+      },
+      {
+        "name": "rt_r-31.3l",
+        "bytes": 32768,
+        "crc32": "8558355d"
+      },
+      {
+        "name": "rt_b-a0.ic20",
+        "bytes": 32768,
+        "crc32": "4e212fb0"
+      },
+      {
+        "name": "rt_b-a1.ic22",
+        "bytes": 32768,
+        "crc32": "8a65bdff"
+      },
+      {
+        "name": "rt_b-a2.ic20",
+        "bytes": 32768,
+        "crc32": "5a4ae5b9"
+      },
+      {
+        "name": "rt_b-a3.ic23",
+        "bytes": 32768,
+        "crc32": "73327606"
+      },
+      {
+        "name": "rt_b-b0.ic26",
+        "bytes": 32768,
+        "crc32": "a7b17491"
+      },
+      {
+        "name": "rt_b-b1.ic27",
+        "bytes": 32768,
+        "crc32": "b9709686"
+      },
+      {
+        "name": "rt_b-b2.ic25",
+        "bytes": 32768,
+        "crc32": "433b229a"
+      },
+      {
+        "name": "rt_b-b3.ic24",
+        "bytes": 32768,
+        "crc32": "ad89b072"
+      }
+    ],
+    "required_rom_checksums_verified": true,
+    "original_unchanged_chips": true,
+    "dependencies": []
+  },
+  {
+    "id": "arkanoid",
+    "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/taito/d_arkanoid.cpp",
+    "game": {
+      "url": "https://archive.org/download/fbneo_20260918/arkanoid.zip",
+      "file": "roms/arkanoid.zip",
+      "sha256": "d98e78bec9e8b3cd5768a43e6c93baa12a1d9c5d64590151c31e206c1872ff1d",
+      "bytes": 72150
+    },
+    "installed_sha256": "d98e78bec9e8b3cd5768a43e6c93baa12a1d9c5d64590151c31e206c1872ff1d",
+    "installed_members": [
+      {
+        "name": "a75__03.ic64",
+        "bytes": 32768,
+        "crc32": "038b74ba"
+      },
+      {
+        "name": "a75__04.ic63",
+        "bytes": 32768,
+        "crc32": "71fae199"
+      },
+      {
+        "name": "a75__05.ic62",
+        "bytes": 32768,
+        "crc32": "c76374e2"
+      },
+      {
+        "name": "a75-06__bootleg_68705.ic14",
+        "bytes": 2048,
+        "crc32": "515d77b6"
+      },
+      {
+        "name": "a75-07.ic24",
+        "bytes": 512,
+        "crc32": "0af8b289"
+      },
+      {
+        "name": "a75-08.ic23",
+        "bytes": 512,
+        "crc32": "abb002fb"
+      },
+      {
+        "name": "a75-09.ic22",
+        "bytes": 512,
+        "crc32": "a7c6c277"
+      },
+      {
+        "name": "a75__01-1.ic17",
+        "bytes": 32768,
+        "crc32": "5bcda3b0"
+      },
+      {
+        "name": "a75__06.ic14",
+        "bytes": 2048,
+        "crc32": "0be83647"
+      },
+      {
+        "name": "a75__11.ic16",
+        "bytes": 32768,
+        "crc32": "eafd7191"
+      },
+      {
+        "name": "arkanoid1_68705p3.ic14",
+        "bytes": 2048,
+        "crc32": "1b68e2d8"
+      },
+      {
+        "name": "arkanoid_mcu.ic14",
+        "bytes": 2048,
+        "crc32": "4e44b50a"
+      }
+    ],
+    "required_original_chips": [
+      {
+        "name": "a75__01-1.ic17",
+        "bytes": 32768,
+        "crc32": "5bcda3b0"
+      },
+      {
+        "name": "a75__11.ic16",
+        "bytes": 32768,
+        "crc32": "eafd7191"
+      },
+      {
+        "name": "a75__06.ic14",
+        "bytes": 2048,
+        "crc32": "0be83647"
+      },
+      {
+        "name": "a75__03.ic64",
+        "bytes": 32768,
+        "crc32": "038b74ba"
+      },
+      {
+        "name": "a75__04.ic63",
+        "bytes": 32768,
+        "crc32": "71fae199"
+      },
+      {
+        "name": "a75__05.ic62",
+        "bytes": 32768,
+        "crc32": "c76374e2"
+      },
+      {
+        "name": "a75-07.ic24",
+        "bytes": 512,
+        "crc32": "0af8b289"
+      },
+      {
+        "name": "a75-08.ic23",
+        "bytes": 512,
+        "crc32": "abb002fb"
+      },
+      {
+        "name": "a75-09.ic22",
+        "bytes": 512,
+        "crc32": "a7c6c277"
+      }
+    ],
+    "required_rom_checksums_verified": true,
+    "original_unchanged_chips": true,
+    "dependencies": []
+  },
+  {
+    "id": "marble",
+    "driver_source": "https://raw.githubusercontent.com/libretro/mame2003-plus-libretro/09e84fe55799031e225b9da5e526d82ee85b9cd8/src/drivers/atarisy1.c",
+    "game": {
+      "url": "https://filesus3.retrogames.cc/rom/mame0243/marble.zip",
+      "file": "roms/marble.zip",
+      "sha256": "c48410160e3a220ab2b74c5a8fb4b4ab72cedee87cc369dc4a745452db75f559",
+      "bytes": 193238
+    },
+    "installed_sha256": "6c2f19df8638eded071a6bd485265f336fccfe7f43377251016ed3543de8357e",
+    "installed_members": [
+      {
+        "name": "136033.107",
+        "bytes": 16384,
+        "crc32": "f3b8745b"
+      },
+      {
+        "name": "136033.108",
+        "bytes": 16384,
+        "crc32": "e51eecaa"
+      },
+      {
+        "name": "136033.118",
+        "bytes": 512,
+        "crc32": "2101b0ed"
+      },
+      {
+        "name": "136033.119",
+        "bytes": 512,
+        "crc32": "19f6e767"
+      },
+      {
+        "name": "136033.137",
+        "bytes": 16384,
+        "crc32": "7a45f5c1"
+      },
+      {
+        "name": "136033.138",
+        "bytes": 16384,
+        "crc32": "7e954a88"
+      },
+      {
+        "name": "136033.139",
+        "bytes": 16384,
+        "crc32": "1eb1bb5f"
+      },
+      {
+        "name": "136033.140",
+        "bytes": 16384,
+        "crc32": "8a82467b"
+      },
+      {
+        "name": "136033.141",
+        "bytes": 16384,
+        "crc32": "52448965"
+      },
+      {
+        "name": "136033.142",
+        "bytes": 16384,
+        "crc32": "b4a70e4f"
+      },
+      {
+        "name": "136033.143",
+        "bytes": 16384,
+        "crc32": "7156e449"
+      },
+      {
+        "name": "136033.144",
+        "bytes": 16384,
+        "crc32": "4c3e4c79"
+      },
+      {
+        "name": "136033.145",
+        "bytes": 16384,
+        "crc32": "9062be7f"
+      },
+      {
+        "name": "136033.146",
+        "bytes": 16384,
+        "crc32": "14566dca"
+      },
+      {
+        "name": "136033.149",
+        "bytes": 16384,
+        "crc32": "b6658f06"
+      },
+      {
+        "name": "136033.151",
+        "bytes": 16384,
+        "crc32": "84ee1c80"
+      },
+      {
+        "name": "136033.153",
+        "bytes": 16384,
+        "crc32": "daa02926"
+      },
+      {
+        "name": "136033.229",
+        "bytes": 16384,
+        "crc32": "c81d5c14"
+      },
+      {
+        "name": "136033.421",
+        "bytes": 16384,
+        "crc32": "78153dc3"
+      },
+      {
+        "name": "136033.422",
+        "bytes": 16384,
+        "crc32": "2e66300e"
+      },
+      {
+        "name": "136033.623",
+        "bytes": 16384,
+        "crc32": "284ed2e9"
+      },
+      {
+        "name": "136033.624",
+        "bytes": 16384,
+        "crc32": "d541b021"
+      },
+      {
+        "name": "136033.625",
+        "bytes": 16384,
+        "crc32": "563755c7"
+      },
+      {
+        "name": "136033.626",
+        "bytes": 16384,
+        "crc32": "860feeb3"
+      },
+      {
+        "name": "136033.627",
+        "bytes": 16384,
+        "crc32": "d1dbd439"
+      },
+      {
+        "name": "136033.628",
+        "bytes": 16384,
+        "crc32": "957d6801"
+      },
+      {
+        "name": "136033.630",
+        "bytes": 16384,
+        "crc32": "687a09f7"
+      },
+      {
+        "name": "136032.101.e3",
+        "bytes": 256,
+        "crc32": "7e84972a"
+      },
+      {
+        "name": "136032.102.e5",
+        "bytes": 256,
+        "crc32": "ebf1e0ae"
+      },
+      {
+        "name": "136032.103.f7.bin",
+        "bytes": 235,
+        "crc32": "92d6a0b4"
+      },
+      {
+        "name": "136032.104.f5",
+        "bytes": 8192,
+        "crc32": "7a29dc07"
+      },
+      {
+        "name": "136032.105.l13",
+        "bytes": 16384,
+        "crc32": "690b37d3"
+      },
+      {
+        "name": "136032.106.l12",
+        "bytes": 16384,
+        "crc32": "76ee86c4"
+      },
+      {
+        "name": "136032.107.b2",
+        "bytes": 8192,
+        "crc32": "315e4bea"
+      },
+      {
+        "name": "136032.114.j11",
+        "bytes": 16384,
+        "crc32": "195c54ad"
+      },
+      {
+        "name": "136032.115.j10",
+        "bytes": 16384,
+        "crc32": "7275b4dc"
+      },
+      {
+        "name": "136032.205.l13",
+        "bytes": 16384,
+        "crc32": "88d0be26"
+      },
+      {
+        "name": "136032.206.l12",
+        "bytes": 16384,
+        "crc32": "3c79ef05"
+      },
+      {
+        "name": "136032.205",
+        "bytes": 16384,
+        "crc32": "88d0be26"
+      },
+      {
+        "name": "136032.206",
+        "bytes": 16384,
+        "crc32": "3c79ef05"
+      },
+      {
+        "name": "136032.107",
+        "bytes": 8192,
+        "crc32": "7a29dc07"
+      }
+    ],
+    "required_original_chips": [
+      {
+        "name": "136032.205",
+        "bytes": 16384,
+        "crc32": "88d0be26"
+      },
+      {
+        "name": "136032.206",
+        "bytes": 16384,
+        "crc32": "3c79ef05"
+      },
+      {
+        "name": "136033.623",
+        "bytes": 16384,
+        "crc32": "284ed2e9"
+      },
+      {
+        "name": "136033.624",
+        "bytes": 16384,
+        "crc32": "d541b021"
+      },
+      {
+        "name": "136033.625",
+        "bytes": 16384,
+        "crc32": "563755c7"
+      },
+      {
+        "name": "136033.626",
+        "bytes": 16384,
+        "crc32": "860feeb3"
+      },
+      {
+        "name": "136033.627",
+        "bytes": 16384,
+        "crc32": "d1dbd439"
+      },
+      {
+        "name": "136033.628",
+        "bytes": 16384,
+        "crc32": "957d6801"
+      },
+      {
+        "name": "136033.229",
+        "bytes": 16384,
+        "crc32": "c81d5c14"
+      },
+      {
+        "name": "136033.630",
+        "bytes": 16384,
+        "crc32": "687a09f7"
+      },
+      {
+        "name": "136033.107",
+        "bytes": 16384,
+        "crc32": "f3b8745b"
+      },
+      {
+        "name": "136033.108",
+        "bytes": 16384,
+        "crc32": "e51eecaa"
+      },
+      {
+        "name": "136033.421",
+        "bytes": 16384,
+        "crc32": "78153dc3"
+      },
+      {
+        "name": "136033.422",
+        "bytes": 16384,
+        "crc32": "2e66300e"
+      },
+      {
+        "name": "136032.107",
+        "bytes": 8192,
+        "crc32": "7a29dc07"
+      },
+      {
+        "name": "136033.137",
+        "bytes": 16384,
+        "crc32": "7a45f5c1"
+      },
+      {
+        "name": "136033.138",
+        "bytes": 16384,
+        "crc32": "7e954a88"
+      },
+      {
+        "name": "136033.139",
+        "bytes": 16384,
+        "crc32": "1eb1bb5f"
+      },
+      {
+        "name": "136033.140",
+        "bytes": 16384,
+        "crc32": "8a82467b"
+      },
+      {
+        "name": "136033.141",
+        "bytes": 16384,
+        "crc32": "52448965"
+      },
+      {
+        "name": "136033.142",
+        "bytes": 16384,
+        "crc32": "b4a70e4f"
+      },
+      {
+        "name": "136033.143",
+        "bytes": 16384,
+        "crc32": "7156e449"
+      },
+      {
+        "name": "136033.144",
+        "bytes": 16384,
+        "crc32": "4c3e4c79"
+      },
+      {
+        "name": "136033.145",
+        "bytes": 16384,
+        "crc32": "9062be7f"
+      },
+      {
+        "name": "136033.146",
+        "bytes": 16384,
+        "crc32": "14566dca"
+      },
+      {
+        "name": "136033.149",
+        "bytes": 16384,
+        "crc32": "b6658f06"
+      },
+      {
+        "name": "136033.151",
+        "bytes": 16384,
+        "crc32": "84ee1c80"
+      },
+      {
+        "name": "136033.153",
+        "bytes": 16384,
+        "crc32": "daa02926"
+      },
+      {
+        "name": "136033.118",
+        "bytes": 512,
+        "crc32": "2101b0ed"
+      },
+      {
+        "name": "136033.119",
+        "bytes": 512,
+        "crc32": "19f6e767"
+      }
+    ],
+    "required_rom_checksums_verified": true,
+    "original_unchanged_chips": true,
+    "dependencies": [
+      {
+        "url": "https://archive.org/download/mame-0.221-roms-merged/atarisy1.zip",
+        "sha256": "1becf650c4d23266205a0405df463bcf100107dde57bf54aedc816fed3928cbf",
+        "purpose": "Original System1 motherboard program/font chips required by MAME2003Plus"
+      }
+    ],
+    "packaging": "Unchanged original chip bytes; expected historical MAME socket-label aliases included. Marble also includes its original motherboard firmware."
+  },
+  {
+    "id": "atetris",
+    "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/pre90s/d_atetris.cpp",
+    "game": {
+      "url": "https://archive.org/download/fbneo_20260918/atetris.zip",
+      "file": "roms/atetris.zip",
+      "sha256": "faf454d655c1e06b0a96a222c54c661b4ecad2e73cc77db5fa4b98e9596595da",
+      "bytes": 53444
+    },
+    "installed_sha256": "faf454d655c1e06b0a96a222c54c661b4ecad2e73cc77db5fa4b98e9596595da",
+    "installed_members": [
+      {
+        "name": "136066-1100.45f",
+        "bytes": 65536,
+        "crc32": "2acbdb09"
+      },
+      {
+        "name": "136066-1101.35a",
+        "bytes": 65536,
+        "crc32": "84a1939f"
+      }
+    ],
+    "required_original_chips": [
+      {
+        "name": "136066-1100.45f",
+        "bytes": 65536,
+        "crc32": "2acbdb09"
+      },
+      {
+        "name": "136066-1101.35a",
+        "bytes": 65536,
+        "crc32": "84a1939f"
+      }
+    ],
+    "required_rom_checksums_verified": true,
+    "original_unchanged_chips": true,
+    "dependencies": []
+  },
+  {
+    "id": "shinobi",
+    "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/sega/d_sys16a.cpp",
+    "game": {
+      "url": "https://archive.org/download/fbneo_20260918/shinobi.zip",
+      "file": "roms/shinobi.zip",
+      "sha256": "b3b207b22e4857b044e39a1506a0eb579eca46ed9b542c5a8f168e9ce6e64b59",
+      "bytes": 472591
+    },
+    "installed_sha256": "b3b207b22e4857b044e39a1506a0eb579eca46ed9b542c5a8f168e9ce6e64b59",
+    "installed_members": [
+      {
+        "name": "7751.bin",
+        "bytes": 1024,
+        "crc32": "6a9534fc"
+      },
+      {
+        "name": "epr-11264.95",
+        "bytes": 65536,
+        "crc32": "46627e7d"
+      },
+      {
+        "name": "epr-11265.94",
+        "bytes": 65536,
+        "crc32": "87d0f321"
+      },
+      {
+        "name": "epr-11266.93",
+        "bytes": 65536,
+        "crc32": "efb4af87"
+      },
+      {
+        "name": "epr-11267.12",
+        "bytes": 32768,
+        "crc32": "dd50b745"
+      },
+      {
+        "name": "epr-11268.1",
+        "bytes": 32768,
+        "crc32": "6d7966da"
+      },
+      {
+        "name": "epr-11290.10",
+        "bytes": 65536,
+        "crc32": "611f413a"
+      },
+      {
+        "name": "epr-11291.17",
+        "bytes": 65536,
+        "crc32": "3c0797c0"
+      },
+      {
+        "name": "epr-11292.23",
+        "bytes": 65536,
+        "crc32": "c29ac34e"
+      },
+      {
+        "name": "epr-11293.29",
+        "bytes": 65536,
+        "crc32": "41f41063"
+      },
+      {
+        "name": "epr-11294.11",
+        "bytes": 65536,
+        "crc32": "5eb00fc1"
+      },
+      {
+        "name": "epr-11295.18",
+        "bytes": 65536,
+        "crc32": "25307ef8"
+      },
+      {
+        "name": "epr-11296.24",
+        "bytes": 65536,
+        "crc32": "04a437f8"
+      },
+      {
+        "name": "epr-11297.30",
+        "bytes": 65536,
+        "crc32": "b6e1fd72"
+      },
+      {
+        "name": "epr-12008.26",
+        "bytes": 65536,
+        "crc32": "f5ae64cd"
+      },
+      {
+        "name": "epr-12009.25",
+        "bytes": 65536,
+        "crc32": "7961d07e"
+      },
+      {
+        "name": "epr-12010.43",
+        "bytes": 65536,
+        "crc32": "7df7f4a2"
+      },
+      {
+        "name": "epr-12011.42",
+        "bytes": 65536,
+        "crc32": "9d46e707"
+      }
+    ],
+    "required_original_chips": [
+      {
+        "name": "epr-12010.43",
+        "bytes": 65536,
+        "crc32": "7df7f4a2"
+      },
+      {
+        "name": "epr-12008.26",
+        "bytes": 65536,
+        "crc32": "f5ae64cd"
+      },
+      {
+        "name": "epr-12011.42",
+        "bytes": 65536,
+        "crc32": "9d46e707"
+      },
+      {
+        "name": "epr-12009.25",
+        "bytes": 65536,
+        "crc32": "7961d07e"
+      },
+      {
+        "name": "epr-11264.95",
+        "bytes": 65536,
+        "crc32": "46627e7d"
+      },
+      {
+        "name": "epr-11265.94",
+        "bytes": 65536,
+        "crc32": "87d0f321"
+      },
+      {
+        "name": "epr-11266.93",
+        "bytes": 65536,
+        "crc32": "efb4af87"
+      },
+      {
+        "name": "epr-11290.10",
+        "bytes": 65536,
+        "crc32": "611f413a"
+      },
+      {
+        "name": "epr-11294.11",
+        "bytes": 65536,
+        "crc32": "5eb00fc1"
+      },
+      {
+        "name": "epr-11291.17",
+        "bytes": 65536,
+        "crc32": "3c0797c0"
+      },
+      {
+        "name": "epr-11295.18",
+        "bytes": 65536,
+        "crc32": "25307ef8"
+      },
+      {
+        "name": "epr-11292.23",
+        "bytes": 65536,
+        "crc32": "c29ac34e"
+      },
+      {
+        "name": "epr-11296.24",
+        "bytes": 65536,
+        "crc32": "04a437f8"
+      },
+      {
+        "name": "epr-11293.29",
+        "bytes": 65536,
+        "crc32": "41f41063"
+      },
+      {
+        "name": "epr-11297.30",
+        "bytes": 65536,
+        "crc32": "b6e1fd72"
+      },
+      {
+        "name": "epr-11267.12",
+        "bytes": 32768,
+        "crc32": "dd50b745"
+      },
+      {
+        "name": "7751.bin",
+        "bytes": 1024,
+        "crc32": "6a9534fc"
+      },
+      {
+        "name": "epr-11268.1",
+        "bytes": 32768,
+        "crc32": "6d7966da"
+      }
+    ],
+    "required_rom_checksums_verified": true,
+    "original_unchanged_chips": true,
+    "dependencies": []
+  },
+  {
+    "id": "sfa2",
+    "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/capcom/d_cps2.cpp",
+    "game": {
+      "url": "https://filesus3.retrogames.cc/rom/19/new/sfa2.zip",
+      "file": "roms/sfa2.zip",
+      "sha256": "a01b26fa6f7ad1b965223fd7ddadfc2be87f7e62f585381a2e92624b96d56f1a",
+      "bytes": 13688798
+    },
+    "installed_sha256": "a01b26fa6f7ad1b965223fd7ddadfc2be87f7e62f585381a2e92624b96d56f1a",
+    "installed_members": [
+      {
+        "name": "sfa2.key",
+        "bytes": 20,
+        "crc32": "1578dcb0"
+      },
+      {
+        "name": "sz2.01a",
+        "bytes": 131072,
+        "crc32": "1bc323cf"
+      },
+      {
+        "name": "sz2.02a",
+        "bytes": 131072,
+        "crc32": "ba6a5013"
+      },
+      {
+        "name": "sz2.05",
+        "bytes": 524288,
+        "crc32": "4b442a7c"
+      },
+      {
+        "name": "sz2.06",
+        "bytes": 524288,
+        "crc32": "5b1d49c0"
+      },
+      {
+        "name": "sz2.07",
+        "bytes": 524288,
+        "crc32": "8e184246"
+      },
+      {
+        "name": "sz2.08",
+        "bytes": 524288,
+        "crc32": "0fe8585d"
+      },
+      {
+        "name": "sz2.11m",
+        "bytes": 2097152,
+        "crc32": "aa47a601"
+      },
+      {
+        "name": "sz2.12m",
+        "bytes": 2097152,
+        "crc32": "2237bc53"
+      },
+      {
+        "name": "sz2.13m",
+        "bytes": 4194304,
+        "crc32": "4d1f1f22"
+      },
+      {
+        "name": "sz2.14m",
+        "bytes": 1048576,
+        "crc32": "0560c6aa"
+      },
+      {
+        "name": "sz2.15m",
+        "bytes": 4194304,
+        "crc32": "19cea680"
+      },
+      {
+        "name": "sz2.16m",
+        "bytes": 1048576,
+        "crc32": "ae940f87"
+      },
+      {
+        "name": "sz2.17m",
+        "bytes": 4194304,
+        "crc32": "e01b4588"
+      },
+      {
+        "name": "sz2.18m",
+        "bytes": 1048576,
+        "crc32": "4bc3c8bc"
+      },
+      {
+        "name": "sz2.19m",
+        "bytes": 4194304,
+        "crc32": "0feeda64"
+      },
+      {
+        "name": "sz2.20m",
+        "bytes": 1048576,
+        "crc32": "39e674c0"
+      },
+      {
+        "name": "sz2e.03",
+        "bytes": 524288,
+        "crc32": "1061e6bb"
+      },
+      {
+        "name": "sz2e.04",
+        "bytes": 524288,
+        "crc32": "22d17b26"
+      }
+    ],
+    "required_original_chips": [
+      {
+        "name": "sz2e.03",
+        "bytes": 524288,
+        "crc32": "1061e6bb"
+      },
+      {
+        "name": "sz2e.04",
+        "bytes": 524288,
+        "crc32": "22d17b26"
+      },
+      {
+        "name": "sz2.05",
+        "bytes": 524288,
+        "crc32": "4b442a7c"
+      },
+      {
+        "name": "sz2.06",
+        "bytes": 524288,
+        "crc32": "5b1d49c0"
+      },
+      {
+        "name": "sz2.07",
+        "bytes": 524288,
+        "crc32": "8e184246"
+      },
+      {
+        "name": "sz2.08",
+        "bytes": 524288,
+        "crc32": "0fe8585d"
+      },
+      {
+        "name": "sz2.13m",
+        "bytes": 4194304,
+        "crc32": "4d1f1f22"
+      },
+      {
+        "name": "sz2.15m",
+        "bytes": 4194304,
+        "crc32": "19cea680"
+      },
+      {
+        "name": "sz2.17m",
+        "bytes": 4194304,
+        "crc32": "e01b4588"
+      },
+      {
+        "name": "sz2.19m",
+        "bytes": 4194304,
+        "crc32": "0feeda64"
+      },
+      {
+        "name": "sz2.14m",
+        "bytes": 1048576,
+        "crc32": "0560c6aa"
+      },
+      {
+        "name": "sz2.16m",
+        "bytes": 1048576,
+        "crc32": "ae940f87"
+      },
+      {
+        "name": "sz2.18m",
+        "bytes": 1048576,
+        "crc32": "4bc3c8bc"
+      },
+      {
+        "name": "sz2.20m",
+        "bytes": 1048576,
+        "crc32": "39e674c0"
+      },
+      {
+        "name": "sz2.01a",
+        "bytes": 131072,
+        "crc32": "1bc323cf"
+      },
+      {
+        "name": "sz2.02a",
+        "bytes": 131072,
+        "crc32": "ba6a5013"
+      },
+      {
+        "name": "sz2.11m",
+        "bytes": 2097152,
+        "crc32": "aa47a601"
+      },
+      {
+        "name": "sz2.12m",
+        "bytes": 2097152,
+        "crc32": "2237bc53"
+      },
+      {
+        "name": "sfa2.key",
+        "bytes": 20,
+        "crc32": "1578dcb0"
+      }
+    ],
+    "required_rom_checksums_verified": true,
+    "original_unchanged_chips": true,
+    "dependencies": []
+  },
+  {
+    "id": "avsp",
+    "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/capcom/d_cps2.cpp",
+    "game": {
+      "url": "https://archive.org/download/fbneo_202401/FBNEO/roms/avsp.zip",
+      "file": "roms/avsp.zip",
+      "sha256": "b427b63e7878522ce065a0b5b44ad9ca72ae6e39fa803e96ddda28ed305651ea",
+      "bytes": 10447343
+    },
+    "installed_sha256": "c2ebf2508d61b07626de21994fe24d61378308b847e783fd3d11d1d91020f1b1",
+    "installed_members": [
+      {
+        "name": "avp.01",
+        "bytes": 131072,
+        "crc32": "2d3b4220"
+      },
+      {
+        "name": "avp.05d",
+        "bytes": 524288,
+        "crc32": "fbfb5d7a"
+      },
+      {
+        "name": "avp.06",
+        "bytes": 524288,
+        "crc32": "190b817f"
+      },
+      {
+        "name": "avp.11m",
+        "bytes": 2097152,
+        "crc32": "83499817"
+      },
+      {
+        "name": "avp.12m",
+        "bytes": 2097152,
+        "crc32": "f4110d49"
+      },
+      {
+        "name": "avp.13m",
+        "bytes": 2097152,
+        "crc32": "8f8b5ae4"
+      },
+      {
+        "name": "avp.14m",
+        "bytes": 1048576,
+        "crc32": "39933b1e"
+      },
+      {
+        "name": "avp.15m",
+        "bytes": 2097152,
+        "crc32": "b00280df"
+      },
+      {
+        "name": "avp.16m",
+        "bytes": 1048576,
+        "crc32": "85412860"
+      },
+      {
+        "name": "avp.17m",
+        "bytes": 2097152,
+        "crc32": "94403195"
+      },
+      {
+        "name": "avp.18m",
+        "bytes": 1048576,
+        "crc32": "2e2beb06"
+      },
+      {
+        "name": "avp.19m",
+        "bytes": 2097152,
+        "crc32": "e1981245"
+      },
+      {
+        "name": "avp.20m",
+        "bytes": 1048576,
+        "crc32": "e4798d1a"
+      },
+      {
+        "name": "avpe.03d",
+        "bytes": 524288,
+        "crc32": "774334a9"
+      },
+      {
+        "name": "avpe.04d",
+        "bytes": 524288,
+        "crc32": "7fa83769"
+      },
+      {
+        "name": "avsp.key",
+        "bytes": 20,
+        "crc32": "e69fa35b"
+      }
+    ],
+    "required_original_chips": [
+      {
+        "name": "avpe.03d",
+        "bytes": 524288,
+        "crc32": "774334a9"
+      },
+      {
+        "name": "avpe.04d",
+        "bytes": 524288,
+        "crc32": "7fa83769"
+      },
+      {
+        "name": "avp.05d",
+        "bytes": 524288,
+        "crc32": "fbfb5d7a"
+      },
+      {
+        "name": "avp.06",
+        "bytes": 524288,
+        "crc32": "190b817f"
+      },
+      {
+        "name": "avp.13m",
+        "bytes": 2097152,
+        "crc32": "8f8b5ae4"
+      },
+      {
+        "name": "avp.15m",
+        "bytes": 2097152,
+        "crc32": "b00280df"
+      },
+      {
+        "name": "avp.17m",
+        "bytes": 2097152,
+        "crc32": "94403195"
+      },
+      {
+        "name": "avp.19m",
+        "bytes": 2097152,
+        "crc32": "e1981245"
+      },
+      {
+        "name": "avp.14m",
+        "bytes": 1048576,
+        "crc32": "39933b1e"
+      },
+      {
+        "name": "avp.16m",
+        "bytes": 1048576,
+        "crc32": "85412860"
+      },
+      {
+        "name": "avp.18m",
+        "bytes": 1048576,
+        "crc32": "2e2beb06"
+      },
+      {
+        "name": "avp.20m",
+        "bytes": 1048576,
+        "crc32": "e4798d1a"
+      },
+      {
+        "name": "avp.01",
+        "bytes": 131072,
+        "crc32": "2d3b4220"
+      },
+      {
+        "name": "avp.11m",
+        "bytes": 2097152,
+        "crc32": "83499817"
+      },
+      {
+        "name": "avp.12m",
+        "bytes": 2097152,
+        "crc32": "f4110d49"
+      },
+      {
+        "name": "avsp.key",
+        "bytes": 20,
+        "crc32": "e69fa35b"
+      }
+    ],
+    "required_rom_checksums_verified": true,
+    "original_unchanged_chips": true,
+    "packaging": "Four legacy graphics dumps repeated each original1MiB chip twice. Identical second halves removed; every resulting physical-chip CRC matches the pinned official driver. No original program, sound or graphics byte values edited."
+  },
+  {
+    "id": "qix",
+    "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/taito/d_qix.cpp",
+    "game": {
+      "url": "https://archive.org/download/fbneo_20260918/qix.zip",
+      "file": "roms/qix.zip",
+      "sha256": "58da3a5588bcaf1e5443d324196a4bb6bd2a7fb8b462abd6f5244bba2970a4e5",
+      "bytes": 23329
+    },
+    "installed_sha256": "58da3a5588bcaf1e5443d324196a4bb6bd2a7fb8b462abd6f5244bba2970a4e5",
+    "installed_members": [
+      {
+        "name": "qq10_rev2.u10",
+        "bytes": 2048,
+        "crc32": "568be942"
+      },
+      {
+        "name": "qq12_rev2.u12",
+        "bytes": 2048,
+        "crc32": "aad35508"
+      },
+      {
+        "name": "qq13_rev2.u13",
+        "bytes": 2048,
+        "crc32": "46c13504"
+      },
+      {
+        "name": "qq14_rev2.u14",
+        "bytes": 2048,
+        "crc32": "5115e896"
+      },
+      {
+        "name": "qq15_rev2.u15",
+        "bytes": 2048,
+        "crc32": "ccd52a1b"
+      },
+      {
+        "name": "qq16_rev2.u16",
+        "bytes": 2048,
+        "crc32": "cd1c36ee"
+      },
+      {
+        "name": "qq17_rev2.u17",
+        "bytes": 2048,
+        "crc32": "1acb682d"
+      },
+      {
+        "name": "qq18_rev2.u18",
+        "bytes": 2048,
+        "crc32": "de77728b"
+      },
+      {
+        "name": "qq19_rev2.u19",
+        "bytes": 2048,
+        "crc32": "c0994776"
+      },
+      {
+        "name": "qq27.u27",
+        "bytes": 2048,
+        "crc32": "f3782bd0"
+      },
+      {
+        "name": "qq4_rev2.u4",
+        "bytes": 2048,
+        "crc32": "5b906a09"
+      },
+      {
+        "name": "qq5_rev2.u5",
+        "bytes": 2048,
+        "crc32": "254a3587"
+      },
+      {
+        "name": "qq6_rev2.u6",
+        "bytes": 2048,
+        "crc32": "ace30389"
+      },
+      {
+        "name": "qq7_rev2.u7",
+        "bytes": 2048,
+        "crc32": "8ebcfa7c"
+      },
+      {
+        "name": "qq8_rev2.u8",
+        "bytes": 2048,
+        "crc32": "b8a3c8f9"
+      },
+      {
+        "name": "qq9_rev2.u9",
+        "bytes": 2048,
+        "crc32": "26cbcd55"
+      }
+    ],
+    "required_original_chips": [
+      {
+        "name": "qq12_rev2.u12",
+        "bytes": 2048,
+        "crc32": "aad35508"
+      },
+      {
+        "name": "qq13_rev2.u13",
+        "bytes": 2048,
+        "crc32": "46c13504"
+      },
+      {
+        "name": "qq14_rev2.u14",
+        "bytes": 2048,
+        "crc32": "5115e896"
+      },
+      {
+        "name": "qq15_rev2.u15",
+        "bytes": 2048,
+        "crc32": "ccd52a1b"
+      },
+      {
+        "name": "qq16_rev2.u16",
+        "bytes": 2048,
+        "crc32": "cd1c36ee"
+      },
+      {
+        "name": "qq17_rev2.u17",
+        "bytes": 2048,
+        "crc32": "1acb682d"
+      },
+      {
+        "name": "qq18_rev2.u18",
+        "bytes": 2048,
+        "crc32": "de77728b"
+      },
+      {
+        "name": "qq19_rev2.u19",
+        "bytes": 2048,
+        "crc32": "c0994776"
+      },
+      {
+        "name": "qq4_rev2.u4",
+        "bytes": 2048,
+        "crc32": "5b906a09"
+      },
+      {
+        "name": "qq5_rev2.u5",
+        "bytes": 2048,
+        "crc32": "254a3587"
+      },
+      {
+        "name": "qq6_rev2.u6",
+        "bytes": 2048,
+        "crc32": "ace30389"
+      },
+      {
+        "name": "qq7_rev2.u7",
+        "bytes": 2048,
+        "crc32": "8ebcfa7c"
+      },
+      {
+        "name": "qq8_rev2.u8",
+        "bytes": 2048,
+        "crc32": "b8a3c8f9"
+      },
+      {
+        "name": "qq9_rev2.u9",
+        "bytes": 2048,
+        "crc32": "26cbcd55"
+      },
+      {
+        "name": "qq10_rev2.u10",
+        "bytes": 2048,
+        "crc32": "568be942"
+      },
+      {
+        "name": "qq27.u27",
+        "bytes": 2048,
+        "crc32": "f3782bd0"
+      }
+    ],
+    "required_rom_checksums_verified": true,
+    "original_unchanged_chips": true,
+    "dependencies": []
+  },
+  {
+    "id": "gradius",
+    "driver_source": "https://raw.githubusercontent.com/libretro/FBNeo/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/konami/d_nemesis.cpp",
+    "game": {
+      "url": "https://filesus3.retrogames.cc/rom/19/new/gradius.zip",
+      "file": "roms/gradius.zip",
+      "sha256": "9b1276fd18a30516c4a8c9a8db19f3ef430bff8346752e90a558d735a3db03b5",
+      "bytes": 118962
+    },
+    "installed_sha256": "67c29330737d1845ca71efabe0390d67bdc4400faa8648b0c31e5ec4617e0258",
+    "installed_members": [
+      {
+        "name": "400-a04.10l",
+        "bytes": 32768,
+        "crc32": "d02c9552"
+      },
+      {
+        "name": "400-a06.15l",
+        "bytes": 32768,
+        "crc32": "b99d8cff"
+      },
+      {
+        "name": "400-e03.5l",
+        "bytes": 8192,
+        "crc32": "a5a8e57d"
+      },
+      {
+        "name": "456-a05.12l",
+        "bytes": 131072,
+        "crc32": "5cafb263"
+      },
+      {
+        "name": "456-a07.17l",
+        "bytes": 131072,
+        "crc32": "92df792c"
+      },
+      {
+        "name": "400-a01.fse",
+        "bytes": 256,
+        "crc32": "5827b1e8"
+      },
+      {
+        "name": "400-a02.fse",
+        "bytes": 256,
+        "crc32": "2f44f970"
+      },
+      {
+        "name": "456-d01.12a",
+        "bytes": 32768,
+        "crc32": "35ff1aaa"
+      },
+      {
+        "name": "456-d02.13a",
+        "bytes": 32768,
+        "crc32": "ac0cf163"
+      },
+      {
+        "name": "456-d03.14a",
+        "bytes": 32768,
+        "crc32": "8cefb25f"
+      },
+      {
+        "name": "456-d04.15a",
+        "bytes": 32768,
+        "crc32": "9ca75592"
+      },
+      {
+        "name": "456-d05.12c",
+        "bytes": 32768,
+        "crc32": "23155faa"
+      },
+      {
+        "name": "456-d06.13c",
+        "bytes": 32768,
+        "crc32": "023f22a9"
+      },
+      {
+        "name": "456-d07.14c",
+        "bytes": 32768,
+        "crc32": "d50b82cb"
+      },
+      {
+        "name": "456-d08.15c",
+        "bytes": 32768,
+        "crc32": "03c0b7f5"
+      },
+      {
+        "name": "456-d09.9c",
+        "bytes": 16384,
+        "crc32": "26bf9636"
+      }
+    ],
+    "required_original_chips": [
+      {
+        "name": "400-a06.15l",
+        "bytes": 32768,
+        "crc32": "b99d8cff"
+      },
+      {
+        "name": "400-a04.10l",
+        "bytes": 32768,
+        "crc32": "d02c9552"
+      },
+      {
+        "name": "456-a07.17l",
+        "bytes": 131072,
+        "crc32": "92df792c"
+      },
+      {
+        "name": "456-a05.12l",
+        "bytes": 131072,
+        "crc32": "5cafb263"
+      },
+      {
+        "name": "400-e03.5l",
+        "bytes": 8192,
+        "crc32": "a5a8e57d"
+      },
+      {
+        "name": "400-a01.fse",
+        "bytes": 256,
+        "crc32": "5827b1e8"
+      },
+      {
+        "name": "400-a02.fse",
+        "bytes": 256,
+        "crc32": "2f44f970"
+      }
+    ],
+    "required_rom_checksums_verified": true,
+    "original_unchanged_chips": true,
+    "dependencies": [
+      {
+        "id": "nemesis",
+        "url": "https://archive.org/download/fbneo_20260918/nemesis.zip",
+        "sha256": "555f8bede24394caaff097ee0f770a4a782c5de9080d8225675ff122db64f314"
+      }
+    ]
+  }
+]

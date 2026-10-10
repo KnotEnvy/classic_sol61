@@ -11,12 +11,15 @@ window.cabinetProfile = game => {
     bind(p?'coin'+(p+1):'coin',p,2,String(5+p),'SELECT');
     bind('start'+(p+1),p,3,String(1+p),'START');
     const prefix=p?'p'+(p+1)+'_':'';
+    if(p>0&&game.sharedControls)continue;
     for(const [i,n] of ['up','down','left','right'].entries())bind(prefix+n,p,i+4,defaults[p][i],['DPAD_UP','DPAD_DOWN','DPAD_LEFT','DPAD_RIGHT'][i]);
     for(let i=0;i<(game.actions?.length || (game.action?1:0));i++)if(defaults[p][i+4])bind(prefix+(i?'action'+(i+1):'action'),p,buttonIds[i],defaults[p][i+4],pads[i]);
   }
   // Gauntlet's original Magic button doubles as the character's Start button.
   const startButton=game.id==='gauntlet'?8:game.startButton;
   if(Number.isInteger(startButton))for(let p=0;p<(game.players||2);p++)inputs['start'+(p+1)]=[p,startButton];
+  if(Array.isArray(game.startInputs))game.startInputs.forEach((target,p)=>{inputs['start'+(p+1)]=target;});
+  if(game.id==='qix'){ejsNames.F10='f10';bind('factoryAdvance',0,13,'F10','UNBOUND');}
   if(game.id==='defender'&&game.core==='mame2003_plus'){
     bind('action2',0,1,'z','BUTTON_3');
     bind('action3',0,9,'x','BUTTON_4');
@@ -28,6 +31,17 @@ window.cabinetProfile = game => {
     bind('action',0,13,'Control','RIGHT_BOTTOM_SHOULDER');
     bind('action2',0,12,'z','LEFT_BOTTOM_SHOULDER');
     bind('action3',0,0,'x','BUTTON_1');
+  }
+  if(game.axes)for(let p=0;p<(game.sharedControls?1:(game.players||2));p++){
+    const prefix=p?'p'+(p+1)+'_':'';
+    delete controls[p][6];delete controls[p][7];
+    bind(prefix+'left',p,17,defaults[p][2],'LEFT_STICK_X:-1');
+    bind(prefix+'right',p,16,defaults[p][3],'LEFT_STICK_X:+1');
+    if(game.axes==='xy'){
+      delete controls[p][4];delete controls[p][5];
+      bind(prefix+'up',p,19,defaults[p][0],'LEFT_STICK_Y:-1');
+      bind(prefix+'down',p,18,defaults[p][1],'LEFT_STICK_Y:+1');
+    }
   }
   if(game.id==='pzloop2')for(let p=0;p<2;p++){
     const prefix=p?'p'+(p+1)+'_':'';

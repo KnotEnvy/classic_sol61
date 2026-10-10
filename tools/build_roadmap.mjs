@@ -14,7 +14,7 @@ if(ids.size!==roster.target || roster.games.length!==roster.target) throw new Er
 const playable=roster.games.filter(g=>g.installed||g.batch===0).length;
 const planned=roster.games.length-playable;
 const finalDecade=roster.games.filter(g=>g.installed&&g.year>=2000&&g.year<2010).length;
-const releaseNote=planned?`${planned} titles still require browser admission.`:'The approved three-decade collection is available for player testing.';
+const releaseNote=planned?`${planned} titles still require browser admission.`:'The complete approved collection is available for player testing.';
 if(roster.games.filter(g=>g.batch===0).length!==8) throw new Error('The existing arcade has eight playable cabinets.');
 const phases = [
  {batch:0,name:'Original eight',count:8,total:8,detail:'The original eight cabinets remain the regression baseline.'},
@@ -22,8 +22,10 @@ const phases = [
  {batch:2,name:'Complete the 1980s room',count:7,total:22,detail:'Defender, Robotron, Joust, Q*bert, Gauntlet, Ghosts\'n Goblins and Final Fight. Prove twin-stick input, diagonal movement, samples and four player slots.'},
  {batch:3,name:'1990s essentials',count:10,total:32,detail:'Street Fighter II, Mortal Kombat II, NBA Jam TE, The Simpsons, Turtles in Time, Sunset Riders, X-Men, Metal Slug, Puzzle Bobble and Raiden.'},
  {batch:4,name:'1990s depth',count:10,total:42,detail:'The remaining ten 1990s choices. Stress-test CPS-3 with 3rd Strike; finish Neo Geo, CPS-2, rally, golf and disc-sports coverage.'},
+ {batch:6,name:'Requested racers and missing essentials',count:12,total:63,detail:'Chase H.Q., APB, Golden Axe, R-Type, Gradius, Arkanoid, Marble Madness, Tetris, Shinobi, Street Fighter Alpha 2, Alien vs. Predator and Qix.'},
  {batch:5,name:'2000s arcade craft',count:9,total:51,detail:'Nine original 2D arcade releases. Benchmark PGM/Cave and the higher-demand 2007 Deathsmiles pilot; preserve intentional slowdown and verify regional revisions.'}
 ];
+phases.sort((a,b)=>a.batch-b.batch);
 const games = roster.games.map(g=>{
   const e=evidence.sets[g.id];
   if(!e?.found || e.driver.status!=='good') throw new Error(`Missing playable upstream driver: ${g.id}`);

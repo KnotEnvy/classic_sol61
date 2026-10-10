@@ -1193,6 +1193,285 @@
       },
       "rom_bytes": 215552,
       "declared_biosset_tags": []
+    },
+    "chasehq": {
+      "found": true,
+      "description": "Chase H.Q. (World)",
+      "year": "1988",
+      "manufacturer": "Taito Corporation Japan",
+      "attributes": {
+        "name": "chasehq",
+        "sourcefile": "taito/d_taitoz.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "320",
+        "height": "240",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 8767636,
+      "declared_biosset_tags": []
+    },
+    "apb": {
+      "found": true,
+      "description": "APB - All Points Bulletin (rev 7)",
+      "year": "1987",
+      "manufacturer": "Atari Games",
+      "attributes": {
+        "name": "apb",
+        "sourcefile": "atari/d_atarisy2.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "vertical",
+        "width": "384",
+        "height": "512",
+        "aspectx": "3",
+        "aspecty": "4"
+      },
+      "rom_bytes": 1998848,
+      "declared_biosset_tags": []
+    },
+    "goldnaxe": {
+      "found": true,
+      "description": "Golden Axe (set 6, US) (8751 317-123A)",
+      "year": "1989",
+      "manufacturer": "Sega",
+      "attributes": {
+        "name": "goldnaxe",
+        "sourcefile": "sega/d_sys16b.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "320",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 2658539,
+      "declared_biosset_tags": []
+    },
+    "rtype": {
+      "found": true,
+      "description": "R-Type (World)",
+      "year": "1987",
+      "manufacturer": "Irem",
+      "attributes": {
+        "name": "rtype",
+        "sourcefile": "irem/d_m72.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "384",
+        "height": "256",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 918853,
+      "declared_biosset_tags": []
+    },
+    "gradius": {
+      "found": true,
+      "description": "Gradius (Japan, ROM version)",
+      "year": "1985",
+      "manufacturer": "Konami",
+      "attributes": {
+        "name": "gradius",
+        "cloneof": "nemesis",
+        "romof": "nemesis",
+        "sourcefile": "konami/d_nemesis.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "256",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 336384,
+      "declared_biosset_tags": []
+    },
+    "arkanoid": {
+      "found": true,
+      "description": "Arkanoid (World, older)",
+      "year": "1986",
+      "manufacturer": "Taito Corporation Japan",
+      "attributes": {
+        "name": "arkanoid",
+        "sourcefile": "taito/d_arkanoid.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "vertical",
+        "width": "224",
+        "height": "256",
+        "aspectx": "3",
+        "aspecty": "4"
+      },
+      "rom_bytes": 175616,
+      "declared_biosset_tags": []
+    },
+    "marble": {
+      "found": true,
+      "description": "Marble Madness (set 1)",
+      "year": "1984",
+      "manufacturer": "Atari Games",
+      "attributes": {
+        "name": "marble",
+        "romof": "atarisy1",
+        "sourcefile": "atari/d_atarisy1.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "336",
+        "height": "240",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 534998,
+      "declared_biosset_tags": []
+    },
+    "atetris": {
+      "found": true,
+      "description": "Tetris (set 1)",
+      "year": "1988",
+      "manufacturer": "Atari Games",
+      "attributes": {
+        "name": "atetris",
+        "sourcefile": "pre90s/d_atetris.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "336",
+        "height": "240",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 131072,
+      "declared_biosset_tags": []
+    },
+    "shinobi": {
+      "found": true,
+      "description": "Shinobi (set 6, System 16A) (unprotected)",
+      "year": "1987",
+      "manufacturer": "Sega",
+      "attributes": {
+        "name": "shinobi",
+        "sourcefile": "sega/d_sys16a.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "320",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 1049600,
+      "declared_biosset_tags": []
+    },
+    "sfa2": {
+      "found": true,
+      "description": "Street Fighter Alpha 2 (Europe 960229)",
+      "year": "1996",
+      "manufacturer": "Capcom",
+      "attributes": {
+        "name": "sfa2",
+        "sourcefile": "capcom/d_cps2.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "384",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 28573716,
+      "declared_biosset_tags": []
+    },
+    "avsp": {
+      "found": true,
+      "description": "Alien vs. Predator (Europe 940520)",
+      "year": "1994",
+      "manufacturer": "Capcom",
+      "attributes": {
+        "name": "avsp",
+        "sourcefile": "capcom/d_cps2.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "horizontal",
+        "width": "384",
+        "height": "224",
+        "aspectx": "4",
+        "aspecty": "3"
+      },
+      "rom_bytes": 19005460,
+      "declared_biosset_tags": []
+    },
+    "qix": {
+      "found": true,
+      "description": "Qix (Rev 2)",
+      "year": "1981",
+      "manufacturer": "Taito America Corporation",
+      "attributes": {
+        "name": "qix",
+        "sourcefile": "taito/d_qix.cpp"
+      },
+      "driver": {
+        "status": "good"
+      },
+      "video": {
+        "type": "raster",
+        "orientation": "vertical",
+        "width": "240",
+        "height": "256",
+        "aspectx": "3",
+        "aspecty": "4"
+      },
+      "rom_bytes": 32768,
+      "declared_biosset_tags": []
     }
   }
 }

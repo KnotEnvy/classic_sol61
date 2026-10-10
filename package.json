@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "A local browser arcade of 51 original games through hardware emulation.",
+  "description": "A browser arcade of 63 original games through hardware emulation.",
   "scripts": {
     "start": "node tools/server.mjs",
     "check": "node --check dist/arcade.js && node --check dist/player.js && node --check dist/catalogue.js && node --check dist/cabinet-controls.js && node --check dist/roadmap.js && node --check tools/server.mjs",

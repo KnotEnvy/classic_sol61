@@ -1,0 +1,10 @@
+{
+  "id": "paperboy",
+  "status": "deferred",
+  "reason": "MAME2003Plus boots and menus render, but real gameplay has missing sprites and raster striping; existing FBNeo core does not support this driver. No display filtering or game-code patches were used to conceal it.",
+  "replacement": "Qix",
+  "evidence": [
+    "screenshots/expansion12/paperboy-focused-accelerating.png",
+    "screenshots/expansion12/paperboy-fbneo-core.png"
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "errors": [],
+  "httpFailures": [],
+  "blocked": [],
+  "library": 63,
+  "newGames": [
+    "chasehq",
+    "apb",
+    "goldnaxe",
+    "rtype",
+    "gradius",
+    "arkanoid",
+    "marble",
+    "atetris",
+    "shinobi",
+    "sfa2",
+    "avsp",
+    "qix"
+  ],
+  "collisionAudit": [],
+  "rotary": [
+    {
+      "focus": "outer",
+      "key": "ArrowLeft",
+      "player": 0,
+      "input": 17,
+      "value": 32767,
+      "events": [
+        [
+          0,
+          17,
+          32767
+        ],
+        [
+          0,
+          17,
+          0
+        ]
+      ]
+    },
+    {
+      "focus": "outer",
+      "key": "ArrowRight",
+      "player": 0,
+      "input": 16,
+      "value": 32767,
+      "events": [
+        [
+          0,
+          16,
+          32767
+        ],
+        [
+          0,
+          16,
+          0
+        ]
+      ]
+    },
+    {
+      "focus": "outer",
+      "key": "j",
+      "player": 1,
+      "input": 17,
+      "value": 32767,
+      "events": [
+        [
+          1,
+          17,
+          32767
+        ],
+        [
+          1,
+          17,
+          0
+        ]
+      ]
+    },
+    {
+      "focus": "outer",
+      "key": "l",
+      "player": 1,
+      "input": 16,
+      "value": 32767,
+      "events": [
+        [
+          1,
+          16,
+          32767
+        ],
+        [
+          1,
+          16,
+          0
+        ]
+      ]
+    },
+    {
+      "focus": "outer",
+      "key": "Control",
+      "player": 0,
+      "input": 0,
+      "value": 1,
+      "events": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "focus": "outer",
+      "key": "a",
+      "player": 1,
+      "input": 0,
+      "value": 1,
+      "events": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "focus": "iframe",
+      "key": "ArrowLeft",
+      "player": 0,
+      "input": 17,
+      "value": 32767,
+      "events": [
+        [
+          0,
+          17,
+          32767
+        ],
+        [
+          0,
+          17,
+          0
+        ]
+      ]
+    },
+    {
+      "focus": "iframe",
+      "key": "ArrowRight",
+      "player": 0,
+      "input": 16,
+      "value": 32767,
+      "events": [
+        [
+          0,
+          16,
+          32767
+        ],
+        [
+          0,
+          16,
+          0
+        ]
+      ]
+    },
+    {
+      "focus": "iframe",
+      "key": "j",
+      "player": 1,
+      "input": 17,
+      "value": 32767,
+      "events": [
+        [
+          1,
+          17,
+          32767
+        ],
+        [
+          1,
+          17,
+          0
+        ]
+      ]
+    },
+    {
+      "focus": "iframe",
+      "key": "l",
+      "player": 1,
+      "input": 16,
+      "value": 32767,
+      "events": [
+        [
+          1,
+          16,
+          32767
+        ],
+        [
+          1,
+          16,
+          0
+        ]
+      ]
+    },
+    {
+      "focus": "iframe",
+      "key": "Control",
+      "player": 0,
+      "input": 0,
+      "value": 1,
+      "events": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "focus": "iframe",
+      "key": "a",
+      "player": 1,
+      "input": 0,
+      "value": 1,
+      "events": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "mobileOverflow": false,
+  "installed": 63,
+  "passed": true
+}

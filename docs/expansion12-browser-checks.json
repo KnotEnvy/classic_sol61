@@ -1,0 +1,2635 @@
+{
+  "date": "2026-10-09",
+  "status": "ready for player testing",
+  "newCabinets": 12,
+  "total": 63,
+  "games": [
+    {
+      "id": "goldnaxe",
+      "errors": [],
+      "httpFailures": [],
+      "externalRequests": [],
+      "logs": [
+        "Warning: Enlarging memory arrays, this is not fast! 16777216,67108864",
+        "enlarged memory arrays from 16777216 to 67108864, took 7 ms (has ArrayBuffer.transfer? false)"
+      ],
+      "runtime": {
+        "native": [
+          320,
+          224
+        ],
+        "audio": {
+          "buffers": 11782,
+          "nonzero": 7972,
+          "peak": 0.32177734375,
+          "duration": 68.39437641725225
+        },
+        "events": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            7,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            7,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            7,
+            0
+          ],
+          [
+            1,
+            7,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            8,
+            1
+          ],
+          [
+            0,
+            8,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            8,
+            1
+          ],
+          [
+            1,
+            8,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "booted": true,
+      "audio": {
+        "buffers": 11782,
+        "nonzero": 7972,
+        "peak": 0.32177734375,
+        "duration": 68.39437641725225
+      },
+      "actualGameplayVerified": true,
+      "fullCampaignTested": false,
+      "visualProof": "screenshots/expansion12/goldnaxe-play.png"
+    },
+    {
+      "id": "shinobi",
+      "errors": [],
+      "httpFailures": [],
+      "externalRequests": [],
+      "logs": [
+        "Warning: Enlarging memory arrays, this is not fast! 16777216,67108864",
+        "enlarged memory arrays from 16777216 to 67108864, took 7 ms (has ArrayBuffer.transfer? false)"
+      ],
+      "runtime": {
+        "native": [
+          320,
+          224
+        ],
+        "audio": {
+          "buffers": 10563,
+          "nonzero": 10563,
+          "peak": 0.87274169921875,
+          "duration": 61.31809523811
+        },
+        "events": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            7,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            7,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            8,
+            1
+          ],
+          [
+            0,
+            8,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "booted": true,
+      "audio": {
+        "buffers": 10563,
+        "nonzero": 10563,
+        "peak": 0.87274169921875,
+        "duration": 61.31809523811
+      },
+      "actualGameplayVerified": true,
+      "fullCampaignTested": false,
+      "visualProof": "screenshots/expansion12/shinobi-play.png"
+    },
+    {
+      "id": "rtype",
+      "errors": [],
+      "httpFailures": [],
+      "externalRequests": [],
+      "logs": [
+        "Warning: Enlarging memory arrays, this is not fast! 16777216,67108864",
+        "enlarged memory arrays from 16777216 to 67108864, took 7 ms (has ArrayBuffer.transfer? false)"
+      ],
+      "runtime": {
+        "native": [
+          384,
+          256
+        ],
+        "audio": {
+          "buffers": 10422,
+          "nonzero": 6753,
+          "peak": 0.48162841796875,
+          "duration": 60.499591836749
+        },
+        "events": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            7,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            7,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            8,
+            1
+          ],
+          [
+            0,
+            8,
+            0
+          ]
+        ]
+      },
+      "booted": true,
+      "audio": {
+        "buffers": 10422,
+        "nonzero": 6753,
+        "peak": 0.48162841796875,
+        "duration": 60.499591836749
+      },
+      "actualGameplayVerified": true,
+      "fullCampaignTested": false,
+      "visualProof": "screenshots/expansion12/rtype-play.png"
+    },
+    {
+      "id": "gradius",
+      "errors": [],
+      "httpFailures": [],
+      "externalRequests": [],
+      "logs": [
+        "Warning: Enlarging memory arrays, this is not fast! 16777216,67108864",
+        "enlarged memory arrays from 16777216 to 67108864, took 8 ms (has ArrayBuffer.transfer? false)"
+      ],
+      "runtime": {
+        "native": [
+          256,
+          224
+        ],
+        "audio": {
+          "buffers": 10533,
+          "nonzero": 9344,
+          "peak": 0.902191162109375,
+          "duration": 61.143945578245955
+        },
+        "events": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            7,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            7,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            8,
+            1
+          ],
+          [
+            0,
+            8,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "booted": true,
+      "audio": {
+        "buffers": 10533,
+        "nonzero": 9344,
+        "peak": 0.902191162109375,
+        "duration": 61.143945578245955
+      },
+      "actualGameplayVerified": true,
+      "fullCampaignTested": false,
+      "visualProof": "screenshots/expansion12/gradius-play.png"
+    },
+    {
+      "id": "chasehq",
+      "errors": [],
+      "httpFailures": [],
+      "externalRequests": [],
+      "logs": [
+        "Warning: Enlarging memory arrays, this is not fast! 16777216,67108864",
+        "enlarged memory arrays from 16777216 to 67108864, took 7 ms (has ArrayBuffer.transfer? false)"
+      ],
+      "runtime": {
+        "native": [
+          320,
+          240
+        ],
+        "audio": {
+          "buffers": 10263,
+          "nonzero": 7995,
+          "peak": 0.595855712890625,
+          "duration": 59.57659863946957
+        },
+        "events": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            8,
+            1
+          ],
+          [
+            0,
+            17,
+            32767
+          ],
+          [
+            0,
+            17,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            8,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "booted": true,
+      "audio": {
+        "buffers": 10263,
+        "nonzero": 7995,
+        "peak": 0.595855712890625,
+        "duration": 59.57659863946957
+      },
+      "actualGameplayVerified": true,
+      "fullCampaignTested": false,
+      "visualProof": "screenshots/expansion12/chasehq-focused-accelerating.png"
+    },
+    {
+      "id": "apb",
+      "errors": [],
+      "httpFailures": [],
+      "externalRequests": [],
+      "logs": [
+        "Warning: Enlarging memory arrays, this is not fast! 16777216,33554432",
+        "enlarged memory arrays from 16777216 to 33554432, took 7 ms (has ArrayBuffer.transfer? false)"
+      ],
+      "runtime": {
+        "native": [
+          384,
+          512
+        ],
+        "audio": {
+          "buffers": 10135,
+          "nonzero": 1128,
+          "peak": 0.147216796875,
+          "duration": 58.833560090716325
+        },
+        "events": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            11,
+            1
+          ],
+          [
+            0,
+            6,
+            1
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            11,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            8,
+            1
+          ],
+          [
+            0,
+            8,
+            0
+          ]
+        ]
+      },
+      "booted": true,
+      "audio": {
+        "buffers": 10135,
+        "nonzero": 1128,
+        "peak": 0.147216796875,
+        "duration": 58.833560090716325
+      },
+      "actualGameplayVerified": true,
+      "fullCampaignTested": false,
+      "visualProof": "screenshots/expansion12/apb-focused-accelerating.png"
+    },
+    {
+      "id": "marble",
+      "errors": [],
+      "httpFailures": [],
+      "externalRequests": [],
+      "logs": [
+        "Warning: Enlarging memory arrays, this is not fast! 16777216,33554432",
+        "enlarged memory arrays from 16777216 to 33554432, took 7 ms (has ArrayBuffer.transfer? false)"
+      ],
+      "runtime": {
+        "native": [
+          336,
+          240
+        ],
+        "audio": {
+          "buffers": 11116,
+          "nonzero": 7084,
+          "peak": 0.45538330078125,
+          "duration": 64.5282539682705
+        },
+        "events": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            7,
+            1
+          ],
+          [
+            1,
+            7,
+            1
+          ],
+          [
+            0,
+            7,
+            0
+          ],
+          [
+            1,
+            7,
+            0
+          ]
+        ]
+      },
+      "booted": true,
+      "audio": {
+        "buffers": 11116,
+        "nonzero": 7084,
+        "peak": 0.45538330078125,
+        "duration": 64.5282539682705
+      },
+      "actualGameplayVerified": true,
+      "fullCampaignTested": false,
+      "visualProof": "screenshots/expansion12/marble-2p-start2.png",
+      "humanPlayersVerified": 2
+    },
+    {
+      "id": "arkanoid",
+      "errors": [],
+      "httpFailures": [],
+      "externalRequests": [],
+      "logs": [
+        "Warning: Enlarging memory arrays, this is not fast! 16777216,67108864",
+        "enlarged memory arrays from 16777216 to 67108864, took 7 ms (has ArrayBuffer.transfer? false)"
+      ],
+      "runtime": {
+        "native": [
+          256,
+          224
+        ],
+        "audio": {
+          "buffers": 10296,
+          "nonzero": 4499,
+          "peak": 0.529327392578125,
+          "duration": 59.76816326532002
+        },
+        "events": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            16,
+            32767
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            16,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "booted": true,
+      "audio": {
+        "buffers": 10296,
+        "nonzero": 4499,
+        "peak": 0.529327392578125,
+        "duration": 59.76816326532002
+      },
+      "actualGameplayVerified": true,
+      "fullCampaignTested": false,
+      "visualProof": "screenshots/expansion12/arkanoid-play.png"
+    },
+    {
+      "id": "atetris",
+      "errors": [],
+      "httpFailures": [],
+      "externalRequests": [],
+      "logs": [
+        "Warning: Enlarging memory arrays, this is not fast! 16777216,67108864",
+        "enlarged memory arrays from 16777216 to 67108864, took 7 ms (has ArrayBuffer.transfer? false)"
+      ],
+      "runtime": {
+        "native": [
+          336,
+          240
+        ],
+        "audio": {
+          "buffers": 11345,
+          "nonzero": 4205,
+          "peak": 0.3065185546875,
+          "duration": 65.85759637189936
+        },
+        "events": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            7,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            7,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            7,
+            0
+          ],
+          [
+            1,
+            7,
+            0
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "booted": true,
+      "audio": {
+        "buffers": 11345,
+        "nonzero": 4205,
+        "peak": 0.3065185546875,
+        "duration": 65.85759637189936
+      },
+      "actualGameplayVerified": true,
+      "fullCampaignTested": false,
+      "visualProof": "screenshots/expansion12/atetris-play.png"
+    },
+    {
+      "id": "sfa2",
+      "errors": [],
+      "httpFailures": [],
+      "externalRequests": [],
+      "logs": [
+        "Warning: Enlarging memory arrays, this is not fast! 16777216,67108864",
+        "enlarged memory arrays from 16777216 to 67108864, took 7 ms (has ArrayBuffer.transfer? false)"
+      ],
+      "runtime": {
+        "native": [
+          384,
+          224
+        ],
+        "audio": {
+          "buffers": 12478,
+          "nonzero": 10979,
+          "peak": 0.99993896484375,
+          "duration": 72.43464852609803
+        },
+        "events": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            7,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            7,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            7,
+            0
+          ],
+          [
+            1,
+            7,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            9,
+            1
+          ],
+          [
+            0,
+            9,
+            0
+          ],
+          [
+            0,
+            10,
+            1
+          ],
+          [
+            0,
+            10,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            8,
+            1
+          ],
+          [
+            0,
+            8,
+            0
+          ],
+          [
+            0,
+            11,
+            1
+          ],
+          [
+            0,
+            11,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            9,
+            1
+          ],
+          [
+            1,
+            9,
+            0
+          ],
+          [
+            1,
+            10,
+            1
+          ],
+          [
+            1,
+            10,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            8,
+            1
+          ],
+          [
+            1,
+            8,
+            0
+          ],
+          [
+            1,
+            11,
+            1
+          ],
+          [
+            1,
+            11,
+            0
+          ]
+        ]
+      },
+      "booted": true,
+      "audio": {
+        "buffers": 12478,
+        "nonzero": 10979,
+        "peak": 0.99993896484375,
+        "duration": 72.43464852609803
+      },
+      "actualGameplayVerified": true,
+      "fullCampaignTested": false,
+      "visualProof": "screenshots/expansion12/sfa2-play.png"
+    },
+    {
+      "id": "qix",
+      "errors": [],
+      "httpFailures": [],
+      "externalRequests": [],
+      "logs": [
+        "Warning: Enlarging memory arrays, this is not fast! 16777216,67108864",
+        "enlarged memory arrays from 16777216 to 67108864, took 7 ms (has ArrayBuffer.transfer? false)"
+      ],
+      "runtime": {
+        "native": [
+          256,
+          240
+        ],
+        "audio": {
+          "buffers": 12183,
+          "nonzero": 4842,
+          "peak": 0.066375732421875,
+          "duration": 70.72217687076828
+        },
+        "events": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            7,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            7,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            8,
+            1
+          ],
+          [
+            0,
+            8,
+            0
+          ]
+        ]
+      },
+      "booted": true,
+      "audio": {
+        "buffers": 12183,
+        "nonzero": 4842,
+        "peak": 0.066375732421875,
+        "duration": 70.72217687076828
+      },
+      "actualGameplayVerified": true,
+      "fullCampaignTested": false,
+      "visualProof": "screenshots/expansion12/qix-play.png"
+    },
+    {
+      "id": "avsp",
+      "errors": [],
+      "httpFailures": [],
+      "externalRequests": [],
+      "logs": [
+        "Warning: Enlarging memory arrays, this is not fast! 16777216,67108864",
+        "enlarged memory arrays from 16777216 to 67108864, took 7 ms (has ArrayBuffer.transfer? false)",
+        "Classic Arcade: original operator defaults initialized for avsp."
+      ],
+      "runtime": {
+        "native": [
+          384,
+          224
+        ],
+        "audio": {
+          "buffers": 13209,
+          "nonzero": 9185,
+          "peak": 1,
+          "duration": 76.67809523811853
+        },
+        "events": [
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            0
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            3,
+            0
+          ],
+          [
+            1,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            0
+          ],
+          [
+            2,
+            3,
+            1
+          ],
+          [
+            2,
+            3,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            7,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            7,
+            1
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            7,
+            0
+          ],
+          [
+            1,
+            7,
+            0
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            8,
+            1
+          ],
+          [
+            0,
+            8,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            8,
+            1
+          ],
+          [
+            1,
+            8,
+            0
+          ],
+          [
+            2,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            2,
+            8,
+            1
+          ],
+          [
+            2,
+            8,
+            0
+          ]
+        ]
+      },
+      "booted": true,
+      "audio": {
+        "buffers": 13209,
+        "nonzero": 9185,
+        "peak": 1,
+        "duration": 76.67809523811853
+      },
+      "actualGameplayVerified": true,
+      "fullCampaignTested": false,
+      "visualProof": "screenshots/expansion12/avsp-stage.png",
+      "humanPlayersVerified": 3
+    }
+  ],
+  "scope": "Original asset identity, native video, original sound, first-stage gameplay, factory setup, controls and supported player flows. Full campaigns, physical gamepads and exact PCB pacing remain player testing."
+}

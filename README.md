@@ -1,6 +1,6 @@
 # Classic Arcade · classic_sol61
 
-Fifty-one original arcade games in a local browser arcade, using EmulatorJS 4.2.3, FinalBurn Neo and per-title MAME 2003 Plus browser cores. The games run their original arcade software: boot tests, attract screens, sprites, rules, levels, intermissions and game-over sequences are supplied by the original sets.
+Sixty-three original arcade games in a local browser arcade, using EmulatorJS 4.2.3, FinalBurn Neo and per-title MAME 2003 Plus browser cores. The games run their original arcade software: boot tests, attract screens, sprites, rules, levels, intermissions and game-over sequences are supplied by the original sets.
 
 ## Public repository and GitHub Pages
 
@@ -19,7 +19,7 @@ To activate the site:
 3. Open **Actions → Deploy arcade to GitHub Pages → Run workflow** on `main`.
 
 The workflow validates the pinned assets, builds `_site/`, and deploys the complete
-51-cabinet arcade. The first push builds successfully and skips deployment while
+63-cabinet arcade. The first push builds successfully and skips deployment while
 Pages is disabled. Later pushes to `main` redeploy once Pages is configured.
 
 Run `npm run build:pages` locally to prepare the same allowlisted site. The build
@@ -92,7 +92,7 @@ Primary runtime documentation: [EmulatorJS arcade](https://emulatorjs.org/docs/s
 
 ## Roster and expansion history
 
-The [browser-only expansion plan](docs/EXPANSION_PLAN.md) records 51 titles across three decades after adding 1942, all now installed for player testing. Browse the searchable roster at **http://127.0.0.1:8610/roadmap.html** while the arcade server is running. The roster page links all 51 installed cabinets across the 1980s, 1990s and 2000s, plus Space Invaders from 1978.
+The [browser-only expansion plan](docs/EXPANSION_PLAN.md) records63 titles across three decades, all now installed for player testing. Browse the searchable roster at **http://127.0.0.1:8610/roadmap.html** while the arcade server is running. The roster page links all63 installed cabinets across the 1980s, 1990s and 2000s, plus Space Invaders from 1978.
 
 `docs/expansion-roster.json` records the curated roster, batch order and controls. `docs/browser-roster-evidence.json` records a pinned official FBNeo metadata snapshot; upstream driver status is not a browser play-test. Run `node tools/build_roadmap.mjs` to regenerate the document and planning data. `tools/research_browser_roster.py` refreshes metadata only and downloads no game assets.
 
@@ -159,3 +159,24 @@ The Cave portrait games report a 448 × 224 core framebuffer before rotation; th
 The three new Neo Geo games use the existing original MVS Europe/Asia BIOS. Demon Front uses a local six-chip original PGM BIOS; DoDonPachi III and Ketsui include their required unchanged board BIOS chips in their own ZIPs. Original protected devices are handled by the normal FBNeo driver; undumped protection is simulated where the driver requires it. No modified no-intro BIOS, console editions or Arrange/Black Label conversions are substituted.
 
 The guides describe original menus, both-player buttons and hardware substitutes: [PLAYER_TESTING.md](PLAYER_TESTING.md). [VALIDATION.md](VALIDATION.md) records measured scope and integration-check status. Source URLs, original chip CRCs and installed hashes are in `sources.json` and `docs/2000s-*-sources.json`; `docs/2000s-cave-blitter-evidence.json` records Deathsmiles' actual default timing options. Original game code, normal CPU speed, native refresh options and driver optimizations remain unchanged. These checks support player testing; exact physical-PCB slowdown, full campaigns, endings and physical controllers still need longer sessions.
+
+## Requested racers and missing essentials ·2026-10-09
+
+Chase H.Q. and APB plus ten additions bring the arcade to 63 cabinets. Shinobi replaces the proposed Ghouls ’n Ghosts, and Qix replaces Paperboy, whose available browser-core gameplay rendering failed the fidelity check. The original51 game assets and emulator cores remain pinned.
+
+| Game | Year | Original edition | Display matrix |
+| --- | --- | --- | --- |
+| Chase H.Q. | 1988 | World · `chasehq` | 320 × 240 |
+| APB: All Points Bulletin | 1987 | Revision 7 · `apb` | 384 × 512 |
+| Golden Axe | 1989 | US · set 6 · `goldnaxe` | 320 × 224 |
+| R-Type | 1987 | World · `rtype` | 384 × 256 |
+| Gradius | 1985 | Japan · ROM board · `gradius` | 256 × 224 |
+| Arkanoid | 1986 | World · older · `arkanoid` | 224 × 256 |
+| Marble Madness | 1984 | Set 1 · `marble` | 336 × 240 |
+| Tetris | 1988 | Atari arcade · set 1 · `atetris` | 336 × 240 |
+| Shinobi | 1987 | Set 6 · original System 16A · `shinobi` | 320 × 224 |
+| Street Fighter Alpha 2 | 1996 | Europe · 960229 · `sfa2` | 384 × 224 |
+| Alien vs. Predator | 1994 | Europe · 940520 · `avsp` | 384 × 224 |
+| Qix | 1981 | Revision 2 · `qix` | 240 × 256 |
+
+AVP uses its original three-player/3-chute operator mode on new saves and the core’s original Attack–Jump–Shoot button layout. Qix’s first-run English setup and ordinary restart are handled before readiness; saved operator settings remain intact. Controls and observed validation scope are documented in PLAYER_TESTING.md and VALIDATION.md.

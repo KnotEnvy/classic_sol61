@@ -2,7 +2,7 @@
 
 Open **http://127.0.0.1:8610/#progear**. If the preview is closed, double-click **Start Arcade.cmd**. All game execution and controls stay in the browser. No player emulator, extension or companion installation is required.
 
-The arcade now has **51 cabinets**: the original eight, 14 additions completing the 1980s, all 20 approved 1990s games and the final nine 2000s titles. Your positive 1990s testing cleared this last expansion; all games play in the browser.
+The arcade now has **63 cabinets**: the original eight, 14 additions completing the 1980s, all 20 approved 1990s games and the final nine 2000s titles. Your positive 1990s testing cleared this last expansion; all games play in the browser.
 
 ## Start a game
 
@@ -123,3 +123,22 @@ DoDonPachi III is the original **World 2002.05.15 master** edition. Choose each 
 Deathsmiles is the original **2007/10/09 master** edition. Wait for CABINET ON, add credits for each player, choose characters with their movement keys and confirm with Ctrl/A. Follow the original tutorial, stage and rank choices. Hold either shot button for its stronger attack; hold both shot buttons together for lock-on. X/P2 D casts the limited bomb. Its normal accurate blitter timing model remains enabled; exact slowdown comparisons with a physical PCB remain for player testing.
 
 The nine new titles have browser checks for original menus, genuine two-player play, action presses/releases and sound. Complete campaigns, alternate routes, secret bosses, loops, continue flows, endings, expert timing, physical gamepad models and long sessions remain for player testing. Report the exact title, edition, stage and input sequence when something feels different from the original.
+
+## Twelve new cabinets
+
+| Cabinet | Controls and original flow |
+| --- | --- |
+| Chase H.Q. | Left/right steer; Ctrl accelerates; Z brakes; X limited turbo; C gear. |
+| APB: All Points Bulletin | Left/right turn the continuous wheel; Ctrl accelerates; hold Z for siren; X fire. Z/Start begins day selection; press siren again to start or acknowledge demerits. |
+| Golden Axe | Arrows move; Ctrl attack; Z jump; X magic. Two simultaneous players. |
+| R-Type | Arrows move; Ctrl fire/hold charge; Z detach/recall an acquired Force. Players alternate on main controls. |
+| Gradius | Arrows move; Ctrl select highlighted upgrade; Z shot; X missile after upgrade. Players alternate. |
+| Arkanoid | Left/right turn paddle; Ctrl launch/laser. Players alternate. |
+| Marble Madness | Arrows roll P1; I/J/K/L roll P2. Add credits and press2 for a two-player race; press1 for solo. |
+| Tetris | Left/right move; down speeds drop; Ctrl rotates. P2 J/L/K and A on independent well. |
+| Shinobi | Arrows move; Ctrl attack; Z jump; X ninja magic. Players alternate. |
+| Street Fighter Alpha 2 | Ctrl/Z/X punches; C/V/B kicks. P2 A/S/D punches, F/G/H kicks. |
+| Alien vs. Predator | Ctrl attack; Z jump; X shoot. P2 A/S/D; P3 R/Y/U; movement and individual coins/Start use standard slots. |
+| Qix | Arrows follow boundary; hold Ctrl fast draw or Z slow draw while moving into the field. First boot selects English and performs an ordinary restart before readiness. |
+
+Alien vs. Predator’s saved operator settings are preserved. A pre-existing two-player save needs its original System Configuration Player Mode changed to3 PLAYERS3 CHUTERS MODE to use all three slots. Gun, missile, Force, magic and other power-up availability follow each original game’s rules.

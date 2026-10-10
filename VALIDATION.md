@@ -187,3 +187,19 @@ The nine primary game/player/audio checks passed. `docs/2000s-ui-checks.json` pa
 `tools/verify_assets.py` passed all **70 installed runtime, ROM, BIOS, sample and cabinet-default assets** with SHA-256 and ZIP integrity checks. Seven release JavaScript syntax checks passed. `docs/2000s-baseline-checks.json` confirms all 42 existing ROM hashes, catalogue entries and runtime records remain unchanged. `docs/2000s-existing-regression.json` passed final Pac-Man and existing Metal Slug readiness, Coin/Start and control checks with no errors. Metal Slug retained the same original 68,232-byte MVS BIOS at its existing virtual path. The completed release index is [docs/2000s-browser-checks.json](docs/2000s-browser-checks.json): nine additions, 51 playable cabinets, all nine genuine two-human game modes and all final integration gates passed.
 
 Full campaigns, branching paths, loops, late bosses, all continue/ending scenes, physical gamepads and long sessions remain for player testing. Original software supplies those scenes; this release does not claim they have all been individually reached or that every physical hardware behavior has been certified.
+
+# Twelve requested additions ·2026-10-09
+
+The local and Pages build contains 63 cabinets after adding Chase H.Q., APB and ten missing essentials. Shinobi replaces Ghouls ’n Ghosts at the user’s request. Paperboy was deferred after its actual MAME browser gameplay showed missing sprites/raster artifacts; Qix takes that slot.
+
+`docs/expansion12-browser-checks.json` records twelve native boots, original audio, original first-stage visuals, control events and no JavaScript/local-request/external-loading failures. AVP’s stage capture shows three distinct human-player HUDs. Marble Madness’ original two-player Start flow shows blue/red marbles and independent timers. Alpha2 shows a live Ryu/Ken human versus fight. APB’s controlled drive reaches47MPH and its original siren/demerit dialog; Chase H.Q.’s pedal, steering, turbo and gear use their native inputs.
+
+The available FBNeo core lacks Atari System2; APB uses the pinned MAME2003Plus core with unchanged original chip/socket aliases. Marble Madness includes original System1 motherboard firmware. All original chip CRCs are checked against the official compatible driver definitions. AVP’s four historical graphics dumps contained identical duplicated halves; its packaged physical-chip CRCs match the pinned driver after removing only those mirrors. No original program, sound or graphics byte values were edited.
+
+AVP has a 128-byte original operator EEPROM preset for3 PLAYERS3 CHUTERS MODE, generated through the original menu. New cabinets receive it only when no saved EEPROM exists. Qix registers its dedicated Test Advance control, chooses English on first setup and performs the ordinary restart needed to leave programming mode. Existing operator saves are preserved.
+
+All 83 assets passed SHA-256/ZIP verification. The Pages artifact contains 63 cabinets and is754.3MiB. All 51 earlier game hashes, core binaries and keyboard profiles remain unchanged. The final UI and deployment checks are recorded separately.
+
+As in earlier releases, frontend loop ticks are not certified native board-frame measurements. Full campaigns, endings, expert play, physical controllers and exact physical-board slowdown remain player testing.
+
+Final release checks passed: `docs/expansion12-ui-checks.json` verifies63 library/roster entries, collision-free new profiles, native keyboard focus routing and mobile layout. `docs/pages-browser-checks.json` verifies the actual project subpath for Pac-Man, Galaga samples, Metal Slug BIOS, Super Sprint, Chase H.Q., APB, Qix and the original AVP3-player preset. The final manifest has83 verified assets; earlier51 control profiles were compared byte-for-byte as serialized mappings against the published Git version.

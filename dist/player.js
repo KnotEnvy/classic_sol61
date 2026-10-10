@@ -67,7 +67,7 @@
     const manager=EJS_emulator.gameManager;
     const firstWilliamsBoot=game.id==='robotron'&&!manager.FS.analyzePath(manager.getSaveFilePath()).exists;
     const setName=game.rom.replace(/\.zip$/,'');
-    const existingNvram=[manager.getSaveFilePath(),`/data/saves/FinalBurn Neo/fbneo/${setName}.fs`].some(path=>path&&manager.FS.analyzePath(path).exists);
+    const existingNvram=[manager.getSaveFilePath(),`/data/saves/FinalBurn Neo/fbneo/${setName}.fs`,`/data/saves/FinalBurn Neo/fbneo/${setName}.nv`].some(path=>path&&manager.FS.analyzePath(path).exists);
     const firstBoardBoot=Number.isInteger(game.firstBootButton)&&!existingNvram;
     const bootDelay=game.bootDelay || (['pacman','mspacman','galaga'].includes(game.id)?8000:2000);
     // On an uninitialized Williams board, Advance acknowledges factory defaults.
@@ -79,7 +79,7 @@
         setTimeout(()=>{manager.simulateInput(0,3,0);manager.saveSaveFiles();setTimeout(()=>{if(!failed)notify('arcade-ready');},4000);},2000);
       }else if(firstBoardBoot){
         manager.simulateInput(0,game.firstBootButton,1);
-        setTimeout(()=>{manager.simulateInput(0,game.firstBootButton,0);manager.saveSaveFiles();setTimeout(()=>{if(!failed)notify('arcade-ready');},game.firstBootWait||4000);},180);
+        setTimeout(()=>{manager.simulateInput(0,game.firstBootButton,0);if(game.firstBootReset)setTimeout(()=>manager.functions.restart(),500);manager.saveSaveFiles();setTimeout(()=>{if(!failed)notify('arcade-ready');},game.firstBootWait||4000);},180);
       }else notify('arcade-ready');
     },bootDelay);
     EJS_emulator.on('pause',()=>notify('arcade-paused',{paused:true}));
@@ -119,7 +119,7 @@
     // Num Lock changes keyCode to navigation keys; code still identifies the
     // physical keypad key. Match its normal code against current user bindings.
     const keyCode=numpadKeyCodes[event.code]??event.keyCode;
-    const name=!event.code.startsWith('Numpad')&&(game.id==='gauntlet'||Number.isInteger(game.startButton))&&new RegExp('^[1-'+(game.players||2)+']$').test(event.key)?'start'+event.key:Object.keys(inputs).find(name=>{
+    const name=!event.code.startsWith('Numpad')&&(game.id==='gauntlet'||Number.isInteger(game.startButton)||Array.isArray(game.startInputs))&&new RegExp('^[1-'+(game.players||2)+']$').test(event.key)?'start'+event.key:Object.keys(inputs).find(name=>{
       const [player,input]=inputs[name];return emulator.controls[player]?.[input]?.value===keyCode;
     });
     if(!name){

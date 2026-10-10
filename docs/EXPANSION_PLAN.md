@@ -1,6 +1,6 @@
 # Classic Arcade: browser-only expansion plan
 
-Updated: 2026-10-02. **51 cabinets are available for player testing**, including all 21 selected 1980s titles, 20 selected 1990s titles, 9 selected 2000s titles and Space Invaders. Adding 1942 to the approved 50-game proposal gives **51 planned total titles**, with **0 future additions**. The approved three-decade collection is available for player testing.
+Updated: 2026-10-09. **63 cabinets are available for player testing**, including all 21 selected 1980s titles, 22 selected 1990s titles, 9 selected 2000s titles and Space Invaders. Adding 1942 to the approved 50-game proposal gives **63 planned total titles**, with **0 future additions**. The complete approved collection is available for player testing.
 
 ## The decision
 
@@ -8,7 +8,7 @@ Every admitted game must execute its original arcade software inside a browser t
 
 Use our current EmulatorJS/FBNeo path for the initial additions. [EmulatorJS lists FBNeo as its default arcade core](https://emulatorjs.org/docs/systems/arcade/) and also offers [MAME 2003 and MAME 2003-Plus browser cores](https://emulatorjs.org/docs4devs/cores/). A second browser core is a possible per-title fallback after comparison; it is not automatically more faithful.
 
-The official FBNeo DAT snapshot at commit [a4012b161e48](https://raw.githubusercontent.com/libretro/FBNeo/a4012b161e48b33b94940f07987323574c237448/dats/FinalBurn%20Neo%20(ClrMame%20Pro%20XML,%20Arcade%20only).dat) contains all 51 roster sets with driver status good. The raw extracted evidence and metadata SHA-256 are saved in browser-roster-evidence.json. **Upstream driver status does not prove compatibility with the installed June 14, 2025 WASM core, full-speed browser performance or correct input.** First match and validate sets against the exact core we ship. The existing eight remain pinned while we test additions in isolation.
+The official FBNeo DAT snapshot at commit [a4012b161e48](https://raw.githubusercontent.com/libretro/FBNeo/a4012b161e48b33b94940f07987323574c237448/dats/FinalBurn%20Neo%20(ClrMame%20Pro%20XML,%20Arcade%20only).dat) contains all 63 roster sets with driver status good. The raw extracted evidence and metadata SHA-256 are saved in browser-roster-evidence.json. **Upstream driver status does not prove compatibility with the installed June 14, 2025 WASM core, full-speed browser performance or correct input.** First match and validate sets against the exact core we ship. The existing eight remain pinned while we test additions in isolation.
 
 ## Curating the three decades
 
@@ -28,7 +28,7 @@ Installed rows are available for player testing. Future rows remain browser cand
 | --- | --- | --- | --- | --- |
 | Space Invaders | 1978 | Shooter | Player testing | [invaders](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/pre90s/d_invaders.cpp) · Original · Midway · invaders |
 
-### 1980s (21)
+### 1980s (31)
 
 | Game | Year | Genre | Status / batch | Candidate set / source |
 | --- | --- | --- | --- | --- |
@@ -53,8 +53,18 @@ Installed rows are available for player testing. Future rows remain browser cand
 | Super Hang-On | 1987 | Racing | Player testing | [shangon](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/sega/d_outrun.cpp) · Sitdown/upright · unprotected · shangon |
 | Strider | 1989 | Platformer | Player testing | [strider](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/capcom/d_cps1.cpp) · US · set 1 · strider |
 | Final Fight | 1989 | Beat 'em up | Player testing | [ffight](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/capcom/d_cps1.cpp) · World · set 1 · ffight |
+| Chase H.Q. | 1988 | Racing | Player testing | [chasehq](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/taito/d_taitoz.cpp) · World · chasehq |
+| APB: All Points Bulletin | 1987 | Driving / action | Player testing | [apb](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/atari/d_atarisy2.cpp) · Revision 7 · apb |
+| Golden Axe | 1989 | Beat em up | Player testing | [goldnaxe](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/sega/d_sys16b.cpp) · US · set 6 · goldnaxe |
+| R-Type | 1987 | Shooter | Player testing | [rtype](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/irem/d_m72.cpp) · World · rtype |
+| Gradius | 1985 | Shooter | Player testing | [gradius](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/konami/d_nemesis.cpp) · Japan · ROM board · gradius |
+| Arkanoid | 1986 | Puzzle / action | Player testing | [arkanoid](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/taito/d_arkanoid.cpp) · World · older · arkanoid |
+| Marble Madness | 1984 | Skill / racing | Player testing | [marble](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/atari/d_atarisy1.cpp) · Set 1 · marble |
+| Tetris | 1988 | Puzzle | Player testing | [atetris](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/pre90s/d_atetris.cpp) · Atari arcade · set 1 · atetris |
+| Shinobi | 1987 | Platformer | Player testing | [shinobi](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/sega/d_sys16a.cpp) · Set 6 · original System 16A · shinobi |
+| Qix | 1981 | Puzzle / action | Player testing | [qix](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/taito/d_qix.cpp) · Revision 2 · qix |
 
-### 1990s (20)
+### 1990s (22)
 
 | Game | Year | Genre | Status / batch | Candidate set / source |
 | --- | --- | --- | --- | --- |
@@ -78,6 +88,8 @@ Installed rows are available for player testing. Future rows remain browser cand
 | Marvel vs. Capcom: Clash of Super Heroes | 1998 | Fighting | Player testing | [mvsc](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/capcom/d_cps2.cpp) · Europe · 980123 · mvsc |
 | Street Fighter III: 3rd Strike | 1999 | Fighting | Player testing | [sfiii3](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/cps3/d_cps3.cpp) · Japan · 990608 · original NO CD · sfiii3n |
 | Garou: Mark of the Wolves | 1999 | Fighting | Player testing | [garou](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/neogeo/d_neogeo.cpp) · NGM-2530 · original MVS · garou |
+| Street Fighter Alpha 2 | 1996 | Fighting | Player testing | [sfa2](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/capcom/d_cps2.cpp) · Europe · 960229 · sfa2 |
+| Alien vs. Predator | 1994 | Beat em up | Player testing | [avsp](https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/capcom/d_cps2.cpp) · Europe · 940520 · avsp |
 
 ### 2000s (9)
 
@@ -107,6 +119,7 @@ First prepare the library and controls, then add games in reviewable batches. To
 | 3. 1990s essentials | 10 | 32 | Street Fighter II, Mortal Kombat II, NBA Jam TE, The Simpsons, Turtles in Time, Sunset Riders, X-Men, Metal Slug, Puzzle Bobble and Raiden. |
 | 4. 1990s depth | 10 | 42 | The remaining ten 1990s choices. Stress-test CPS-3 with 3rd Strike; finish Neo Geo, CPS-2, rally, golf and disc-sports coverage. |
 | 5. 2000s arcade craft | 9 | 51 | Nine original 2D arcade releases. Benchmark PGM/Cave and the higher-demand 2007 Deathsmiles pilot; preserve intentional slowdown and verify regional revisions. |
+| 6. Requested racers and missing essentials | 12 | 63 | Chase H.Q., APB, Golden Axe, R-Type, Gradius, Arkanoid, Marble Madness, Tetris, Shinobi, Street Fighter Alpha 2, Alien vs. Predator and Qix. |
 
 Start with **Strider, OutRun and Super Sprint** as representative pilots, then complete the first seven, including 1942. Strider exercises landscape CPS-1 and two action buttons. OutRun requires absolute steering, pedals and a gear change; preserve its original music choice, route branches and goal scenes. Super Sprint requires relative movement from a continuous wheel plus accelerator and up to three independent players. One generic left/right steering implementation will not accurately serve both racers. Super Hang-On adds throttle, brake and turbo. Both keyboard and standard browser gamepad input must have usable mappings without requiring special hardware.
 
@@ -137,9 +150,9 @@ R-Type, Gradius, Arkanoid, Golden Axe, Teenage Mutant Ninja Turtles (1989), Stre
 
 ## Deliverables from this research pass
 
-- expansion-roster.json: curated 51-title roster, batch order, controls and per-title concerns.
+- expansion-roster.json: curated 63-title roster, batch order, controls and per-title concerns.
 - browser-roster-evidence.json: official DAT evidence, retrieval time, pinned source commit and metadata hash.
-- ../dist/roadmap.html: searchable planning page, linked to the 51-cabinet playable catalogue.
+- ../dist/roadmap.html: searchable planning page, linked to the 63-cabinet playable catalogue.
 - ../tools/research_browser_roster.py: reproducible metadata-only research; downloads no games or emulator binaries.
 - ../tools/build_roadmap.mjs: validates counts and regenerates this document and planning data.
 

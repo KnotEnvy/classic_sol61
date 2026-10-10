@@ -25,7 +25,7 @@ jobs:
         run: npm run check
       - name: Verify original assets
         run: python3 tools/verify_assets.py
-      - name: Build the51-cabinet site
+      - name: Build the arcade site
         run: npm run build:pages
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4

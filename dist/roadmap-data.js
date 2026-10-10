@@ -1,7 +1,7 @@
 /* Planning data; never used as the playable cabinet catalogue. */
 window.ARCADE_ROADMAP = {
-  "date": "2026-10-02",
-  "target": 51,
+  "date": "2026-10-09",
+  "target": 63,
   "policy": "Original arcade games running locally inside the browser. No native emulator, companion application, extension, streaming service, or console-port substitution.",
   "games": [
     {
@@ -719,6 +719,174 @@ window.ARCADE_ROADMAP = {
       "edition": "2007/10/09 Master Ver · original CV1000-B · deathsml",
       "driverSource": "https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/cave/d_cv1k.cpp",
       "status": "Player testing"
+    },
+    {
+      "id": "chasehq",
+      "name": "Chase H.Q.",
+      "year": 1988,
+      "genre": "Racing",
+      "batch": 6,
+      "controls": "Accelerator; Brake; Turbo; Gear shift",
+      "note": "Requested police pursuit racer; preserve steering, brake, turbo, gear and criminal-car ramming.",
+      "installed": true,
+      "era": "1980s",
+      "edition": "World · chasehq",
+      "driverSource": "https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/taito/d_taitoz.cpp",
+      "status": "Player testing"
+    },
+    {
+      "id": "apb",
+      "name": "APB: All Points Bulletin",
+      "year": 1987,
+      "genre": "Driving / action",
+      "batch": 6,
+      "controls": "Accelerator; Siren; Fire",
+      "note": "Requested Atari police patrol; preserve the continuous wheel, pedal, siren and arrest quotas.",
+      "installed": true,
+      "era": "1980s",
+      "edition": "Revision 7 · apb",
+      "driverSource": "https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/atari/d_atarisy2.cpp",
+      "status": "Player testing"
+    },
+    {
+      "id": "goldnaxe",
+      "name": "Golden Axe",
+      "year": 1989,
+      "genre": "Beat em up",
+      "batch": 6,
+      "controls": "Attack; Jump; Magic",
+      "note": "Adds fantasyco-op, mounts, magic and camp scenes distinct from the existing urban brawlers.",
+      "installed": true,
+      "era": "1980s",
+      "edition": "US · set 6 · goldnaxe",
+      "driverSource": "https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/sega/d_sys16b.cpp",
+      "status": "Player testing"
+    },
+    {
+      "id": "rtype",
+      "name": "R-Type",
+      "year": 1987,
+      "genre": "Shooter",
+      "batch": 6,
+      "controls": "Shot / charge beam; Detach / recall Force",
+      "note": "Adds the chargebeam and detachableForce branch of horizontal shooting.",
+      "installed": true,
+      "era": "1980s",
+      "edition": "World · rtype",
+      "driverSource": "https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/irem/d_m72.cpp",
+      "status": "Player testing"
+    },
+    {
+      "id": "gradius",
+      "name": "Gradius",
+      "year": 1985,
+      "genre": "Shooter",
+      "batch": 6,
+      "controls": "Power-up select; Shot; Missile",
+      "note": "Adds the capsule-selection upgrade bar and classic horizontal stage design.",
+      "installed": true,
+      "era": "1980s",
+      "edition": "Japan · ROM board · gradius",
+      "driverSource": "https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/konami/d_nemesis.cpp",
+      "status": "Player testing"
+    },
+    {
+      "id": "arkanoid",
+      "name": "Arkanoid",
+      "year": 1986,
+      "genre": "Puzzle / action",
+      "batch": 6,
+      "controls": "Launch / fire",
+      "note": "Adds paddle-based brickbreaking with original capsule powerups.",
+      "installed": true,
+      "era": "1980s",
+      "edition": "World · older · arkanoid",
+      "driverSource": "https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/taito/d_arkanoid.cpp",
+      "status": "Player testing"
+    },
+    {
+      "id": "marble",
+      "name": "Marble Madness",
+      "year": 1984,
+      "genre": "Skill / racing",
+      "batch": 6,
+      "controls": "Trackball movement",
+      "note": "Adds two-trackball isometric skill racing.",
+      "installed": true,
+      "era": "1980s",
+      "edition": "Set 1 · marble",
+      "driverSource": "https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/atari/d_atarisy1.cpp",
+      "status": "Player testing"
+    },
+    {
+      "id": "atetris",
+      "name": "Tetris",
+      "year": 1988,
+      "genre": "Puzzle",
+      "batch": 6,
+      "controls": "Rotate",
+      "note": "Adds classic fallingblock play and simultaneous independent wells.",
+      "installed": true,
+      "era": "1980s",
+      "edition": "Atari arcade · set 1 · atetris",
+      "driverSource": "https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/pre90s/d_atetris.cpp",
+      "status": "Player testing"
+    },
+    {
+      "id": "shinobi",
+      "name": "Shinobi",
+      "year": 1987,
+      "genre": "Platformer",
+      "batch": 6,
+      "controls": "Attack; Jump; Ninja magic",
+      "note": "User-requested replacement for Ghouls nGhosts; rescue missions, ninja magic and bonus rounds.",
+      "installed": true,
+      "era": "1980s",
+      "edition": "Set 6 · original System 16A · shinobi",
+      "driverSource": "https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/sega/d_sys16a.cpp",
+      "status": "Player testing"
+    },
+    {
+      "id": "sfa2",
+      "name": "Street Fighter Alpha 2",
+      "year": 1996,
+      "genre": "Fighting",
+      "batch": 6,
+      "controls": "Light punch; Medium punch; Heavy punch; Light kick; Medium kick; Heavy kick",
+      "note": "Adds Alpha Counters, CustomCombos and the Alpha-era arcade roster.",
+      "installed": true,
+      "era": "1990s",
+      "edition": "Europe · 960229 · sfa2",
+      "driverSource": "https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/capcom/d_cps2.cpp",
+      "status": "Player testing"
+    },
+    {
+      "id": "avsp",
+      "name": "Alien vs. Predator",
+      "year": 1994,
+      "genre": "Beat em up",
+      "batch": 6,
+      "controls": "Shoot; Attack; Jump",
+      "note": "Adds three-player sci-fi combat, ammo and distinct human/Predator combat systems.",
+      "installed": true,
+      "era": "1990s",
+      "edition": "Europe · 940520 · avsp",
+      "driverSource": "https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/capcom/d_cps2.cpp",
+      "status": "Player testing"
+    },
+    {
+      "id": "qix",
+      "name": "Qix",
+      "year": 1981,
+      "genre": "Puzzle / action",
+      "batch": 6,
+      "controls": "Fast draw; Slow draw",
+      "note": "Adds territory-drawing puzzles; selected after Paperboy failed its browser rendering gate.",
+      "installed": true,
+      "era": "1980s",
+      "edition": "Revision 2 · qix",
+      "driverSource": "https://github.com/libretro/FBNeo/blob/a4012b161e48b33b94940f07987323574c237448/src/burn/drv/taito/d_qix.cpp",
+      "status": "Player testing"
     }
   ],
   "browserReserves": [
@@ -786,6 +954,13 @@ window.ARCADE_ROADMAP = {
       "count": 9,
       "total": 51,
       "detail": "Nine original 2D arcade releases. Benchmark PGM/Cave and the higher-demand 2007 Deathsmiles pilot; preserve intentional slowdown and verify regional revisions."
+    },
+    {
+      "batch": 6,
+      "name": "Requested racers and missing essentials",
+      "count": 12,
+      "total": 63,
+      "detail": "Chase H.Q., APB, Golden Axe, R-Type, Gradius, Arkanoid, Marble Madness, Tetris, Shinobi, Street Fighter Alpha 2, Alien vs. Predator and Qix."
     }
   ],
   "evidence": {

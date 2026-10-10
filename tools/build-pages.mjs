@@ -8,7 +8,8 @@ const output=path.join(root,'_site');
 const manifest=JSON.parse(await readFile(path.join(root,'sources.json'),'utf8'));
 const context={window:{}};vm.runInNewContext(await readFile(path.join(root,'dist/catalogue.js'),'utf8'),context);
 const games=context.window.ARCADE_GAMES;
-if(games.length!==51||new Set(games.map(g=>g.id)).size!==51)throw Error('Expected51unique cabinets');
+const roster=JSON.parse(await readFile(path.join(root,'docs/expansion-roster.json'),'utf8'));const expected=roster.games.filter(g=>g.installed||g.batch===0).length;
+if(!games.length||games.length!==expected||new Set(games.map(g=>g.id)).size!==expected)throw Error('Playable catalogue and admitted roster must match');
 await rm(output,{recursive:true,force:true});await mkdir(output,{recursive:true});
 let total=0,count=0;
 async function copy(source,relative,expected){
